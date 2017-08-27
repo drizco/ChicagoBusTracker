@@ -1,0 +1,898 @@
+[
+  {
+    "value": "1",
+    "synonyms": [
+      "route 1",
+      "Bronzeville Union Station"
+    ]
+  },
+  {
+    "value": "2",
+    "synonyms": [
+      "route 2",
+      "Hyde Park Express"
+    ]
+  },
+  {
+    "value": "3",
+    "synonyms": [
+      "route 3",
+      "King Drive"
+    ]
+  },
+  {
+    "value": "4",
+    "synonyms": [
+      "route 4",
+      "Cottage Grove"
+    ]
+  },
+  {
+    "value": "5",
+    "synonyms": [
+      "route 5",
+      "South Shore Night Bus"
+    ]
+  },
+  {
+    "value": "6",
+    "synonyms": [
+      "route 6",
+      "Jackson Park Express"
+    ]
+  },
+  {
+    "value": "7",
+    "synonyms": [
+      "route 7",
+      "Harrison"
+    ]
+  },
+  {
+    "value": "8",
+    "synonyms": [
+      "route 8",
+      "Halsted"
+    ]
+  },
+  {
+    "value": "8A",
+    "synonyms": [
+      "route 8A",
+      "South Halsted"
+    ]
+  },
+  {
+    "value": "9",
+    "synonyms": [
+      "route 9",
+      "Ashland"
+    ]
+  },
+  {
+    "value": "X9",
+    "synonyms": [
+      "route X9",
+      "Ashland Express"
+    ]
+  },
+  {
+    "value": "10",
+    "synonyms": [
+      "route 10",
+      "Museum of S & I"
+    ]
+  },
+  {
+    "value": "11",
+    "synonyms": [
+      "route 11",
+      "Lincoln"
+    ]
+  },
+  {
+    "value": "12",
+    "synonyms": [
+      "route 12",
+      "Roosevelt"
+    ]
+  },
+  {
+    "value": "J14",
+    "synonyms": [
+      "route J14",
+      "Jeffery Jump"
+    ]
+  },
+  {
+    "value": "15",
+    "synonyms": [
+      "route 15",
+      "Jeffery Local"
+    ]
+  },
+  {
+    "value": "18",
+    "synonyms": [
+      "route 18",
+      "16th 18th"
+    ]
+  },
+  {
+    "value": "19",
+    "synonyms": [
+      "route 19",
+      "United Center Express"
+    ]
+  },
+  {
+    "value": "20",
+    "synonyms": [
+      "route 20",
+      "Madison"
+    ]
+  },
+  {
+    "value": "21",
+    "synonyms": [
+      "route 21",
+      "Cermak"
+    ]
+  },
+  {
+    "value": "22",
+    "synonyms": [
+      "route 22",
+      "Clark"
+    ]
+  },
+  {
+    "value": "24",
+    "synonyms": [
+      "route 24",
+      "Wentworth"
+    ]
+  },
+  {
+    "value": "26",
+    "synonyms": [
+      "route 26",
+      "South Shore Express"
+    ]
+  },
+  {
+    "value": "28",
+    "synonyms": [
+      "route 28",
+      "Stony Island"
+    ]
+  },
+  {
+    "value": "29",
+    "synonyms": [
+      "route 29",
+      "State"
+    ]
+  },
+  {
+    "value": "30",
+    "synonyms": [
+      "route 30",
+      "South Chicago"
+    ]
+  },
+  {
+    "value": "31",
+    "synonyms": [
+      "route 31",
+      "31st"
+    ]
+  },
+  {
+    "value": "34",
+    "synonyms": [
+      "route 34",
+      "South Michigan"
+    ]
+  },
+  {
+    "value": "35",
+    "synonyms": [
+      "route 35",
+      "31st 35th"
+    ]
+  },
+  {
+    "value": "36",
+    "synonyms": [
+      "route 36",
+      "Broadway"
+    ]
+  },
+  {
+    "value": "37",
+    "synonyms": [
+      "route 37",
+      "Sedgwick"
+    ]
+  },
+  {
+    "value": "39",
+    "synonyms": [
+      "route 39",
+      "Pershing"
+    ]
+  },
+  {
+    "value": "43",
+    "synonyms": [
+      "route 43",
+      "43rd"
+    ]
+  },
+  {
+    "value": "44",
+    "synonyms": [
+      "route 44",
+      "Wallace-Racine"
+    ]
+  },
+  {
+    "value": "47",
+    "synonyms": [
+      "route 47",
+      "47th"
+    ]
+  },
+  {
+    "value": "48",
+    "synonyms": [
+      "route 48",
+      "South Damen"
+    ]
+  },
+  {
+    "value": "49",
+    "synonyms": [
+      "route 49",
+      "Western"
+    ]
+  },
+  {
+    "value": "49B",
+    "synonyms": [
+      "route 49B",
+      "North Western"
+    ]
+  },
+  {
+    "value": "X49",
+    "synonyms": [
+      "route X49",
+      "Western Express"
+    ]
+  },
+  {
+    "value": "50",
+    "synonyms": [
+      "route 50",
+      "Damen"
+    ]
+  },
+  {
+    "value": "51",
+    "synonyms": [
+      "route 51",
+      "51st"
+    ]
+  },
+  {
+    "value": "52",
+    "synonyms": [
+      "route 52",
+      "Kedzie California"
+    ]
+  },
+  {
+    "value": "52A",
+    "synonyms": [
+      "route 52A",
+      "South Kedzie"
+    ]
+  },
+  {
+    "value": "53",
+    "synonyms": [
+      "route 53",
+      "Pulaski"
+    ]
+  },
+  {
+    "value": "53A",
+    "synonyms": [
+      "route 53A",
+      "South Pulaski"
+    ]
+  },
+  {
+    "value": "54",
+    "synonyms": [
+      "route 54",
+      "Cicero"
+    ]
+  },
+  {
+    "value": "54A",
+    "synonyms": [
+      "route 54A",
+      "North Cicero Skokie Blvd."
+    ]
+  },
+  {
+    "value": "54B",
+    "synonyms": [
+      "route 54B",
+      "South Cicero"
+    ]
+  },
+  {
+    "value": "55",
+    "synonyms": [
+      "route 55",
+      "Garfield"
+    ]
+  },
+  {
+    "value": "55A",
+    "synonyms": [
+      "route 55A",
+      "55th Austin"
+    ]
+  },
+  {
+    "value": "55N",
+    "synonyms": [
+      "route 55N",
+      "55th Narragansett"
+    ]
+  },
+  {
+    "value": "56",
+    "synonyms": [
+      "route 56",
+      "Milwaukee"
+    ]
+  },
+  {
+    "value": "57",
+    "synonyms": [
+      "route 57",
+      "Laramie"
+    ]
+  },
+  {
+    "value": "59",
+    "synonyms": [
+      "route 59",
+      "59th 61st"
+    ]
+  },
+  {
+    "value": "60",
+    "synonyms": [
+      "route 60",
+      "Blue Island 26th"
+    ]
+  },
+  {
+    "value": "62",
+    "synonyms": [
+      "route 62",
+      "Archer"
+    ]
+  },
+  {
+    "value": "62H",
+    "synonyms": [
+      "route 62H",
+      "Archer Harlem"
+    ]
+  },
+  {
+    "value": "63",
+    "synonyms": [
+      "route 63",
+      "63rd"
+    ]
+  },
+  {
+    "value": "63W",
+    "synonyms": [
+      "route 63W",
+      "West 63rd"
+    ]
+  },
+  {
+    "value": "65",
+    "synonyms": [
+      "route 65",
+      "Grand"
+    ]
+  },
+  {
+    "value": "66",
+    "synonyms": [
+      "route 66",
+      "Chicago"
+    ]
+  },
+  {
+    "value": "67",
+    "synonyms": [
+      "route 67",
+      "67th-69th-71st"
+    ]
+  },
+  {
+    "value": "68",
+    "synonyms": [
+      "route 68",
+      "Northwest Highway"
+    ]
+  },
+  {
+    "value": "70",
+    "synonyms": [
+      "route 70",
+      "Division"
+    ]
+  },
+  {
+    "value": "71",
+    "synonyms": [
+      "route 71",
+      "71st South Shore"
+    ]
+  },
+  {
+    "value": "72",
+    "synonyms": [
+      "route 72",
+      "North"
+    ]
+  },
+  {
+    "value": "73",
+    "synonyms": [
+      "route 73",
+      "Armitage"
+    ]
+  },
+  {
+    "value": "74",
+    "synonyms": [
+      "route 74",
+      "Fullerton"
+    ]
+  },
+  {
+    "value": "75",
+    "synonyms": [
+      "route 75",
+      "74th-75th"
+    ]
+  },
+  {
+    "value": "76",
+    "synonyms": [
+      "route 76",
+      "Diversey"
+    ]
+  },
+  {
+    "value": "77",
+    "synonyms": [
+      "route 77",
+      "Belmont"
+    ]
+  },
+  {
+    "value": "78",
+    "synonyms": [
+      "route 78",
+      "Montrose"
+    ]
+  },
+  {
+    "value": "79",
+    "synonyms": [
+      "route 79",
+      "79th"
+    ]
+  },
+  {
+    "value": "80",
+    "synonyms": [
+      "route 80",
+      "Irving Park"
+    ]
+  },
+  {
+    "value": "81",
+    "synonyms": [
+      "route 81",
+      "Lawrence"
+    ]
+  },
+  {
+    "value": "81W",
+    "synonyms": [
+      "route 81W",
+      "West Lawrence"
+    ]
+  },
+  {
+    "value": "82",
+    "synonyms": [
+      "route 82",
+      "Kimball-Homan"
+    ]
+  },
+  {
+    "value": "84",
+    "synonyms": [
+      "route 84",
+      "Peterson"
+    ]
+  },
+  {
+    "value": "85",
+    "synonyms": [
+      "route 85",
+      "Central"
+    ]
+  },
+  {
+    "value": "85A",
+    "synonyms": [
+      "route 85A",
+      "North Central"
+    ]
+  },
+  {
+    "value": "86",
+    "synonyms": [
+      "route 86",
+      "Narragansett Ridgeland"
+    ]
+  },
+  {
+    "value": "87",
+    "synonyms": [
+      "route 87",
+      "87th"
+    ]
+  },
+  {
+    "value": "88",
+    "synonyms": [
+      "route 88",
+      "Higgins"
+    ]
+  },
+  {
+    "value": "90",
+    "synonyms": [
+      "route 90",
+      "Harlem"
+    ]
+  },
+  {
+    "value": "91",
+    "synonyms": [
+      "route 91",
+      "Austin"
+    ]
+  },
+  {
+    "value": "92",
+    "synonyms": [
+      "route 92",
+      "Foster"
+    ]
+  },
+  {
+    "value": "93",
+    "synonyms": [
+      "route 93",
+      "California Dodge"
+    ]
+  },
+  {
+    "value": "94",
+    "synonyms": [
+      "route 94",
+      "South California"
+    ]
+  },
+  {
+    "value": "95",
+    "synonyms": [
+      "route 95",
+      "95th"
+    ]
+  },
+  {
+    "value": "96",
+    "synonyms": [
+      "route 96",
+      "Lunt"
+    ]
+  },
+  {
+    "value": "97",
+    "synonyms": [
+      "route 97",
+      "Skokie"
+    ]
+  },
+  {
+    "value": "X98",
+    "synonyms": [
+      "route X98",
+      "Avon Express"
+    ]
+  },
+  {
+    "value": "100",
+    "synonyms": [
+      "route 100",
+      "Jeffery Manor Express"
+    ]
+  },
+  {
+    "value": "103",
+    "synonyms": [
+      "route 103",
+      "West 103rd"
+    ]
+  },
+  {
+    "value": "106",
+    "synonyms": [
+      "route 106",
+      "East 103rd"
+    ]
+  },
+  {
+    "value": "108",
+    "synonyms": [
+      "route 108",
+      "Halsted 95th"
+    ]
+  },
+  {
+    "value": "111",
+    "synonyms": [
+      "route 111",
+      "111th King Drive"
+    ]
+  },
+  {
+    "value": "111A",
+    "synonyms": [
+      "route 111A",
+      "Pullman Shuttle"
+    ]
+  },
+  {
+    "value": "112",
+    "synonyms": [
+      "route 112",
+      "Vincennes 111th"
+    ]
+  },
+  {
+    "value": "115",
+    "synonyms": [
+      "route 115",
+      "Pullman 115th"
+    ]
+  },
+  {
+    "value": "119",
+    "synonyms": [
+      "route 119",
+      "Michigan 119th"
+    ]
+  },
+  {
+    "value": "120",
+    "synonyms": [
+      "route 120",
+      "Ogilvie Streeterville Express"
+    ]
+  },
+  {
+    "value": "121",
+    "synonyms": [
+      "route 121",
+      "Union Streeterville Express"
+    ]
+  },
+  {
+    "value": "124",
+    "synonyms": [
+      "route 124",
+      "Navy Pier"
+    ]
+  },
+  {
+    "value": "125",
+    "synonyms": [
+      "route 125",
+      "Water Tower Express"
+    ]
+  },
+  {
+    "value": "126",
+    "synonyms": [
+      "route 126",
+      "Jackson"
+    ]
+  },
+  {
+    "value": "130",
+    "synonyms": [
+      "route 130",
+      "Museum Campus"
+    ]
+  },
+  {
+    "value": "132",
+    "synonyms": [
+      "route 132",
+      "Goose Island Express"
+    ]
+  },
+  {
+    "value": "134",
+    "synonyms": [
+      "route 134",
+      "Stockton LaSalle Express"
+    ]
+  },
+  {
+    "value": "135",
+    "synonyms": [
+      "route 135",
+      "Clarendon LaSalle Express"
+    ]
+  },
+  {
+    "value": "136",
+    "synonyms": [
+      "route 136",
+      "Sheridan LaSalle Express"
+    ]
+  },
+  {
+    "value": "143",
+    "synonyms": [
+      "route 143",
+      "Stockton Michigan Express"
+    ]
+  },
+  {
+    "value": "146",
+    "synonyms": [
+      "route 146",
+      "Inner Drive Michigan Express"
+    ]
+  },
+  {
+    "value": "147",
+    "synonyms": [
+      "route 147",
+      "Outer Drive Express"
+    ]
+  },
+  {
+    "value": "148",
+    "synonyms": [
+      "route 148",
+      "Clarendon Michigan Express"
+    ]
+  },
+  {
+    "value": "151",
+    "synonyms": [
+      "route 151",
+      "Sheridan"
+    ]
+  },
+  {
+    "value": "152",
+    "synonyms": [
+      "route 152",
+      "Addison"
+    ]
+  },
+  {
+    "value": "155",
+    "synonyms": [
+      "route 155",
+      "Devon"
+    ]
+  },
+  {
+    "value": "156",
+    "synonyms": [
+      "route 156",
+      "LaSalle"
+    ]
+  },
+  {
+    "value": "157",
+    "synonyms": [
+      "route 157",
+      "Streeterville Taylor"
+    ]
+  },
+  {
+    "value": "165",
+    "synonyms": [
+      "route 165",
+      "West 65th"
+    ]
+  },
+  {
+    "value": "169",
+    "synonyms": [
+      "route 169",
+      "69th-UPS Express"
+    ]
+  },
+  {
+    "value": "171",
+    "synonyms": [
+      "route 171",
+      "U. of Chicago Hyde Park"
+    ]
+  },
+  {
+    "value": "172",
+    "synonyms": [
+      "route 172",
+      "U. of Chicago Kenwood"
+    ]
+  },
+  {
+    "value": "192",
+    "synonyms": [
+      "route 192",
+      "U. of Chicago Hospitals Express"
+    ]
+  },
+  {
+    "value": "201",
+    "synonyms": [
+      "route 201",
+      "Central Ridge"
+    ]
+  },
+  {
+    "value": "205",
+    "synonyms": [
+      "route 205",
+      "Chicago Golf"
+    ]
+  },
+  {
+    "value": "206",
+    "synonyms": [
+      "route 206",
+      "Evanston Circulator"
+    ]
+  }
+]
