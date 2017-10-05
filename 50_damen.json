@@ -1,0 +1,1062 @@
+{
+  "northbound": [
+    {
+      "stpid": "8751",
+      "stpnm": "1559 S Damen",
+      "lat": 41.844784886927,
+      "lon": -87.675619125366
+    },
+    {
+      "stpid": "8752",
+      "stpnm": "2501 S Damen",
+      "lat": 41.84648327015,
+      "lon": -87.675645947456
+    },
+    {
+      "stpid": "14135",
+      "stpnm": "35th/Archer Orange Line Station",
+      "lat": 41.828861850617,
+      "lon": -87.681171298027
+    },
+    {
+      "stpid": "4433",
+      "stpnm": "Archer & 35th Street/Hoyne",
+      "lat": 41.830320827779,
+      "lon": -87.677662968636
+    },
+    {
+      "stpid": "8622",
+      "stpnm": "Ashland & Balmoral",
+      "lat": 41.979639726084,
+      "lon": -87.669584155083
+    },
+    {
+      "stpid": "8621",
+      "stpnm": "Ashland & Berwyn",
+      "lat": 41.977821256576,
+      "lon": -87.66953587532
+    },
+    {
+      "stpid": "8969",
+      "stpnm": "Ashland & Bryn Mawr",
+      "lat": 41.983372211332,
+      "lon": -87.669696807861
+    },
+    {
+      "stpid": "8623",
+      "stpnm": "Ashland & Catalpa",
+      "lat": 41.981474094466,
+      "lon": -87.669637799263
+    },
+    {
+      "stpid": "8620",
+      "stpnm": "Ashland & Foster",
+      "lat": 41.976445406323,
+      "lon": -87.669503688812
+    },
+    {
+      "stpid": "8970",
+      "stpnm": "Ashland & Hollywood",
+      "lat": 41.985218434586,
+      "lon": -87.669734358788
+    },
+    {
+      "stpid": "8900",
+      "stpnm": "Damen & 13th Street",
+      "lat": 41.864846906042,
+      "lon": -87.676101922989
+    },
+    {
+      "stpid": "8898",
+      "stpnm": "Damen & 14th Street",
+      "lat": 41.863276853516,
+      "lon": -87.676118016243
+    },
+    {
+      "stpid": "8897",
+      "stpnm": "Damen & 17th Street",
+      "lat": 41.858442607469,
+      "lon": -87.675967812538
+    },
+    {
+      "stpid": "8896",
+      "stpnm": "Damen & 18th Street",
+      "lat": 41.857547632573,
+      "lon": -87.675940990448
+    },
+    {
+      "stpid": "8895",
+      "stpnm": "Damen & 19th Street",
+      "lat": 41.855681729456,
+      "lon": -87.675887346268
+    },
+    {
+      "stpid": "8891",
+      "stpnm": "Damen & 23rd Street",
+      "lat": 41.850267505434,
+      "lon": -87.675731778145
+    },
+    {
+      "stpid": "8750",
+      "stpnm": "Damen & 33rd Street",
+      "lat": 41.83392216056,
+      "lon": -87.675313353539
+    },
+    {
+      "stpid": "17274",
+      "stpnm": "Damen & Adams",
+      "lat": 41.878959667355,
+      "lon": -87.676531076431
+    },
+    {
+      "stpid": "8946",
+      "stpnm": "Damen & Addison",
+      "lat": 41.946759684834,
+      "lon": -87.67849445343
+    },
+    {
+      "stpid": "8958",
+      "stpnm": "Damen & Ainslie",
+      "lat": 41.970467091533,
+      "lon": -87.679191827774
+    },
+    {
+      "stpid": "8749",
+      "stpnm": "Damen & Archer",
+      "lat": 41.832131512096,
+      "lon": -87.675275802612
+    },
+    {
+      "stpid": "8959",
+      "stpnm": "Damen & Argyle",
+      "lat": 41.972293747579,
+      "lon": -87.679234743118
+    },
+    {
+      "stpid": "8933",
+      "stpnm": "Damen & Armitage",
+      "lat": 41.917587040398,
+      "lon": -87.677577137947
+    },
+    {
+      "stpid": "8922",
+      "stpnm": "Damen & Augusta",
+      "lat": 41.899725682874,
+      "lon": -87.677110433578
+    },
+    {
+      "stpid": "8941",
+      "stpnm": "Damen & Barry",
+      "lat": 41.937646163135,
+      "lon": -87.678242325783
+    },
+    {
+      "stpid": "8952",
+      "stpnm": "Damen & Belle Plaine",
+      "lat": 41.955915786243,
+      "lon": -87.678773403168
+    },
+    {
+      "stpid": "8942",
+      "stpnm": "Damen & Belmont",
+      "lat": 41.939485731062,
+      "lon": -87.678306698799
+    },
+    {
+      "stpid": "8953",
+      "stpnm": "Damen & Berteau",
+      "lat": 41.957698978455,
+      "lon": -87.678810954094
+    },
+    {
+      "stpid": "8753",
+      "stpnm": "Damen & Blue Island",
+      "lat": 41.848689102934,
+      "lon": -87.675694227219
+    },
+    {
+      "stpid": "8949",
+      "stpnm": "Damen & Byron",
+      "lat": 41.952237545385,
+      "lon": -87.678650021553
+    },
+    {
+      "stpid": "8915",
+      "stpnm": "Damen & Carroll",
+      "lat": 41.887598351088,
+      "lon": -87.676772475243
+    },
+    {
+      "stpid": "14489",
+      "stpnm": "Damen & Cermak",
+      "lat": 41.852101600176,
+      "lon": -87.675785422325
+    },
+    {
+      "stpid": "8920",
+      "stpnm": "Damen & Chicago",
+      "lat": 41.895820589987,
+      "lon": -87.676992416382
+    },
+    {
+      "stpid": "8931",
+      "stpnm": "Damen & Churchill",
+      "lat": 41.914681017783,
+      "lon": -87.677528858185
+    },
+    {
+      "stpid": "8938",
+      "stpnm": "Damen & Clybourn/Diversey",
+      "lat": 41.93186773916,
+      "lon": -87.678092122078
+    },
+    {
+      "stpid": "8945",
+      "stpnm": "Damen & Cornelia",
+      "lat": 41.944948256665,
+      "lon": -87.678451538086
+    },
+    {
+      "stpid": "8932",
+      "stpnm": "Damen & Cortland ",
+      "lat": 41.915826677114,
+      "lon": -87.677539587021
+    },
+    {
+      "stpid": "8954",
+      "stpnm": "Damen & Cullom",
+      "lat": 41.959529989676,
+      "lon": -87.678864598274
+    },
+    {
+      "stpid": "8934",
+      "stpnm": "Damen & Dickens ",
+      "lat": 41.919375296237,
+      "lon": -87.677636146545
+    },
+    {
+      "stpid": "14975",
+      "stpnm": "Damen & Division",
+      "lat": 41.902995714981,
+      "lon": -87.677212357521
+    },
+    {
+      "stpid": "4954",
+      "stpnm": "Damen & Eastwood (Brown Line)",
+      "lat": 41.966039825719,
+      "lon": -87.679057717323
+    },
+    {
+      "stpid": "8926",
+      "stpnm": "Damen & Evergreen",
+      "lat": 41.905902269601,
+      "lon": -87.677271366119
+    },
+    {
+      "stpid": "8961",
+      "stpnm": "Damen & Foster",
+      "lat": 41.975867141549,
+      "lon": -87.679342031479
+    },
+    {
+      "stpid": "18321",
+      "stpnm": "Damen & Fullerton",
+      "lat": 41.925236648958,
+      "lon": -87.67783983096
+    },
+    {
+      "stpid": "8914",
+      "stpnm": "Damen & Fulton",
+      "lat": 41.886679822551,
+      "lon": -87.676745653152
+    },
+    {
+      "stpid": "8939",
+      "stpnm": "Damen & George",
+      "lat": 41.93401076548,
+      "lon": -87.678129673004
+    },
+    {
+      "stpid": "8948",
+      "stpnm": "Damen & Grace",
+      "lat": 41.950406324644,
+      "lon": -87.678612470627
+    },
+    {
+      "stpid": "8917",
+      "stpnm": "Damen & Grand",
+      "lat": 41.890725242706,
+      "lon": -87.676852941513
+    },
+    {
+      "stpid": "8907",
+      "stpnm": "Damen & Harrison",
+      "lat": 41.873918897204,
+      "lon": -87.67631649971
+    },
+    {
+      "stpid": "8899",
+      "stpnm": "Damen & Hastings",
+      "lat": 41.863900085087,
+      "lon": -87.676118016243
+    },
+    {
+      "stpid": "8916",
+      "stpnm": "Damen & Hubbard",
+      "lat": 41.889615073934,
+      "lon": -87.676826119423
+    },
+    {
+      "stpid": "8919",
+      "stpnm": "Damen & Huron",
+      "lat": 41.893971776636,
+      "lon": -87.676949501038
+    },
+    {
+      "stpid": "8921",
+      "stpnm": "Damen & Iowa",
+      "lat": 41.897629420367,
+      "lon": -87.677046060562
+    },
+    {
+      "stpid": "8951",
+      "stpnm": "Damen & Irving Park/Lincoln",
+      "lat": 41.954515526515,
+      "lon": -87.67874121666
+    },
+    {
+      "stpid": "111",
+      "stpnm": "Damen & Jackson",
+      "lat": 41.877381973009,
+      "lon": -87.676504254341
+    },
+    {
+      "stpid": "8913",
+      "stpnm": "Damen & Lake",
+      "lat": 41.884858700842,
+      "lon": -87.676681280136
+    },
+    {
+      "stpid": "4955",
+      "stpnm": "Damen & Lawrence",
+      "lat": 41.968624429088,
+      "lon": -87.679132819176
+    },
+    {
+      "stpid": "8928",
+      "stpnm": "Damen & Le Moyne",
+      "lat": 41.908185898264,
+      "lon": -87.677341103554
+    },
+    {
+      "stpid": "8910",
+      "stpnm": "Damen & Madison",
+      "lat": 41.881204319774,
+      "lon": -87.676568627357
+    },
+    {
+      "stpid": "8929",
+      "stpnm": "Damen & Milwaukee/North Ave (Blue Line)",
+      "lat": 41.909994378386,
+      "lon": -87.677389383316
+    },
+    {
+      "stpid": "8955",
+      "stpnm": "Damen & Montrose",
+      "lat": 41.961301113871,
+      "lon": -87.678923606873
+    },
+    {
+      "stpid": "8906",
+      "stpnm": "Damen & Ogden",
+      "lat": 41.872599922966,
+      "lon": -87.676243543101
+    },
+    {
+      "stpid": "8918",
+      "stpnm": "Damen & Ohio",
+      "lat": 41.892158849374,
+      "lon": -87.676890492439
+    },
+    {
+      "stpid": "8905",
+      "stpnm": "Damen & Polk",
+      "lat": 41.871362411751,
+      "lon": -87.676198482513
+    },
+    {
+      "stpid": "8925",
+      "stpnm": "Damen & Potomac",
+      "lat": 41.904872214557,
+      "lon": -87.677260637283
+    },
+    {
+      "stpid": "8901",
+      "stpnm": "Damen & Roosevelt",
+      "lat": 41.866528777044,
+      "lon": -87.676144838333
+    },
+    {
+      "stpid": "8902",
+      "stpnm": "Damen & Roosevelt",
+      "lat": 41.86719192542,
+      "lon": -87.676134109497
+    },
+    {
+      "stpid": "8944",
+      "stpnm": "Damen & Roscoe",
+      "lat": 41.943136777028,
+      "lon": -87.678403258324
+    },
+    {
+      "stpid": "8927",
+      "stpnm": "Damen & Schiller",
+      "lat": 41.907032117069,
+      "lon": -87.677314281464
+    },
+    {
+      "stpid": "8943",
+      "stpnm": "Damen & School",
+      "lat": 41.941305294855,
+      "lon": -87.678354978561
+    },
+    {
+      "stpid": "8956",
+      "stpnm": "Damen & Sunnyside",
+      "lat": 41.963167921217,
+      "lon": -87.678966522217
+    },
+    {
+      "stpid": "8904",
+      "stpnm": "Damen & Taylor",
+      "lat": 41.86900156641,
+      "lon": -87.676134109497
+    },
+    {
+      "stpid": "8923",
+      "stpnm": "Damen & Thomas",
+      "lat": 41.901278869187,
+      "lon": -87.677164077759
+    },
+    {
+      "stpid": "8930",
+      "stpnm": "Damen & Wabansia",
+      "lat": 41.912146123527,
+      "lon": -87.677437663078
+    },
+    {
+      "stpid": "8911",
+      "stpnm": "Damen & Warren",
+      "lat": 41.882110945281,
+      "lon": -87.676595449448
+    },
+    {
+      "stpid": "8912",
+      "stpnm": "Damen & Washington",
+      "lat": 41.88306149037,
+      "lon": -87.67664372921
+    },
+    {
+      "stpid": "8947",
+      "stpnm": "Damen & Waveland",
+      "lat": 41.948591010332,
+      "lon": -87.678553462029
+    },
+    {
+      "stpid": "8935",
+      "stpnm": "Damen & Webster",
+      "lat": 41.92124732288,
+      "lon": -87.677711248398
+    },
+    {
+      "stpid": "8940",
+      "stpnm": "Damen & Wellington",
+      "lat": 41.935782598785,
+      "lon": -87.678177952766
+    },
+    {
+      "stpid": "8957",
+      "stpnm": "Damen & Wilson",
+      "lat": 41.964950910499,
+      "lon": -87.679036259651
+    },
+    {
+      "stpid": "8960",
+      "stpnm": "Damen & Winona",
+      "lat": 41.974622857471,
+      "lon": -87.679304480553
+    },
+    {
+      "stpid": "15869",
+      "stpnm": "Damen Blue Line Station",
+      "lat": 41.875624495475,
+      "lon": -87.676461338997
+    },
+    {
+      "stpid": "15199",
+      "stpnm": "Damen Pink Line Station",
+      "lat": 41.854123438885,
+      "lon": -87.675839066505
+    },
+    {
+      "stpid": "8805",
+      "stpnm": "Edgewater & Clark",
+      "lat": 41.985908262365,
+      "lon": -87.669364213943
+    },
+    {
+      "stpid": "4789",
+      "stpnm": "Foster & Paulina",
+      "lat": 41.976098448089,
+      "lon": -87.672164440155
+    },
+    {
+      "stpid": "4788",
+      "stpnm": "Foster & Ravenswood",
+      "lat": 41.976062555749,
+      "lon": -87.674980759621
+    },
+    {
+      "stpid": "4787",
+      "stpnm": "Foster & Wolcott",
+      "lat": 41.976030651431,
+      "lon": -87.676520347595
+    }
+  ],
+  "southbound": [
+    {
+      "stpid": "8755",
+      "stpnm": "2501 S Damen",
+      "lat": 41.846602355289,
+      "lon": -87.675748944021
+    },
+    {
+      "stpid": "8756",
+      "stpnm": "2608 S Damen",
+      "lat": 41.844856819366,
+      "lon": -87.675710320473
+    },
+    {
+      "stpid": "14135",
+      "stpnm": "35th/Archer Orange Line Station",
+      "lat": 41.828861850617,
+      "lon": -87.681171298027
+    },
+    {
+      "stpid": "4485",
+      "stpnm": "Archer & 35th Street/Hoyne",
+      "lat": 41.830539870561,
+      "lon": -87.677550315857
+    },
+    {
+      "stpid": "8616",
+      "stpnm": "Ashland & Balmoral",
+      "lat": 41.979962738263,
+      "lon": -87.669830918312
+    },
+    {
+      "stpid": "8617",
+      "stpnm": "Ashland & Berwyn",
+      "lat": 41.978116362613,
+      "lon": -87.66978263855
+    },
+    {
+      "stpid": "8615",
+      "stpnm": "Ashland & Catalpa",
+      "lat": 41.98179310966,
+      "lon": -87.66988992691
+    },
+    {
+      "stpid": "8618",
+      "stpnm": "Ashland & Foster",
+      "lat": 41.976341717854,
+      "lon": -87.669734358788
+    },
+    {
+      "stpid": "15132",
+      "stpnm": "Ashland & Gregory",
+      "lat": 41.982638492194,
+      "lon": -87.669900655746
+    },
+    {
+      "stpid": "1802",
+      "stpnm": "Clark & Bryn Mawr",
+      "lat": 41.983655328957,
+      "lon": -87.668843865395
+    },
+    {
+      "stpid": "8880",
+      "stpnm": "Damen & 13th Street",
+      "lat": 41.865022685604,
+      "lon": -87.676332592964
+    },
+    {
+      "stpid": "8882",
+      "stpnm": "Damen & 14th Street",
+      "lat": 41.863188961395,
+      "lon": -87.676198482513
+    },
+    {
+      "stpid": "8883",
+      "stpnm": "Damen & 17th Street",
+      "lat": 41.858430621281,
+      "lon": -87.676053643227
+    },
+    {
+      "stpid": "8884",
+      "stpnm": "Damen & 18th Street",
+      "lat": 41.857767382033,
+      "lon": -87.676032185555
+    },
+    {
+      "stpid": "8885",
+      "stpnm": "Damen & 19th Street",
+      "lat": 41.855973405267,
+      "lon": -87.675983905792
+    },
+    {
+      "stpid": "8889",
+      "stpnm": "Damen & 23rd Street",
+      "lat": 41.850471296336,
+      "lon": -87.675828337669
+    },
+    {
+      "stpid": "8757",
+      "stpnm": "Damen & 33rd Street",
+      "lat": 41.834265895383,
+      "lon": -87.675415277481
+    },
+    {
+      "stpid": "17273",
+      "stpnm": "Damen & Adams",
+      "lat": 41.878596201984,
+      "lon": -87.676611542702
+    },
+    {
+      "stpid": "8831",
+      "stpnm": "Damen & Addison",
+      "lat": 41.947011046351,
+      "lon": -87.678591012955
+    },
+    {
+      "stpid": "8817",
+      "stpnm": "Damen & Ainslie",
+      "lat": 41.970686452559,
+      "lon": -87.679272294044
+    },
+    {
+      "stpid": "8758",
+      "stpnm": "Damen & Archer",
+      "lat": 41.831839727577,
+      "lon": -87.675350904465
+    },
+    {
+      "stpid": "8816",
+      "stpnm": "Damen & Argyle",
+      "lat": 41.9724612549,
+      "lon": -87.679325938225
+    },
+    {
+      "stpid": "8844",
+      "stpnm": "Damen & Armitage",
+      "lat": 41.917894400437,
+      "lon": -87.677668333054
+    },
+    {
+      "stpid": "16045",
+      "stpnm": "Damen & Augusta",
+      "lat": 41.899346364281,
+      "lon": -87.677180171013
+    },
+    {
+      "stpid": "8836",
+      "stpnm": "Damen & Barry",
+      "lat": 41.937686067557,
+      "lon": -87.678322792053
+    },
+    {
+      "stpid": "8825",
+      "stpnm": "Damen & Belle Plaine",
+      "lat": 41.956087325918,
+      "lon": -87.678864598274
+    },
+    {
+      "stpid": "8835",
+      "stpnm": "Damen & Belmont",
+      "lat": 41.939453808427,
+      "lon": -87.678392529488
+    },
+    {
+      "stpid": "8824",
+      "stpnm": "Damen & Berteau",
+      "lat": 41.957894448392,
+      "lon": -87.678907513618
+    },
+    {
+      "stpid": "14961",
+      "stpnm": "Damen & Blue Island",
+      "lat": 41.848097691462,
+      "lon": -87.675769329071
+    },
+    {
+      "stpid": "8828",
+      "stpnm": "Damen & Byron",
+      "lat": 41.952476916757,
+      "lon": -87.678746581078
+    },
+    {
+      "stpid": "8863",
+      "stpnm": "Damen & Carroll",
+      "lat": 41.887762087396,
+      "lon": -87.676863670349
+    },
+    {
+      "stpid": "8888",
+      "stpnm": "Damen & Cermak",
+      "lat": 41.852341347237,
+      "lon": -87.675871253014
+    },
+    {
+      "stpid": "8858",
+      "stpnm": "Damen & Chicago",
+      "lat": 41.896056180068,
+      "lon": -87.677094340324
+    },
+    {
+      "stpid": "8846",
+      "stpnm": "Damen & Churchill",
+      "lat": 41.914816741565,
+      "lon": -87.677614688873
+    },
+    {
+      "stpid": "8839",
+      "stpnm": "Damen & Clybourn/Diversey",
+      "lat": 41.932506264775,
+      "lon": -87.678177952766
+    },
+    {
+      "stpid": "44",
+      "stpnm": "Damen & Congress",
+      "lat": 41.875137186327,
+      "lon": -87.676579356194
+    },
+    {
+      "stpid": "8832",
+      "stpnm": "Damen & Cornelia",
+      "lat": 41.945143765707,
+      "lon": -87.678537368774
+    },
+    {
+      "stpid": "8845",
+      "stpnm": "Damen & Cortland ",
+      "lat": 41.916333634784,
+      "lon": -87.677641510963
+    },
+    {
+      "stpid": "8890",
+      "stpnm": "Damen & Coulter",
+      "lat": 41.849548238239,
+      "lon": -87.675790786743
+    },
+    {
+      "stpid": "8823",
+      "stpnm": "Damen & Cullom",
+      "lat": 41.959765344601,
+      "lon": -87.678955793381
+    },
+    {
+      "stpid": "8843",
+      "stpnm": "Damen & Dickens ",
+      "lat": 41.919674664528,
+      "lon": -87.677738070488
+    },
+    {
+      "stpid": "14963",
+      "stpnm": "Damen & Division",
+      "lat": 41.903087544967,
+      "lon": -87.67729818821
+    },
+    {
+      "stpid": "8819",
+      "stpnm": "Damen & Eastwood (Brown Line)",
+      "lat": 41.966175440231,
+      "lon": -87.679143548012
+    },
+    {
+      "stpid": "8852",
+      "stpnm": "Damen & Evergreen",
+      "lat": 41.906145807319,
+      "lon": -87.677367925644
+    },
+    {
+      "stpid": "8619",
+      "stpnm": "Damen & Foster",
+      "lat": 41.975938926427,
+      "lon": -87.679438591003
+    },
+    {
+      "stpid": "8841",
+      "stpnm": "Damen & Fullerton",
+      "lat": 41.924867482992,
+      "lon": -87.677931189537
+    },
+    {
+      "stpid": "8864",
+      "stpnm": "Damen & Fulton",
+      "lat": 41.886911452732,
+      "lon": -87.676831483841
+    },
+    {
+      "stpid": "8838",
+      "stpnm": "Damen & George",
+      "lat": 41.934038700171,
+      "lon": -87.678210139275
+    },
+    {
+      "stpid": "8829",
+      "stpnm": "Damen & Grace",
+      "lat": 41.950641713264,
+      "lon": -87.678692936897
+    },
+    {
+      "stpid": "15902",
+      "stpnm": "Damen & Grand",
+      "lat": 41.890609434635,
+      "lon": -87.676938772202
+    },
+    {
+      "stpid": "8872",
+      "stpnm": "Damen & Harrison",
+      "lat": 41.874146579231,
+      "lon": -87.676611542702
+    },
+    {
+      "stpid": "8881",
+      "stpnm": "Damen & Hastings",
+      "lat": 41.864103832553,
+      "lon": -87.676219940186
+    },
+    {
+      "stpid": "8862",
+      "stpnm": "Damen & Hubbard",
+      "lat": 41.889834713172,
+      "lon": -87.676911950111
+    },
+    {
+      "stpid": "8859",
+      "stpnm": "Damen & Huron",
+      "lat": 41.894215359858,
+      "lon": -87.677046060562
+    },
+    {
+      "stpid": "8857",
+      "stpnm": "Damen & Iowa",
+      "lat": 41.89785302498,
+      "lon": -87.677137255669
+    },
+    {
+      "stpid": "8827",
+      "stpnm": "Damen & Irving Park/Lincoln",
+      "lat": 41.953669770694,
+      "lon": -87.67879486084
+    },
+    {
+      "stpid": "15449",
+      "stpnm": "Damen & Jackson",
+      "lat": 41.877162290961,
+      "lon": -87.676579356194
+    },
+    {
+      "stpid": "14962",
+      "stpnm": "Damen & Lake",
+      "lat": 41.884770838394,
+      "lon": -87.676767110825
+    },
+    {
+      "stpid": "15226",
+      "stpnm": "Damen & Lawrence",
+      "lat": 41.968576567016,
+      "lon": -87.679213285446
+    },
+    {
+      "stpid": "8850",
+      "stpnm": "Damen & Le Moyne",
+      "lat": 41.908393496819,
+      "lon": -87.677426934242
+    },
+    {
+      "stpid": "17267",
+      "stpnm": "Damen & Madison",
+      "lat": 41.881048554625,
+      "lon": -87.676654458046
+    },
+    {
+      "stpid": "8848",
+      "stpnm": "Damen & Milwaukee/North Ave",
+      "lat": 41.910665059977,
+      "lon": -87.677496671677
+    },
+    {
+      "stpid": "8849",
+      "stpnm": "Damen & Milwaukee/North Ave (Blue Line)",
+      "lat": 41.910193986739,
+      "lon": -87.677485942841
+    },
+    {
+      "stpid": "8822",
+      "stpnm": "Damen & Montrose",
+      "lat": 41.961592307506,
+      "lon": -87.679014801979
+    },
+    {
+      "stpid": "8873",
+      "stpnm": "Damen & Ogden",
+      "lat": 41.872828408884,
+      "lon": -87.676520347595
+    },
+    {
+      "stpid": "8860",
+      "stpnm": "Damen & Ohio",
+      "lat": 41.89240243951,
+      "lon": -87.676981687546
+    },
+    {
+      "stpid": "8874",
+      "stpnm": "Damen & Polk",
+      "lat": 41.87165801061,
+      "lon": -87.676493525505
+    },
+    {
+      "stpid": "8853",
+      "stpnm": "Damen & Potomac",
+      "lat": 41.90515967345,
+      "lon": -87.677346467972
+    },
+    {
+      "stpid": "8878",
+      "stpnm": "Damen & Roosevelt",
+      "lat": 41.867020146681,
+      "lon": -87.676391601563
+    },
+    {
+      "stpid": "8833",
+      "stpnm": "Damen & Roscoe",
+      "lat": 41.943356232147,
+      "lon": -87.67849445343
+    },
+    {
+      "stpid": "8851",
+      "stpnm": "Damen & Schiller",
+      "lat": 41.907207780604,
+      "lon": -87.677410840988
+    },
+    {
+      "stpid": "8834",
+      "stpnm": "Damen & School",
+      "lat": 41.941468893442,
+      "lon": -87.678446173668
+    },
+    {
+      "stpid": "8821",
+      "stpnm": "Damen & Sunnyside",
+      "lat": 41.963379329712,
+      "lon": -87.679057717323
+    },
+    {
+      "stpid": "8876",
+      "stpnm": "Damen & Taylor",
+      "lat": 41.869225271231,
+      "lon": -87.676413059235
+    },
+    {
+      "stpid": "8855",
+      "stpnm": "Damen & Thomas",
+      "lat": 41.901466526672,
+      "lon": -87.677266001701
+    },
+    {
+      "stpid": "8847",
+      "stpnm": "Damen & Wabansia",
+      "lat": 41.912413589561,
+      "lon": -87.677534222603
+    },
+    {
+      "stpid": "17272",
+      "stpnm": "Damen & Washington",
+      "lat": 41.882993594761,
+      "lon": -87.67672419548
+    },
+    {
+      "stpid": "8830",
+      "stpnm": "Damen & Waveland",
+      "lat": 41.948814436422,
+      "lon": -87.678644657135
+    },
+    {
+      "stpid": "8842",
+      "stpnm": "Damen & Webster",
+      "lat": 41.921514750774,
+      "lon": -87.67781317234
+    },
+    {
+      "stpid": "8837",
+      "stpnm": "Damen & Wellington",
+      "lat": 41.935862409938,
+      "lon": -87.678269147873
+    },
+    {
+      "stpid": "8820",
+      "stpnm": "Damen & Wilson",
+      "lat": 41.965210177716,
+      "lon": -87.67912209034
+    },
+    {
+      "stpid": "8815",
+      "stpnm": "Damen & Winona",
+      "lat": 41.974762441831,
+      "lon": -87.679390311241
+    },
+    {
+      "stpid": "15200",
+      "stpnm": "Damen Pink Line Station",
+      "lat": 41.85458293877,
+      "lon": -87.675930261612
+    },
+    {
+      "stpid": "8805",
+      "stpnm": "Edgewater & Clark",
+      "lat": 41.985908262365,
+      "lon": -87.669364213943
+    },
+    {
+      "stpid": "4802",
+      "stpnm": "Foster & Paulina",
+      "lat": 41.976166244674,
+      "lon": -87.671928405762
+    },
+    {
+      "stpid": "4803",
+      "stpnm": "Foster & Ravenswood",
+      "lat": 41.976130352373,
+      "lon": -87.674272656441
+    },
+    {
+      "stpid": "4804",
+      "stpnm": "Foster & Wolcott",
+      "lat": 41.976098448089,
+      "lon": -87.676268219948
+    },
+    {
+      "stpid": "4486",
+      "stpnm": "Leavitt & 35th Street",
+      "lat": 41.830132961352,
+      "lon": -87.680205702782
+    },
+    {
+      "stpid": "8875",
+      "stpnm": "V.A. Medical Center",
+      "lat": 41.870231933237,
+      "lon": -87.676445245743
+    }
+  ]
+}
