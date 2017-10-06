@@ -120,7 +120,7 @@ function mapKeywords(allRoutes) {
                 .replaceAll('Rd', 'Road')
                 .replaceAll('Hwy', 'Highway')
                 .replaceAll('Mt', 'Mount')
-                .replaceAll('SB', 'Southbound')
+                .replaceAll('SB', '')
                 .replaceAll('Pres ', 'Presbyterian ')
                 .replaceAll('mid', '')
                 .replaceAll('St.', 'Saint')
