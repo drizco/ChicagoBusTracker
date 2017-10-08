@@ -6,6 +6,11 @@ const format = '&format=json';
 const damen = require('./50_damen');
 const allRoutes = require('./allRoutes');
 
+exports.helloWorld = function helloWorld(event, callback) {
+  console.log(`My Cloud Function: ${event.data.message}`);
+  callback();
+};
+
 function writeToFile(data, file) {
   const json = JSON.stringify(data, null, 2)
   fs.writeFile(file, json, 'utf8', (err) => {
