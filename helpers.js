@@ -79,10 +79,10 @@ function getStops(routes) {
 
 function getArrivals(stopID, route) {
   return axios.get(`${ctaApiPrefix}getpredictions?key=${ApiKey}&rt=${route}&stpid=${stopID}${format}`)
-    .then(res => res.data['bustime-response'].prd)
+    .then(res => res.data['bustime-response'])
     .then(predictions => {
-      const arrivals = predictions.map(prediction => prediction.prdctdn)
-      return arrivals;
+      // const arrivals = pred
+      return predictions;
     })
     .catch(err => console.error(err))
 
