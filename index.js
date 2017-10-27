@@ -1,6 +1,9 @@
 const routeMap = require('./data/routesWithKeywords');
 const stopMap = require('./data/stops');
+const allRoutes = require('./data/allRoutes');
 const helpers = require('./helpers');
+
+helpers.mapKeywords(allRoutes)
 
 exports.getArrivals = function getArrivals(req, res) {
   const response = "This is a sample response from your webhook!"

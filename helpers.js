@@ -6,6 +6,8 @@ const format = '&format=json';
 const damen = require('./data/50_damen');
 const allRoutes = require('./data/allRoutes');
 const routeMap = require('./data/routesWithKeywords');
+const stopIdMemo = require('./stopIdMemo');
+const routesWithKeywords_2 = require('./routesWithKeywords_2');
 
 function writeToFile(data, file) {
   const json = JSON.stringify(data, null, 2)
@@ -148,13 +150,14 @@ function getStopsFromRouteFile(routes) {
   writeToFile(stopObj, 'data/stops.json')
 }
 
-getStopsFromRouteFile(allRoutes);
+// getStopsFromRouteFile(allRoutes);
 
 
 function mapKeywords(allRoutes) {
   const routesWithKeywords = {};
   const memo = {};
   const keywordValues = [];
+  const stopIdMemo = {};
   for (let route in allRoutes) {
     if (allRoutes.hasOwnProperty(route)) {
       routesWithKeywords[route] = {};
@@ -164,6 +167,7 @@ function mapKeywords(allRoutes) {
           for (let stopId in allRoutes[route][direction]) {
             if (allRoutes[route][direction].hasOwnProperty(stopId)) {
               console.log(allRoutes[route][direction][stopId])
+              stopIdMemo[stopId] = false;
               let stopName = allRoutes[route][direction][stopId];
               let keywords = stopName
                 .replaceAll('&', '')
@@ -215,7 +219,7 @@ function mapKeywords(allRoutes) {
           }
           for (let keyword in routesWithKeywords[route][direction]) {
             if (routesWithKeywords[route][direction].hasOwnProperty(keyword)) {
-              if (routesWithKeywords[route][direction][keyword].length > 20) {
+              if (routesWithKeywords[route][direction][keyword].length > 1) {
                 delete routesWithKeywords[route][direction][keyword];
               }
               if (routesWithKeywords[route][direction][keyword] && !memo[keyword]) {
@@ -232,11 +236,38 @@ function mapKeywords(allRoutes) {
     }
   }
   console.log('$$$$$$', keywordValues.length)
-  writeToFile(routesWithKeywords, 'routesWithKeywords.json')
-  writeToFile(keywordValues, 'keywordValues.json')
-  writeToFileCsv(keywordValues, 'keyValues.csv')
+  // writeToFile(routesWithKeywords, 'routesWithKeywords.json')
+  // writeToFile(keywordValues, 'keywordValues.json')
+  writeToFile(stopIdMemo, 'stopIdMemo.json')
+  writeToFile(routesWithKeywords, 'routesWithKeywords_2.json')
+  writeToFile(keywordValues, 'keywordValues_2.json')
+  // writeToFileCsv(keywordValues, 'keyValues.csv')
 }
 
+function logMissingStops() {
+  Object.keys(stopIdMemo).forEach(stopId => {
+    const routeMap = routesWithKeywords_2;
+    const routes = Object.keys(routeMap);
+    for (let i = 0; i < routes.length; i++) {
+      const directions = Object.keys(routeMap[routes[i]]);
+      for (let j = 0; j < directions.length; j++) {
+        const keywords = Object.keys(routeMap[routes[i]][directions[j]]);
+        for (let k = 0; k < keywords.length; k++) {
+          if (stopId === routeMap[routes[i]][directions[j]][keywords[k]]) {
+            stopIdMemo[stopId] = true;
+          }
+        }
+      }
+    }
+  })
+  Object.keys(stopIdMemo).forEach(stopId => {
+    if (stopIdMemo[stopId]) {
+      console.log('stopId', stopId)
+    }
+  })
+  console.log('finished')
+}
+logMissingStops()
 
 
 module.exports = {
