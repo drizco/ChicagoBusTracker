@@ -1,46 +1,51 @@
-const routeMap = require('./data/routesWithKeywords');
-const stopMap = require('./data/stops');
-const allRoutes = require('./data/allRoutes');
+const routeMap = require('./data/routesWithKeywords_4');
+const allRoutesLowerCase = require('./data/allRoutesLowerCase');
 const helpers = require('./helpers');
 
-helpers.mapKeywords(allRoutes)
-
 exports.getArrivals = function getArrivals(req, res) {
-  const response = "This is a sample response from your webhook!"
+  let response = "This is a sample response from your webhook!"
   const { route, stops, direction } = req.body.result.parameters;
-  const stopID = getStopID(route, stops, direction);
-  const stopName = stopMap[stopID];
-  helpers.getArrivals(stopID, route)
-    .then(arrivals => {
-      const response = formatText(arrivals, route, stopName)
+  const stopIds = getStopId(route, stops, direction);
+  switch (stopIds.length) {
+    case 0:
+      response = 'I couldn\'t find your stop';
       res.setHeader('Content-Type', 'application/json');
       res.send(JSON.stringify({
         "speech": response, "displayText": response
       }));
-    })
+      break;
+    case 1:
+      const stopId = stopIds[0];
+      const stopName = allRoutesLowerCase[route][direction][stopId];
+      helpers.getArrivals(stopId, route)
+        .then(arrivals => {
+          console.log('arrivals', arrivals, stopId, route)
+          response = formatText(arrivals, route, stopName)
+          res.setHeader('Content-Type', 'application/json');
+          res.send(JSON.stringify({
+            "speech": response, "displayText": response
+          }));
+        })
+      break;
+    default:
+      response = 'Which stop? ' + stopIds.map(id => {
+        return allRoutesLowerCase[route][direction][id]
+      }).join(' or ');
+      res.setHeader('Content-Type', 'application/json');
+      res.send(JSON.stringify({
+        "speech": response, "displayText": response
+      }));
+  }
 };
 
-function getStopID(route, stops, direction) {
-  const mapObj = {};
-  let count = 0;
-  let stopIdToReturn;
-  stops.forEach(stop => {
-    let stopArr = routeMap[route][direction][stop]
-    if (stopArr) {
-      stopArr.forEach(stopID => {
-        if (mapObj[stopID]) {
-          mapObj[stopID]++;
-        } else {
-          mapObj[stopID] = 1;
-        }
-        if (mapObj[stopID] > count) {
-          stopIdToReturn = stopID;
-          count = mapObj[stopID];
-        }
-      })
-    }
+function getStopId(route, stopKeywords, direction) {
+  const stopIds = stopKeywords.map(keyword => {
+    const stopId = routeMap[route][direction][keyword];
+    return stopId ? stopId : null;
+  }).filter((id, index, self) => {
+    return self.indexOf(id) === index && id !== null;
   })
-  return stopIdToReturn;
+  return stopIds;
 }
 
 function formatText(arrivals, route, stopName) {

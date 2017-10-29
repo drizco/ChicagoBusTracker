@@ -6,8 +6,8 @@ const format = '&format=json';
 const damen = require('./data/50_damen');
 const allRoutes = require('./data/allRoutes');
 const routeMap = require('./data/routesWithKeywords');
-const stopIdMemo = require('./stopIdMemo');
-const routesWithKeywords_2 = require('./routesWithKeywords_2');
+const stopIdMemo = require('./data/stopIdMemo');
+const routesWithKeywords_2 = require('./data/routesWithKeywords_2');
 
 function writeToFile(data, file) {
   const json = JSON.stringify(data, null, 2)
@@ -79,15 +79,15 @@ function getStops(routes) {
     .catch(error => console.log(error))
 }
 
-function getArrivals(stopID, route) {
-  return axios.get(`${ctaApiPrefix}getpredictions?key=${ApiKey}&rt=${route}&stpid=${stopID}${format}`)
+function getArrivals(stopId, route) {
+  return axios.get(`${ctaApiPrefix}getpredictions?key=${ApiKey}&rt=${route}&stpid=${stopId}${format}`)
     .then(res => res.data['bustime-response'])
     .then(predictions => {
+      console.log('predictions', predictions)
       // const arrivals = pred
       return predictions;
     })
     .catch(err => console.error(err))
-
 }
 
 String.prototype.replaceFunc = function () {
@@ -150,9 +150,6 @@ function getStopsFromRouteFile(routes) {
   writeToFile(stopObj, 'data/stops.json')
 }
 
-// getStopsFromRouteFile(allRoutes);
-
-
 function mapKeywords(allRoutes) {
   const routesWithKeywords = {};
   const memo = {};
@@ -160,15 +157,15 @@ function mapKeywords(allRoutes) {
   const stopIdMemo = {};
   for (let route in allRoutes) {
     if (allRoutes.hasOwnProperty(route)) {
-      routesWithKeywords[route] = {};
+      routesWithKeywords[route.toLowerCase()] = {};
       for (let direction in allRoutes[route]) {
         if (allRoutes[route].hasOwnProperty(direction)) {
-          routesWithKeywords[route][direction] = {};
+          routesWithKeywords[route.toLowerCase()][direction.toLowerCase()] = {};
           for (let stopId in allRoutes[route][direction]) {
             if (allRoutes[route][direction].hasOwnProperty(stopId)) {
-              console.log(allRoutes[route][direction][stopId])
+              console.log(allRoutes[route][direction][stopId.toLowerCase()])
               stopIdMemo[stopId] = false;
-              let stopName = allRoutes[route][direction][stopId];
+              let stopName = allRoutes[route][direction][stopId.toLowerCase()];
               let keywords = stopName
                 .replaceAll('&', '')
                 .replaceAll('& ', '')
@@ -209,20 +206,22 @@ function mapKeywords(allRoutes) {
                 .split(' ')
                 .filter(word => word !== '');
               keywords.forEach(word => {
-                if (routesWithKeywords[route][direction][word]) {
-                  routesWithKeywords[route][direction][word].push(stopId);
+                if (routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][word.toLowerCase()]) {
+                  routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][word.toLowerCase()].push(stopId);
                 } else {
-                  routesWithKeywords[route][direction][word] = [stopId]
+                  routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][word.toLowerCase()] = [stopId]
                 }
               })
             }
           }
-          for (let keyword in routesWithKeywords[route][direction]) {
-            if (routesWithKeywords[route][direction].hasOwnProperty(keyword)) {
-              if (routesWithKeywords[route][direction][keyword].length > 1) {
-                delete routesWithKeywords[route][direction][keyword];
+          for (let keyword in routesWithKeywords[route.toLowerCase()][direction.toLowerCase()]) {
+            if (routesWithKeywords[route.toLowerCase()][direction.toLowerCase()].hasOwnProperty(keyword)) {
+              if (routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword].length > 1) {
+                delete routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword];
+              } else {
+                routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword] = routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword][0];
               }
-              if (routesWithKeywords[route][direction][keyword] && !memo[keyword]) {
+              if (routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword] && !memo[keyword]) {
                 memo[keyword] = 1;
                 keywordValues.push({
                   value: keyword,
@@ -236,12 +235,8 @@ function mapKeywords(allRoutes) {
     }
   }
   console.log('$$$$$$', keywordValues.length)
-  // writeToFile(routesWithKeywords, 'routesWithKeywords.json')
-  // writeToFile(keywordValues, 'keywordValues.json')
-  writeToFile(stopIdMemo, 'stopIdMemo.json')
-  writeToFile(routesWithKeywords, 'routesWithKeywords_2.json')
-  writeToFile(keywordValues, 'keywordValues_2.json')
-  // writeToFileCsv(keywordValues, 'keyValues.csv')
+  // writeToFile(routesWithKeywords, 'routesWithKeywords_4.json')
+  // writeToFile(keywordValues, 'keywordValues_4.json')
 }
 
 function logMissingStops() {
@@ -263,12 +258,64 @@ function logMissingStops() {
   Object.keys(stopIdMemo).forEach(stopId => {
     if (stopIdMemo[stopId]) {
       console.log('stopId', stopId)
+    } else {
+      console.log('ok', stopId)
     }
   })
   console.log('finished')
 }
-logMissingStops()
 
+function lowerCaseAllRoutes(allRoutes) {
+  const routes = {};
+  Object.keys(allRoutes).forEach(route => {
+    routes[route.toLowerCase()] = {};
+    Object.keys(allRoutes[route]).forEach(direction => {
+      routes[route.toLowerCase()][direction.toLowerCase()] = {};
+      Object.keys(allRoutes[route][direction]).forEach(stopId => {
+        routes[route.toLowerCase()][direction.toLowerCase()][stopId.toLowerCase()] = allRoutes[route][direction][stopId]
+          .replaceAll('&', 'and')
+          .replaceAll('/', ' ')
+          .replaceAll('HS', 'Highschool')
+          .replaceAll('S ', 'South ')
+          .replaceAll('S. ', 'South ')
+          .replaceAll('S)', 'South ')
+          .replaceAll('N ', 'North ')
+          .replaceAll('N. ', 'North ')
+          .replaceAll('N)', 'North ')
+          .replaceAll('E ', 'East ')
+          .replaceAll('E. ', 'East ')
+          .replaceAll('E)', 'East ')
+          .replaceAll('W ', 'West ')
+          .replaceAll('w ', 'West ')
+          .replaceAll('W. ', 'West ')
+          .replaceAll('W)', 'West ')
+          .replaceAll('Bldg.', 'Building')
+          .replaceAll('Bldg', 'Building')
+          .replaceAll('Blvd', 'Boulevard')
+          .replaceAll('Dr ', 'Drive ')
+          .replaceAll('Ave', 'Avenue')
+          .replaceAll('Rd', 'Road')
+          .replaceAll('Hwy', 'Highway')
+          .replaceAll('Mt', 'Mount')
+          .replaceAll('SB', '')
+          .replaceAll('Pres ', 'Presbyterian ')
+          .replaceAll('mid', '')
+          .replaceAll('St ', 'street ')
+          .replaceAll('St.', 'Saint')
+          .replaceAll('Prking Ent', 'Parking Entrance')
+          .replaceAll('ST', 'street')
+          .replaceAll('II', 'the second')
+          .replaceAll('(', '')
+          .replaceAll(')', '')
+          .replaceAll('-', ' ')
+          .replaceAll('.', '')
+          .toLowerCase();
+
+      })
+    })
+  })
+  writeToFile(routes, 'allRoutesLowerCase.json')
+}
 
 module.exports = {
   writeToFile,
