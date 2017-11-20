@@ -8,6 +8,7 @@ const allRoutes = require('./data/allRoutes');
 const routeMap = require('./data/routesWithKeywords');
 const stopIdMemo = require('./data/stopIdMemo');
 const routesWithKeywords_2 = require('./data/routesWithKeywords_2');
+const main = require('./index');
 
 function writeToFile(data, file) {
   const json = JSON.stringify(data, null, 2)
@@ -83,12 +84,43 @@ function getArrivals(stopId, route) {
   return axios.get(`${ctaApiPrefix}getpredictions?key=${ApiKey}&rt=${route}&stpid=${stopId}${format}`)
     .then(res => res.data['bustime-response'])
     .then(predictions => {
-      console.log('predictions', predictions)
+      // console.log('predictions', predictions)
       // const arrivals = pred
       return predictions;
     })
     .catch(err => console.error(err))
 }
+
+function logSampleResponses(allRoutes) {
+  const promArr = [];
+  Object.keys(allRoutes).forEach(route => {
+    Object.keys(allRoutes[route]).forEach(direction => {
+      const stopId = Object.keys(allRoutes[route][direction])[0];
+      const stopName = allRoutes[route][direction][stopId];
+      promArr.push(
+        getArrivals(stopId, route)
+          .then(arrivals => {
+            response = main.formatText(arrivals, route, stopName)
+            console.log(response + '\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
+            // return response;
+            return arrivals;
+          })
+      )
+    })
+  })
+  console.log('finished looping')
+  return Promise.all(promArr)
+    .then(predictions => {
+      console.log('are we in here', predictions)
+      writeToFile(predictions, 'sampleArrivalResponses.json')
+      // predictions.forEach(p => {
+      // })
+      return predictions;
+    })
+    .catch(err => console.log(err));
+}
+
+// logSampleResponses(allRoutes);
 
 String.prototype.replaceFunc = function () {
   const target = this;
