@@ -3,6 +3,9 @@ const allRoutesLowerCase = require('./data/allRoutesLowerCase');
 const helpers = require('./helpers');
 const moment = require('moment');
 
+// deployment command
+// gcloud beta functions deploy dialogflowFirebaseFulfillment --stage-bucket chicagobustracker --trigger-http
+
 exports.dialogflowFirebaseFulfillment = (req, res) => {
   let response = "This is a sample response from your webhook!"
   const { route, stops, direction } = req.body.result.parameters;
@@ -76,10 +79,28 @@ function formatArrivals(arrivals) {
   const first = arrivals[0];
   const rest = arrivals.slice(1);
   const stopName = first.stpnm;
-  const response = rest.length
+  let response = rest.length
     ? `${handleFirstBus(first, stopName)} ${handleRestOfBuses(rest)}`
     : `${handleFirstBus(first, stopName)} It\'s the last one coming for a while.`
+  response += responseEnding();
   return response;
+}
+
+function responseEnding() {
+  const responses = [
+    ' You can ask for an update or track another bus.',
+    ' Anything else?',
+    ' Can I track another bus for you?',
+    ' I\'ll keep listening in case you need an update',
+    ' What else can I do for you?',
+    ' Let me know if you need more help.',
+    ' Can I help with another bus?',
+    ' Is there anything else I can help with?',
+    ' If you want an update on your bus, let me know.',
+    ' What else can I help you with?'
+  ];
+  const index = Math.floor(Math.random() * responses.length);
+  return responses[index];
 }
 
 function handleFirstBus(arrival, stopName) {
