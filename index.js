@@ -1,106 +1,145 @@
-const routeMap = require('./data/routesWithKeywords');
-const stopMap = require('./data/stops');
+const routeMap = require('./data/routesWithKeywords_4');
+const allRoutesLowerCase = require('./data/allRoutesLowerCase');
 const helpers = require('./helpers');
+const moment = require('moment');
 
-const data1 = {
-  route: 50,
-  direction: 'Northbound',
-  stops: ['Dickens']
-};
+// deployment command
+// gcloud beta functions deploy dialogflowFirebaseFulfillment --stage-bucket chicagobustracker --trigger-http
 
-function getStopID(route, stops, direction) {
-  const mapObj = {};
-  let count = 0;
-  let stopIdToReturn;
-  for (let i = 0; i < stops.length; i++) {
-    const stopArr = routeMap[route][direction][stops[i]];
-    if (stopArr) {
-      for (let j = 0; j < stopArr.length; j++) {
-        const stopID = stopArr[j];
-        if (mapObj[stopID]) {
-          mapObj[stopID] += 1;
-        } else {
-          mapObj[stopID] = 1;
-        }
-        if (mapObj[stopID] > count) {
-          stopIdToReturn = stopID;
-          count = mapObj[stopID];
-        }
-      }
-    }
-  }
-  return stopIdToReturn;
-}
-
-console.log(getStopID(data1.route, data1.stops, data1.direction));
-
-function formatText(arrivals, route, stopName) {
-  let response;
-  function formatWithMinutes(arrival) {
-    return arrival === '1' ? `${arrival} minute` : `${arrival} minutes`;
-  }
-  if (arrivals.error) {
-    const bool = arrivals.error.msg === 'No arrival times';
-    return bool ?
-      `there are no upcoming arrivals for route ${route}`
-      :
-      `there is no scheduled service for route ${route}`;
-  }
-  const due = arrivals.prd[0].prdctdn.toLowerCase() === 'due';
-  if (due) {
-    response = `hurry! a bus is due to arrive any second at ${stopName}. `;
-  }
-  switch (arrivals.prd.length) {
-    case 1:
-      if (!due) {
-        response = `a bus is coming in ${formatWithMinutes(arrivals.prd[0].prdctdn)} to ${stopName}. `;
-      }
-      response += 'it\'s the last one coming for a while';
-      return response;
-
-    case 2:
-      if (!due) {
-        response = `buses are arriving in ${formatWithMinutes(arrivals.prd[0].prdctdn)} and ${formatWithMinutes(arrivals.prd[1].prdctdn)} to ${stopName}.`;
-      } else {
-        response += `the next one is arriving in ${formatWithMinutes(arrivals.prd[1].prdctdn)} to ${stopName}.`;
-      }
-      return response;
-
-    default:
-      if (!due) {
-        const minuteSeq = arrivals.prd.map((prediction, i) => {
-          if (i === arrivals.prd.length - 1) {
-            return `and ${formatWithMinutes(prediction.prdctdn)}`;
-          }
-          return prediction.prdctdn;
-        }).join(', ');
-        response = `buses are arriving in ${minuteSeq} to ${stopName}`;
-      } else {
-        for (let i = 1; i < arrivals.prd.length; i++) {
-          if (arrivals.prd[i].prdctdn.toLowerCase() === 'due') {
-            response += 'the next one is due too';
-          } else if (i !== arrivals.prd.length - 1) {
-            response += `${arrivals.prd[i].prdctdn}, `;
-          } else {
-            response += `and ${formatWithMinutes(arrivals.prd[i].prdctdn)} to ${stopName}.`;
-          }
-        }
-      }
-      return response;
-  }
-}
-
-exports.getArrivals = function getArrivals(req, res) {
-  // const response = 'This is a sample response from your webhook!';
+exports.dialogflowFirebaseFulfillment = (req, res) => {
+  let response = 'This is a sample response from your webhook!';
   const { route, stops, direction } = req.body.result.parameters;
-  const stopID = getStopID(route, stops, direction);
-  const stopName = stopMap[stopID];
-  helpers.getArrivals(stopID, route)
-    .then(arrivals => {
-      const response = formatText(arrivals, route, stopName);
+  const stopIds = getStopId(route, stops, direction);
+  switch (stopIds.length) {
+    case 0:
+      response = 'I couldn\'t find your stop';
       res.setHeader('Content-Type', 'application/json');
       res.send(JSON.stringify({
         speech: response, displayText: response
       }));
-    });
+      break;
+    case 1:
+      const stopId = stopIds[0];
+      helpers.getArrivals(stopId, route)
+        .then(arrivals => {
+          response = formatText(arrivals);
+          res.setHeader('Content-Type', 'application/json');
+          res.send(JSON.stringify({
+            speech: response, displayText: response
+          }));
+        });
+      break;
+    default:
+      response = `Which stop? ${stopIds.map(id => allRoutesLowerCase[route][direction][id]).join(' or ')}?`;
+      res.setHeader('Content-Type', 'application/json');
+      res.send(JSON.stringify({
+        speech: response, displayText: response
+      }));
+  }
 };
+
+function getStopId(route, stopKeywords, direction) {
+  const stopIds = stopKeywords.map(keyword => {
+    const stopId = routeMap[route][direction][keyword];
+    return stopId || null;
+  }).filter((id, index, self) => self.indexOf(id) === index && id !== null);
+  return stopIds;
+}
+
+function formatWithMinutes(arrival) {
+  return arrival == '1' ? `${arrival} minute` : `${arrival} minutes`;
+}
+
+function calculateDelay(arrival) {
+  return moment(arrival.prdtm, 'YYYYMMDD HH:mm').diff(moment(arrival.tmstmp, 'YYYYMMDD HH:mm'), 'm').toString();
+}
+
+function convertToMinutes(arrivals) {
+  return arrivals.map((arrival, i) => {
+    let response = '';
+    if (i === arrivals.length - 1) {
+      response = 'and ';
+    }
+    if (arrival.prdctdn.toLowerCase() === 'dly') {
+      response += formatWithMinutes(calculateDelay(arrival));
+    } else if (arrival.prdctdn.toLowerCase() === 'due') {
+      response += '1 minute';
+    } else {
+      response += formatWithMinutes(arrival.prdctdn);
+    }
+    return response;
+  }).join(', ');
+}
+
+function formatArrivals(arrivals) {
+  const first = arrivals[0];
+  const rest = arrivals.slice(1);
+  const stopName = first.stpnm;
+  let response = rest.length
+    ? `${handleFirstBus(first, stopName)} ${handleRestOfBuses(rest)}`
+    : `${handleFirstBus(first, stopName)} It\'s the last one coming for a while.`;
+  response += responseEnding();
+  return response;
+}
+
+function responseEnding() {
+  const responses = [
+    ' You can ask for an update or track another bus.',
+    ' Anything else?',
+    ' Can I track another bus for you?',
+    ' I\'ll keep listening in case you need an update',
+    ' What else can I do for you?',
+    ' Let me know if you need more help.',
+    ' Can I help with another bus?',
+    ' Is there anything else I can help with?',
+    ' If you want an update on your bus, let me know.',
+    ' What else can I help you with?'
+  ];
+  const index = Math.floor(Math.random() * responses.length);
+  return responses[index];
+}
+
+function handleFirstBus(arrival, stopName) {
+  if (arrival.prdctdn.toLowerCase() === 'due') {
+    return `Hurry! The next bus is due to arrive at ${stopName}.`;
+  }
+  if (arrival.prdctdn.toLowerCase() === 'dly') {
+    return `The next bus is delayed, but it\'s estimated to arrive at ${stopName} in ${formatWithMinutes(calculateDelay(arrival))}.`;
+  }
+  return `The next bus is arriving at ${stopName} in ${formatWithMinutes(arrival.prdctdn)}.`;
+}
+
+function handleRestOfBuses(arrivals) {
+  if (arrivals.length === 1) {
+    const time = arrivals[0].prdctdn.toLowerCase();
+    if (time === 'due') {
+      return 'The one after that is due too!';
+    }
+    if (time === 'dly') {
+      return `The bus after that is delayed, but it's estimated to arrive in ${formatWithMinutes(calculateDelay(arrivals[0]))}.`;
+    }
+    return `The bus after that is coming in ${formatWithMinutes(time)}.`;
+  }
+  return `After that buses are arriving in ${convertToMinutes(arrivals)}.`;
+}
+
+function handleError(arrivalsObj) {
+  const route = arrivalsObj.error[0].rt;
+  const bool = arrivalsObj.error[0].msg === 'No arrival times';
+  let response = bool ?
+    'There are no upcoming arrivals'
+    :
+    'There is no scheduled service';
+  if (route) {
+    response += ` for route ${route}`;
+  }
+  return `${response}.`;
+}
+
+function formatText(arrivals) {
+  if (arrivals.error) {
+    return handleError(arrivals);
+  }
+  return formatArrivals(arrivals.prd);
+}
+

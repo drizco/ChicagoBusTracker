@@ -1,0 +1,7402 @@
+[
+  {
+    "error": [
+      {
+        "rt": "1",
+        "stpid": "67",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "1",
+        "stpid": "67",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "2",
+        "stpid": "587",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "2",
+        "stpid": "589",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "1212",
+        "dstp": 1654,
+        "rt": "3",
+        "rtdd": "3",
+        "rtdir": "Northbound",
+        "des": "Michigan/Chicago",
+        "prdtm": "20171104 15:29",
+        "tablockid": "3 -718",
+        "tatripid": "1006987",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "1275",
+        "dstp": 9064,
+        "rt": "3",
+        "rtdd": "3",
+        "rtdir": "Northbound",
+        "des": "Michigan/Chicago",
+        "prdtm": "20171104 15:40",
+        "tablockid": "3 -711",
+        "tatripid": "1006988",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:21",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "7919",
+        "dstp": 22227,
+        "rt": "3",
+        "rtdd": "3",
+        "rtdir": "Northbound",
+        "des": "Michigan/Chicago",
+        "prdtm": "20171104 15:51",
+        "tablockid": "3 -705",
+        "tatripid": "1006989",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "7969",
+        "dstp": 2782,
+        "rt": "3",
+        "rtdd": "3",
+        "rtdir": "Southbound",
+        "des": "95th/CSU",
+        "prdtm": "20171104 15:32",
+        "tablockid": "3 -716",
+        "tatripid": "1051705",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "1329",
+        "dstp": 6425,
+        "rt": "3",
+        "rtdd": "3",
+        "rtdir": "Southbound",
+        "des": "95th/CSU",
+        "prdtm": "20171104 15:41",
+        "tablockid": "3 -710",
+        "tatripid": "1051706",
+        "dly": false,
+        "prdctdn": "15",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "1254",
+        "dstp": 9951,
+        "rt": "3",
+        "rtdd": "3",
+        "rtdir": "Southbound",
+        "des": "95th/CSU",
+        "prdtm": "20171104 15:50",
+        "tablockid": "3 -717",
+        "tatripid": "1051707",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "7965",
+        "dstp": 3509,
+        "rt": "4",
+        "rtdd": "4",
+        "rtdir": "Northbound",
+        "des": "Illinois Center",
+        "prdtm": "20171104 15:32",
+        "tablockid": "4 -717",
+        "tatripid": "1088315",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "1347",
+        "dstp": 8178,
+        "rt": "4",
+        "rtdd": "4",
+        "rtdir": "Northbound",
+        "des": "Illinois Center",
+        "prdtm": "20171104 15:37",
+        "tablockid": "4 -704",
+        "tatripid": "1088282",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "1302",
+        "dstp": 23785,
+        "rt": "4",
+        "rtdd": "4",
+        "rtdir": "Northbound",
+        "des": "Illinois Center",
+        "prdtm": "20171104 15:54",
+        "tablockid": "4 -718",
+        "tatripid": "1088317",
+        "dly": false,
+        "prdctdn": "27",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "1193",
+        "dstp": 2075,
+        "rt": "4",
+        "rtdd": "4",
+        "rtdir": "Southbound",
+        "des": "115th Street",
+        "prdtm": "20171104 15:30",
+        "tablockid": "4 -703",
+        "tatripid": "1088347",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "1200",
+        "dstp": 5478,
+        "rt": "4",
+        "rtdd": "4",
+        "rtdir": "Southbound",
+        "des": "95th/CSU",
+        "prdtm": "20171104 15:36",
+        "tablockid": "4 -702",
+        "tatripid": "1088348",
+        "dly": false,
+        "prdctdn": "9",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "1267",
+        "dstp": 5599,
+        "rt": "4",
+        "rtdd": "4",
+        "rtdir": "Southbound",
+        "des": "115th Street",
+        "prdtm": "20171104 15:49",
+        "tablockid": "4 -712",
+        "tatripid": "1088349",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "5",
+        "stpid": "2265",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "5",
+        "stpid": "2104",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "4176",
+        "dstp": 31672,
+        "rt": "6",
+        "rtdd": "6",
+        "rtdir": "Northbound",
+        "des": "Wacker/Columbus",
+        "prdtm": "20171104 15:46",
+        "tablockid": "6 -109",
+        "tatripid": "1031695",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "4178",
+        "dstp": 35295,
+        "rt": "6",
+        "rtdd": "6",
+        "rtdir": "Northbound",
+        "des": "Wacker/Columbus",
+        "prdtm": "20171104 15:50",
+        "tablockid": "6 -113",
+        "tatripid": "1031696",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Wacker (Upper) & Michigan",
+        "stpid": "1421",
+        "vid": "4314",
+        "dstp": 4021,
+        "rt": "6",
+        "rtdd": "6",
+        "rtdir": "Southbound",
+        "des": "79th/South Shore",
+        "prdtm": "20171104 15:31",
+        "tablockid": "6 -112",
+        "tatripid": "1031792",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Wacker (Upper) & Michigan",
+        "stpid": "1421",
+        "vid": "4308",
+        "dstp": 3426,
+        "rt": "6",
+        "rtdd": "6",
+        "rtdir": "Southbound",
+        "des": "79th/South Shore",
+        "prdtm": "20171104 15:37",
+        "tablockid": "6 -116",
+        "tatripid": "1031793",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Wacker (Upper) & Michigan",
+        "stpid": "1421",
+        "vid": "4091",
+        "dstp": 7858,
+        "rt": "6",
+        "rtdd": "6",
+        "rtdir": "Southbound",
+        "des": "79th/South Shore",
+        "prdtm": "20171104 15:45",
+        "tablockid": "6 -108",
+        "tatripid": "1031794",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Wacker (Upper) & Michigan",
+        "stpid": "1421",
+        "vid": "4311",
+        "dstp": 59277,
+        "rt": "6",
+        "rtdd": "6",
+        "rtdir": "Southbound",
+        "des": "79th/South Shore",
+        "prdtm": "20171104 15:54",
+        "tablockid": "6 -151",
+        "tatripid": "1031795",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "7",
+        "stpid": "68",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "7",
+        "stpid": "74",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Halsted & Madison",
+        "stpid": "440",
+        "vid": "1288",
+        "dstp": 671,
+        "rt": "8",
+        "rtdd": "8",
+        "rtdir": "Northbound",
+        "des": "Waveland/Broadway",
+        "prdtm": "20171104 15:27",
+        "tablockid": "8 -717",
+        "tatripid": "567",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Halsted & Madison",
+        "stpid": "440",
+        "vid": "7949",
+        "dstp": 12462,
+        "rt": "8",
+        "rtdd": "8",
+        "rtdir": "Northbound",
+        "des": "Waveland/Broadway",
+        "prdtm": "20171104 15:42",
+        "tablockid": "8 -753",
+        "tatripid": "568",
+        "dly": false,
+        "prdctdn": "16",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "UIC-Halsted Blue Line Station",
+        "stpid": "205",
+        "vid": "1226",
+        "dstp": 3509,
+        "rt": "8",
+        "rtdd": "8",
+        "rtdir": "Southbound",
+        "des": "79th",
+        "prdtm": "20171104 15:31",
+        "tablockid": "8 -715",
+        "tatripid": "1088094",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "UIC-Halsted Blue Line Station",
+        "stpid": "205",
+        "vid": "1335",
+        "dstp": 11147,
+        "rt": "8",
+        "rtdd": "8",
+        "rtdir": "Southbound",
+        "des": "79th",
+        "prdtm": "20171104 15:42",
+        "tablockid": "8 -752",
+        "tatripid": "633",
+        "dly": false,
+        "prdctdn": "16",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "UIC-Halsted Blue Line Station",
+        "stpid": "205",
+        "vid": "7976",
+        "dstp": 18213,
+        "rt": "8",
+        "rtdd": "8",
+        "rtdir": "Southbound",
+        "des": "79th",
+        "prdtm": "20171104 15:51",
+        "tablockid": "8 -708",
+        "tatripid": "634",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Ashland & Van Buren",
+        "stpid": "51",
+        "vid": "8212",
+        "dstp": 3643,
+        "rt": "9",
+        "rtdd": "9",
+        "rtdir": "Northbound",
+        "des": "Irving Park",
+        "prdtm": "20171104 15:30",
+        "tablockid": "9 -620",
+        "tatripid": "49",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Ashland & Van Buren",
+        "stpid": "51",
+        "vid": "8091",
+        "dstp": 13342,
+        "rt": "9",
+        "rtdd": "9",
+        "rtdir": "Northbound",
+        "des": "Irving Park",
+        "prdtm": "20171104 15:40",
+        "tablockid": "9 -605",
+        "tatripid": "50",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Ashland & Van Buren",
+        "stpid": "51",
+        "vid": "8001",
+        "dstp": 20361,
+        "rt": "9",
+        "rtdd": "9",
+        "rtdir": "Northbound",
+        "des": "Irving Park",
+        "prdtm": "20171104 15:48",
+        "tablockid": "9 -613",
+        "tatripid": "51",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "9",
+        "stpid": "923",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Western Brown Line Station",
+        "stpid": "1483",
+        "vid": "1877",
+        "dstp": 572,
+        "rt": "11",
+        "rtdd": "11",
+        "rtdir": "Northbound",
+        "des": "Howard/McCormick",
+        "prdtm": "20171104 15:36",
+        "tablockid": "11 -501",
+        "tatripid": "557",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "11",
+        "stpid": "1355",
+        "msg": "No arrival times"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "5500 W Roosevelt",
+        "stpid": "257",
+        "vid": "4071",
+        "dstp": 3923,
+        "rt": "12",
+        "rtdd": "12",
+        "rtdir": "Eastbound",
+        "des": "15th/Indiana",
+        "prdtm": "20171104 15:37",
+        "tablockid": "12 -209",
+        "tatripid": "252",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "5500 W Roosevelt",
+        "stpid": "257",
+        "vid": "4055",
+        "dstp": 14638,
+        "rt": "12",
+        "rtdd": "12",
+        "rtdir": "Eastbound",
+        "des": "15th/Indiana",
+        "prdtm": "20171104 15:49",
+        "tablockid": "12 -202",
+        "tatripid": "253",
+        "dly": false,
+        "prdctdn": "22",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "327 W Roosevelt",
+        "stpid": "326",
+        "vid": "4013",
+        "dstp": 8818,
+        "rt": "12",
+        "rtdd": "12",
+        "rtdir": "Westbound",
+        "des": "Central/Harrison",
+        "prdtm": "20171104 15:40",
+        "tablockid": "12 -210",
+        "tatripid": "246",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "327 W Roosevelt",
+        "stpid": "326",
+        "vid": "4002",
+        "dstp": 7018,
+        "rt": "12",
+        "rtdd": "12",
+        "rtdir": "Westbound",
+        "des": "Central/Harrison",
+        "prdtm": "20171104 15:49",
+        "tablockid": "12 -205",
+        "tatripid": "247",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:24",
+        "typ": "A",
+        "stpnm": "Stony Island & 62nd Street",
+        "stpid": "1510",
+        "vid": "1163",
+        "dstp": 18805,
+        "rt": "15",
+        "rtdd": "15",
+        "rtdir": "Northbound",
+        "des": "47th Red Line",
+        "prdtm": "20171104 15:45",
+        "tablockid": "15 -102",
+        "tatripid": "22223903",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "51st Street & Michigan",
+        "stpid": "1627",
+        "vid": "1152",
+        "dstp": 5570,
+        "rt": "15",
+        "rtdd": "15",
+        "rtdir": "Southbound",
+        "des": "Stony Island/103rd",
+        "prdtm": "20171104 15:32",
+        "tablockid": "15 -105",
+        "tatripid": "22223934",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "51st Street & Michigan",
+        "stpid": "1627",
+        "vid": "1154",
+        "dstp": 17320,
+        "rt": "15",
+        "rtdd": "15",
+        "rtdir": "Southbound",
+        "des": "Stony Island/103rd",
+        "prdtm": "20171104 15:46",
+        "tablockid": "15 -107",
+        "tatripid": "22223935",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Roosevelt & Jefferson",
+        "stpid": "310",
+        "vid": "1686",
+        "dstp": 10510,
+        "rt": "18",
+        "rtdd": "18",
+        "rtdir": "Eastbound",
+        "des": "Michigan Avenue",
+        "prdtm": "20171104 15:42",
+        "tablockid": "18 -201",
+        "tatripid": "1021759",
+        "dly": false,
+        "prdctdn": "15",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "327 W Roosevelt",
+        "stpid": "326",
+        "vid": "1678",
+        "dstp": 4943,
+        "rt": "18",
+        "rtdd": "18",
+        "rtdir": "Westbound",
+        "des": "16th/Cicero",
+        "prdtm": "20171104 15:43",
+        "tablockid": "18 -204",
+        "tatripid": "1021794",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "19",
+        "stpid": "450",
+        "msg": "No arrival times"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Madison & Austin Terminal",
+        "stpid": "386",
+        "vid": "2014",
+        "dstp": 38,
+        "rt": "20",
+        "rtdd": "20",
+        "rtdir": "Eastbound",
+        "des": "Michigan",
+        "prdtm": "20171104 15:29",
+        "tablockid": "20 -802",
+        "tatripid": "102992",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Madison & Austin Terminal",
+        "stpid": "386",
+        "vid": "1937",
+        "dstp": 5879,
+        "rt": "20",
+        "rtdd": "20",
+        "rtdir": "Eastbound",
+        "des": "Michigan",
+        "prdtm": "20171104 15:38",
+        "tablockid": "20 -804",
+        "tatripid": "102993",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Madison & Austin Terminal",
+        "stpid": "386",
+        "vid": "1940",
+        "dstp": 8660,
+        "rt": "20",
+        "rtdd": "20",
+        "rtdir": "Eastbound",
+        "des": "Michigan",
+        "prdtm": "20171104 15:47",
+        "tablockid": "20 -809",
+        "tatripid": "102994",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Madison & Austin Terminal",
+        "stpid": "386",
+        "vid": "2014",
+        "dstp": 38,
+        "rt": "20",
+        "rtdd": "20",
+        "rtdir": "Eastbound",
+        "des": "Michigan",
+        "prdtm": "20171104 15:29",
+        "tablockid": "20 -802",
+        "tatripid": "102992",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Madison & Austin Terminal",
+        "stpid": "386",
+        "vid": "1937",
+        "dstp": 5879,
+        "rt": "20",
+        "rtdd": "20",
+        "rtdir": "Eastbound",
+        "des": "Michigan",
+        "prdtm": "20171104 15:38",
+        "tablockid": "20 -804",
+        "tatripid": "102993",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Madison & Austin Terminal",
+        "stpid": "386",
+        "vid": "1940",
+        "dstp": 8660,
+        "rt": "20",
+        "rtdd": "20",
+        "rtdir": "Eastbound",
+        "des": "Michigan",
+        "prdtm": "20171104 15:47",
+        "tablockid": "20 -809",
+        "tatripid": "102994",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & 26th Street",
+        "stpid": "1567",
+        "vid": "1618",
+        "dstp": 5093,
+        "rt": "21",
+        "rtdd": "21",
+        "rtdir": "Eastbound",
+        "des": "Mercy Hospital",
+        "prdtm": "20171104 15:32",
+        "tablockid": "21 -203",
+        "tatripid": "106766",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & 26th Street",
+        "stpid": "1567",
+        "vid": "1652",
+        "dstp": 13469,
+        "rt": "21",
+        "rtdd": "21",
+        "rtdir": "Eastbound",
+        "des": "Mercy Hospital",
+        "prdtm": "20171104 15:43",
+        "tablockid": "21 -210",
+        "tatripid": "106767",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Cermak & Clark (Red Line)",
+        "stpid": "5122",
+        "vid": "1569",
+        "dstp": 5849,
+        "rt": "21",
+        "rtdd": "21",
+        "rtdir": "Westbound",
+        "des": "North Riverside Mall",
+        "prdtm": "20171104 15:32",
+        "tablockid": "21 -202",
+        "tatripid": "106783",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Cermak & Clark (Red Line)",
+        "stpid": "5122",
+        "vid": "1618",
+        "dstp": 12159,
+        "rt": "21",
+        "rtdd": "21",
+        "rtdir": "Westbound",
+        "des": "North Riverside Mall",
+        "prdtm": "20171104 15:48",
+        "tablockid": "21 -203",
+        "tatripid": "106784",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & LaSalle",
+        "stpid": "1451",
+        "vid": "4077",
+        "dstp": 2305,
+        "rt": "22",
+        "rtdd": "22",
+        "rtdir": "Northbound",
+        "des": "Howard",
+        "prdtm": "20171104 15:29",
+        "tablockid": "22 -506",
+        "tatripid": "30",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & LaSalle",
+        "stpid": "1451",
+        "vid": "4341",
+        "dstp": 9894,
+        "rt": "22",
+        "rtdd": "22",
+        "rtdir": "Northbound",
+        "des": "Howard",
+        "prdtm": "20171104 15:43",
+        "tablockid": "22 -512",
+        "tatripid": "31",
+        "dly": false,
+        "prdctdn": "16",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & Menomonee",
+        "stpid": "1409",
+        "vid": "4361",
+        "dstp": 4758,
+        "rt": "22",
+        "rtdd": "22",
+        "rtdir": "Southbound",
+        "des": "Harrison",
+        "prdtm": "20171104 15:34",
+        "tablockid": "22 -514",
+        "tatripid": "6",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & Menomonee",
+        "stpid": "1409",
+        "vid": "4398",
+        "dstp": 7366,
+        "rt": "22",
+        "rtdd": "22",
+        "rtdir": "Southbound",
+        "des": "Harrison",
+        "prdtm": "20171104 15:39",
+        "tablockid": "22 -502",
+        "tatripid": "7",
+        "dly": false,
+        "prdctdn": "12",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "24",
+        "stpid": "1864",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "24",
+        "stpid": "1864",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "26",
+        "stpid": "76",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "26",
+        "stpid": "73",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "28",
+        "stpid": "75",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "28",
+        "stpid": "68",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:22",
+        "typ": "A",
+        "stpnm": "Illinois & Rush",
+        "stpid": "750",
+        "vid": "1093",
+        "dstp": 3075,
+        "rt": "29",
+        "rtdd": "29",
+        "rtdir": "Northbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:28",
+        "tablockid": "29 -101",
+        "tatripid": "593",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Illinois & Rush",
+        "stpid": "750",
+        "vid": "1042",
+        "dstp": 3695,
+        "rt": "29",
+        "rtdd": "29",
+        "rtdir": "Northbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:33",
+        "tablockid": "29 -154",
+        "tatripid": "603",
+        "dly": false,
+        "prdctdn": "7",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Illinois & Rush",
+        "stpid": "750",
+        "vid": "1037",
+        "dstp": 5252,
+        "rt": "29",
+        "rtdd": "29",
+        "rtdir": "Northbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:38",
+        "tablockid": "29 -109",
+        "tatripid": "604",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Illinois & Rush",
+        "stpid": "750",
+        "vid": "1095",
+        "dstp": 5657,
+        "rt": "29",
+        "rtdd": "29",
+        "rtdir": "Northbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:38",
+        "tablockid": "29 -112",
+        "tatripid": "612",
+        "dly": false,
+        "prdctdn": "12",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Illinois & Rush",
+        "stpid": "750",
+        "vid": "1057",
+        "dstp": 9537,
+        "rt": "29",
+        "rtdd": "29",
+        "rtdir": "Northbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:46",
+        "tablockid": "29 -107",
+        "tatripid": "609",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:22",
+        "typ": "A",
+        "stpnm": "Grand & McClurg",
+        "stpid": "589",
+        "vid": "1093",
+        "dstp": 10397,
+        "rt": "29",
+        "rtdd": "29",
+        "rtdir": "Southbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:38",
+        "tablockid": "29 -101",
+        "tatripid": "606",
+        "dly": false,
+        "prdctdn": "12",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Grand & McClurg",
+        "stpid": "589",
+        "vid": "1042",
+        "dstp": 11017,
+        "rt": "29",
+        "rtdd": "29",
+        "rtdir": "Southbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:47",
+        "tablockid": "29 -154",
+        "tatripid": "607",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "118th Street & Lake Point Plaza (3600 E)",
+        "stpid": "7291",
+        "vid": "1049",
+        "dstp": 4297,
+        "rt": "30",
+        "rtdd": "30",
+        "rtdir": "Southbound",
+        "des": "Hegewisch",
+        "prdtm": "20171104 15:28",
+        "tablockid": "30 -104",
+        "tatripid": "62",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "118th Street & Lake Point Plaza (3600 E)",
+        "stpid": "7291",
+        "vid": "1070",
+        "dstp": 26808,
+        "rt": "30",
+        "rtdd": "30",
+        "rtdir": "Northbound",
+        "des": "69th Red Line",
+        "prdtm": "20171104 15:43",
+        "tablockid": "30 -102",
+        "tatripid": "67",
+        "dly": false,
+        "prdctdn": "16",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "118th Street & Lake Point Plaza (3600 E)",
+        "stpid": "7291",
+        "vid": "1181",
+        "dstp": 30031,
+        "rt": "30",
+        "rtdd": "30",
+        "rtdir": "Southbound",
+        "des": "Hegewisch",
+        "prdtm": "20171104 15:49",
+        "tablockid": "30 -105",
+        "tatripid": "64",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "69th Street & Wabash",
+        "stpid": "7215",
+        "vid": "1079",
+        "dstp": 1068,
+        "rt": "30",
+        "rtdd": "30",
+        "rtdir": "Southbound",
+        "des": "Hegewisch",
+        "prdtm": "20171104 15:30",
+        "tablockid": "30 -106",
+        "tatripid": "66",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "69th Street & Wabash",
+        "stpid": "7215",
+        "vid": "1138",
+        "dstp": 26035,
+        "rt": "30",
+        "rtdd": "30",
+        "rtdir": "Southbound",
+        "des": "Hegewisch",
+        "prdtm": "20171104 15:50",
+        "tablockid": "30 -101",
+        "tatripid": "68",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "31",
+        "stpid": "2172",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "31",
+        "stpid": "2169",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2982",
+        "vid": "1144",
+        "dstp": 2053,
+        "rt": "34",
+        "rtdd": "34",
+        "rtdir": "Northbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:28",
+        "tablockid": "34 -103",
+        "tatripid": "124466",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2816",
+        "vid": "1144",
+        "dstp": 10230,
+        "rt": "34",
+        "rtdd": "34",
+        "rtdir": "Southbound",
+        "des": "131st & Ellis",
+        "prdtm": "20171104 15:31",
+        "tablockid": "34 -103",
+        "tatripid": "124534",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "35th Street & King Drive",
+        "stpid": "2533",
+        "vid": "1642",
+        "dstp": 3603,
+        "rt": "35",
+        "rtdd": "35",
+        "rtdir": "Eastbound",
+        "des": "Cottage Grove",
+        "prdtm": "20171104 15:31",
+        "tablockid": "35 -205",
+        "tatripid": "112084",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "35th Street & King Drive",
+        "stpid": "2533",
+        "vid": "1579",
+        "dstp": 20137,
+        "rt": "35",
+        "rtdd": "35",
+        "rtdir": "Eastbound",
+        "des": "Cottage Grove",
+        "prdtm": "20171104 15:48",
+        "tablockid": "35 -204",
+        "tatripid": "112085",
+        "dly": false,
+        "prdctdn": "22",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Lake Meadows Shopping Center",
+        "stpid": "2527",
+        "vid": "1642",
+        "dstp": 7907,
+        "rt": "35",
+        "rtdd": "35",
+        "rtdir": "Westbound",
+        "des": "24th Pl/Cicero",
+        "prdtm": "20171104 15:41",
+        "tablockid": "35 -205",
+        "tatripid": "112140",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & LaSalle",
+        "stpid": "1451",
+        "vid": "1878",
+        "dstp": 2994,
+        "rt": "36",
+        "rtdd": "36",
+        "rtdir": "Northbound",
+        "des": "Devon/Clark",
+        "prdtm": "20171104 15:31",
+        "tablockid": "36 -512",
+        "tatripid": "657",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & LaSalle",
+        "stpid": "1451",
+        "vid": "1929",
+        "dstp": 3763,
+        "rt": "36",
+        "rtdd": "36",
+        "rtdir": "Northbound",
+        "des": "Devon/Clark",
+        "prdtm": "20171104 15:32",
+        "tablockid": "36 -552",
+        "tatripid": "658",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Clark & LaSalle",
+        "stpid": "1451",
+        "vid": "1402",
+        "dstp": 11716,
+        "rt": "36",
+        "rtdd": "36",
+        "rtdir": "Northbound",
+        "des": "Devon/Clark",
+        "prdtm": "20171104 15:48",
+        "tablockid": "36 -508",
+        "tatripid": "659",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Clark & LaSalle",
+        "stpid": "1451",
+        "vid": "1916",
+        "dstp": 12788,
+        "rt": "36",
+        "rtdd": "36",
+        "rtdir": "Northbound",
+        "des": "Devon/Clark",
+        "prdtm": "20171104 15:49",
+        "tablockid": "36 -513",
+        "tatripid": "660",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Clark & Menomonee",
+        "stpid": "1409",
+        "vid": "1708",
+        "dstp": 6374,
+        "rt": "36",
+        "rtdd": "36",
+        "rtdir": "Southbound",
+        "des": "LaSalle Metra Station",
+        "prdtm": "20171104 15:35",
+        "tablockid": "36 -509",
+        "tatripid": "618",
+        "dly": false,
+        "prdctdn": "9",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & Menomonee",
+        "stpid": "1409",
+        "vid": "1871",
+        "dstp": 9931,
+        "rt": "36",
+        "rtdd": "36",
+        "rtdir": "Southbound",
+        "des": "LaSalle Metra Station",
+        "prdtm": "20171104 15:43",
+        "tablockid": "36 -517",
+        "tatripid": "619",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Clark & Menomonee",
+        "stpid": "1409",
+        "vid": "1866",
+        "dstp": 13465,
+        "rt": "36",
+        "rtdd": "36",
+        "rtdir": "Southbound",
+        "des": "LaSalle Metra Station",
+        "prdtm": "20171104 15:51",
+        "tablockid": "36 -501",
+        "tatripid": "620",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & Menomonee",
+        "stpid": "1409",
+        "vid": "1784",
+        "dstp": 16333,
+        "rt": "36",
+        "rtdd": "36",
+        "rtdir": "Southbound",
+        "des": "LaSalle Metra Station",
+        "prdtm": "20171104 15:55",
+        "tablockid": "36 -518",
+        "tatripid": "621",
+        "dly": false,
+        "prdctdn": "29",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "37",
+        "stpid": "1456",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "37",
+        "stpid": "84",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Indiana Green Line Station",
+        "stpid": "1554",
+        "vid": "1697",
+        "dstp": 7017,
+        "rt": "39",
+        "rtdd": "39",
+        "rtdir": "Westbound",
+        "des": "38th/St Louis",
+        "prdtm": "20171104 15:32",
+        "tablockid": "39 -201",
+        "tatripid": "55",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Indiana Green Line Station",
+        "stpid": "1554",
+        "vid": "1697",
+        "dstp": 7017,
+        "rt": "39",
+        "rtdd": "39",
+        "rtdir": "Westbound",
+        "des": "38th/St Louis",
+        "prdtm": "20171104 15:32",
+        "tablockid": "39 -201",
+        "tatripid": "55",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Halsted & Root",
+        "stpid": "5093",
+        "vid": "7908",
+        "dstp": 21896,
+        "rt": "43",
+        "rtdd": "43",
+        "rtdir": "Eastbound",
+        "des": "Lake Park",
+        "prdtm": "20171104 15:50",
+        "tablockid": "43 -702",
+        "tatripid": "54",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Root & Union",
+        "stpid": "5148",
+        "vid": "7908",
+        "dstp": 20351,
+        "rt": "43",
+        "rtdd": "43",
+        "rtdir": "Westbound",
+        "des": "42nd/Halsted",
+        "prdtm": "20171104 15:45",
+        "tablockid": "43 -702",
+        "tatripid": "49",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Archer & Grove",
+        "stpid": "4466",
+        "vid": "1445",
+        "dstp": 31503,
+        "rt": "44",
+        "rtdd": "44",
+        "rtdir": "Northbound",
+        "des": "Halsted Orange Line",
+        "prdtm": "20171104 15:52",
+        "tablockid": "44 -601",
+        "tatripid": "106782",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Archer & Lowe",
+        "stpid": "4450",
+        "vid": "1534",
+        "dstp": 1268,
+        "rt": "44",
+        "rtdd": "44",
+        "rtdir": "Southbound",
+        "des": "Racine/87th",
+        "prdtm": "20171104 15:27",
+        "tablockid": "44 -604",
+        "tatripid": "106877",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1497",
+        "dstp": 5759,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Westbound",
+        "des": "Archer/Cicero",
+        "prdtm": "20171104 15:32",
+        "tablockid": "47 -609",
+        "tatripid": "117",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1541",
+        "dstp": 6200,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Westbound",
+        "des": "Kedzie Orange Line",
+        "prdtm": "20171104 15:33",
+        "tablockid": "47 -604",
+        "tatripid": "136",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1460",
+        "dstp": 15041,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Eastbound",
+        "des": "Lake Park",
+        "prdtm": "20171104 15:47",
+        "tablockid": "47 -601",
+        "tatripid": "70",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1437",
+        "dstp": 20595,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Westbound",
+        "des": "Kedzie Orange Line",
+        "prdtm": "20171104 15:51",
+        "tablockid": "47 -605",
+        "tatripid": "118",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1471",
+        "dstp": 22708,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Westbound",
+        "des": "Archer/Cicero",
+        "prdtm": "20171104 15:53",
+        "tablockid": "47 -602",
+        "tatripid": "135",
+        "dly": false,
+        "prdctdn": "27",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1497",
+        "dstp": 5759,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Westbound",
+        "des": "Archer/Cicero",
+        "prdtm": "20171104 15:32",
+        "tablockid": "47 -609",
+        "tatripid": "117",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1541",
+        "dstp": 6200,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Westbound",
+        "des": "Kedzie Orange Line",
+        "prdtm": "20171104 15:33",
+        "tablockid": "47 -604",
+        "tatripid": "136",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1460",
+        "dstp": 15041,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Eastbound",
+        "des": "Lake Park",
+        "prdtm": "20171104 15:47",
+        "tablockid": "47 -601",
+        "tatripid": "70",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1437",
+        "dstp": 20595,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Westbound",
+        "des": "Kedzie Orange Line",
+        "prdtm": "20171104 15:51",
+        "tablockid": "47 -605",
+        "tatripid": "118",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Kedzie & 48th Place ",
+        "stpid": "3082",
+        "vid": "1471",
+        "dstp": 22708,
+        "rt": "47",
+        "rtdd": "47",
+        "rtdir": "Westbound",
+        "des": "Archer/Cicero",
+        "prdtm": "20171104 15:53",
+        "tablockid": "47 -602",
+        "tatripid": "135",
+        "dly": false,
+        "prdctdn": "27",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "48",
+        "stpid": "8088",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "48",
+        "stpid": "8156",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Western & Winnemac",
+        "stpid": "1664",
+        "vid": "1484",
+        "dstp": 2704,
+        "rt": "49",
+        "rtdd": "49",
+        "rtdir": "Northbound",
+        "des": "Berwyn",
+        "prdtm": "20171104 15:30",
+        "tablockid": "49 -652",
+        "tatripid": "1002557",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Western & Winnemac",
+        "stpid": "1664",
+        "vid": "1465",
+        "dstp": 19140,
+        "rt": "49",
+        "rtdd": "49",
+        "rtdir": "Northbound",
+        "des": "Berwyn",
+        "prdtm": "20171104 15:50",
+        "tablockid": "49 -612",
+        "tatripid": "1002559",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Western & Winnemac",
+        "stpid": "1719",
+        "vid": "1028",
+        "dstp": 2122,
+        "rt": "49",
+        "rtdd": "49",
+        "rtdir": "Southbound",
+        "des": "79th",
+        "prdtm": "20171104 15:36",
+        "tablockid": "49 -607",
+        "tatripid": "1002723",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Western & Winnemac",
+        "stpid": "1719",
+        "vid": "1503",
+        "dstp": 2366,
+        "rt": "49",
+        "rtdd": "49",
+        "rtdir": "Southbound",
+        "des": "79th",
+        "prdtm": "20171104 15:45",
+        "tablockid": "49 -601",
+        "tatripid": "1002724",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Western & Winnemac",
+        "stpid": "1719",
+        "vid": "1484",
+        "dstp": 7048,
+        "rt": "49",
+        "rtdd": "49",
+        "rtdir": "Southbound",
+        "des": "79th",
+        "prdtm": "20171104 15:54",
+        "tablockid": "49 -652",
+        "tatripid": "1002725",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Damen & Jackson",
+        "stpid": "111",
+        "vid": "1858",
+        "dstp": 6251,
+        "rt": "50",
+        "rtdd": "50",
+        "rtdir": "Northbound",
+        "des": "Ashland/Clark",
+        "prdtm": "20171104 15:33",
+        "tablockid": "50 -504",
+        "tatripid": "1007217",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Damen & Jackson",
+        "stpid": "111",
+        "vid": "1773",
+        "dstp": 18865,
+        "rt": "50",
+        "rtdd": "50",
+        "rtdir": "Northbound",
+        "des": "Ashland/Clark",
+        "prdtm": "20171104 15:46",
+        "tablockid": "50 -505",
+        "tatripid": "1007218",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Damen & Congress",
+        "stpid": "44",
+        "vid": "1779",
+        "dstp": 15392,
+        "rt": "50",
+        "rtdd": "50",
+        "rtdir": "Southbound",
+        "des": "35th/Archer Orange Line",
+        "prdtm": "20171104 15:44",
+        "tablockid": "50 -508",
+        "tatripid": "38",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "5000 S Kedzie",
+        "stpid": "3085",
+        "vid": "1332",
+        "dstp": 1035,
+        "rt": "51",
+        "rtdd": "51",
+        "rtdir": "Eastbound",
+        "des": "47th Red Line",
+        "prdtm": "20171104 15:29",
+        "tablockid": "51 -702",
+        "tatripid": "1087234",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "5000 S Kedzie",
+        "stpid": "3085",
+        "vid": "7984",
+        "dstp": 19027,
+        "rt": "51",
+        "rtdd": "51",
+        "rtdir": "Eastbound",
+        "des": "47th Red Line",
+        "prdtm": "20171104 15:49",
+        "tablockid": "51 -703",
+        "tatripid": "1087235",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "5000 S Kedzie",
+        "stpid": "3113",
+        "vid": "7984",
+        "dstp": 16523,
+        "rt": "51",
+        "rtdd": "51",
+        "rtdir": "Westbound",
+        "des": "Kedzie Orange Line",
+        "prdtm": "20171104 15:44",
+        "tablockid": "51 -703",
+        "tatripid": "1085837",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Chicago & Sacramento",
+        "stpid": "540",
+        "vid": "1846",
+        "dstp": 8889,
+        "rt": "52",
+        "rtdd": "52",
+        "rtdir": "Northbound",
+        "des": "Addison/Rockwell",
+        "prdtm": "20171104 15:37",
+        "tablockid": "52 -209",
+        "tatripid": "1307",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Chicago & Sacramento",
+        "stpid": "540",
+        "vid": "1682",
+        "dstp": 21454,
+        "rt": "52",
+        "rtdd": "52",
+        "rtdir": "Northbound",
+        "des": "Addison/Rockwell",
+        "prdtm": "20171104 15:51",
+        "tablockid": "52 -202",
+        "tatripid": "1308",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Chicago & Grand",
+        "stpid": "636",
+        "vid": "1589",
+        "dstp": 7392,
+        "rt": "52",
+        "rtdd": "52",
+        "rtdir": "Southbound",
+        "des": "63rd Pl/Kedzie",
+        "prdtm": "20171104 15:34",
+        "tablockid": "52 -203",
+        "tatripid": "1354",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Chicago & Grand",
+        "stpid": "636",
+        "vid": "1681",
+        "dstp": 19232,
+        "rt": "52",
+        "rtdd": "52",
+        "rtdir": "Southbound",
+        "des": "63rd Pl/Kedzie",
+        "prdtm": "20171104 15:47",
+        "tablockid": "52 -211",
+        "tatripid": "1355",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Pulaski & Peterson Terminal",
+        "stpid": "8972",
+        "vid": "1828",
+        "dstp": 87,
+        "rt": "53",
+        "rtdd": "53",
+        "rtdir": "Southbound",
+        "des": "31st",
+        "prdtm": "20171104 15:37",
+        "tablockid": "53 -851",
+        "tatripid": "1035709",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Pulaski & Peterson Terminal",
+        "stpid": "8972",
+        "vid": "1969",
+        "dstp": 10131,
+        "rt": "53",
+        "rtdd": "53",
+        "rtdir": "Southbound",
+        "des": "31st",
+        "prdtm": "20171104 15:45",
+        "tablockid": "53 -808",
+        "tatripid": "1035711",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Pulaski & Peterson Terminal",
+        "stpid": "8972",
+        "vid": "1828",
+        "dstp": 87,
+        "rt": "53",
+        "rtdd": "53",
+        "rtdir": "Southbound",
+        "des": "31st",
+        "prdtm": "20171104 15:37",
+        "tablockid": "53 -851",
+        "tatripid": "1035709",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Pulaski & Peterson Terminal",
+        "stpid": "8972",
+        "vid": "1969",
+        "dstp": 10131,
+        "rt": "53",
+        "rtdd": "53",
+        "rtdir": "Southbound",
+        "des": "31st",
+        "prdtm": "20171104 15:45",
+        "tablockid": "53 -808",
+        "tatripid": "1035711",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Cicero & 24th Place Terminal",
+        "stpid": "6301",
+        "vid": "2005",
+        "dstp": 250,
+        "rt": "54",
+        "rtdd": "54",
+        "rtdir": "Northbound",
+        "des": "Montrose",
+        "prdtm": "20171104 15:30",
+        "tablockid": "54 -810",
+        "tatripid": "1034503",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Cicero & 24th Place Terminal",
+        "stpid": "6301",
+        "vid": "1977",
+        "dstp": 8427,
+        "rt": "54",
+        "rtdd": "54",
+        "rtdir": "Northbound",
+        "des": "Montrose",
+        "prdtm": "20171104 15:41",
+        "tablockid": "54 -802",
+        "tatripid": "1034501",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Cicero & 24th Place Terminal",
+        "stpid": "6301",
+        "vid": "1938",
+        "dstp": 18014,
+        "rt": "54",
+        "rtdd": "54",
+        "rtdir": "Northbound",
+        "des": "Montrose",
+        "prdtm": "20171104 15:52",
+        "tablockid": "54 -801",
+        "tatripid": "1034502",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Cicero & 24th Place Terminal",
+        "stpid": "6301",
+        "vid": "2005",
+        "dstp": 250,
+        "rt": "54",
+        "rtdd": "54",
+        "rtdir": "Northbound",
+        "des": "Montrose",
+        "prdtm": "20171104 15:30",
+        "tablockid": "54 -810",
+        "tatripid": "1034503",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Cicero & 24th Place Terminal",
+        "stpid": "6301",
+        "vid": "1977",
+        "dstp": 8427,
+        "rt": "54",
+        "rtdd": "54",
+        "rtdir": "Northbound",
+        "des": "Montrose",
+        "prdtm": "20171104 15:41",
+        "tablockid": "54 -802",
+        "tatripid": "1034501",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Cicero & 24th Place Terminal",
+        "stpid": "6301",
+        "vid": "1938",
+        "dstp": 18014,
+        "rt": "54",
+        "rtdd": "54",
+        "rtdir": "Northbound",
+        "des": "Montrose",
+        "prdtm": "20171104 15:52",
+        "tablockid": "54 -801",
+        "tatripid": "1034502",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "S Hyde Park & 55th Street",
+        "stpid": "1654",
+        "vid": "1498",
+        "dstp": 10072,
+        "rt": "55",
+        "rtdd": "55",
+        "rtdir": "Eastbound",
+        "des": "Museum of Science & Industry",
+        "prdtm": "20171104 15:37",
+        "tablockid": "55 -605",
+        "tatripid": "49",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "S Hyde Park & 55th Street",
+        "stpid": "1654",
+        "vid": "1431",
+        "dstp": 21258,
+        "rt": "55",
+        "rtdd": "55",
+        "rtdir": "Eastbound",
+        "des": "Museum of Science & Industry",
+        "prdtm": "20171104 15:49",
+        "tablockid": "55 -602",
+        "tatripid": "50",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "S Hyde Park & 56th Street",
+        "stpid": "1517",
+        "vid": "1441",
+        "dstp": 619,
+        "rt": "55",
+        "rtdd": "55",
+        "rtdir": "Westbound",
+        "des": "Midway Orange Line",
+        "prdtm": "20171104 15:26",
+        "tablockid": "55 -604",
+        "tatripid": "122908",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "S Hyde Park & 56th Street",
+        "stpid": "1517",
+        "vid": "1462",
+        "dstp": 1436,
+        "rt": "55",
+        "rtdd": "55",
+        "rtdir": "Westbound",
+        "des": "St Louis",
+        "prdtm": "20171104 15:34",
+        "tablockid": "55 -601",
+        "tatripid": "122909",
+        "dly": false,
+        "prdctdn": "7",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "S Hyde Park & 56th Street",
+        "stpid": "1517",
+        "vid": "1498",
+        "dstp": 12714,
+        "rt": "55",
+        "rtdd": "55",
+        "rtdir": "Westbound",
+        "des": "Midway Orange Line",
+        "prdtm": "20171104 15:45",
+        "tablockid": "55 -605",
+        "tatripid": "122833",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Madison & Wabash",
+        "stpid": "450",
+        "vid": "8281",
+        "dstp": 487,
+        "rt": "56",
+        "rtdd": "56",
+        "rtdir": "Northbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:31",
+        "tablockid": "56 -403",
+        "tatripid": "1085143",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Madison & Wabash",
+        "stpid": "450",
+        "vid": "8273",
+        "dstp": 4944,
+        "rt": "56",
+        "rtdd": "56",
+        "rtdir": "Northbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:47",
+        "tablockid": "56 -410",
+        "tatripid": "1085148",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "stpid": "442",
+        "msg": "No arrival times"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Harrison & Lavergne",
+        "stpid": "246",
+        "vid": "8163",
+        "dstp": 14474,
+        "rt": "57",
+        "rtdd": "57",
+        "rtdir": "Northbound",
+        "des": "Grand/Latrobe",
+        "prdtm": "20171104 15:42",
+        "tablockid": "73 -809",
+        "tatripid": "71",
+        "dly": false,
+        "prdctdn": "15",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Grand & Laramie",
+        "stpid": "689",
+        "vid": "8186",
+        "dstp": 3934,
+        "rt": "57",
+        "rtdd": "57",
+        "rtdir": "Southbound",
+        "des": "Forest Park Blue Line Station",
+        "prdtm": "20171104 15:36",
+        "tablockid": "73 -806",
+        "tatripid": "120959",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Grand & Laramie",
+        "stpid": "689",
+        "vid": "1935",
+        "dstp": 17879,
+        "rt": "57",
+        "rtdd": "57",
+        "rtdir": "Southbound",
+        "des": "Forest Park Blue Line Station",
+        "prdtm": "20171104 15:54",
+        "tablockid": "73 -801",
+        "tatripid": "120960",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "State & 60th Street",
+        "stpid": "2426",
+        "vid": "1546",
+        "dstp": 1428,
+        "rt": "59",
+        "rtdd": "59",
+        "rtdir": "Eastbound",
+        "des": "Stony Island",
+        "prdtm": "20171104 15:28",
+        "tablockid": "59 -611",
+        "tatripid": "1006739",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "State & 60th Street",
+        "stpid": "2426",
+        "vid": "1531",
+        "dstp": 29355,
+        "rt": "59",
+        "rtdd": "59",
+        "rtdir": "Eastbound",
+        "des": "Stony Island",
+        "prdtm": "20171104 15:54",
+        "tablockid": "59 -603",
+        "tatripid": "1006686",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Wentworth & 57th Place",
+        "stpid": "6459",
+        "vid": "1466",
+        "dstp": 14498,
+        "rt": "59",
+        "rtdd": "59",
+        "rtdir": "Westbound",
+        "des": "Midway Orange Line",
+        "prdtm": "20171104 15:40",
+        "tablockid": "59 -608",
+        "tatripid": "1006716",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Wentworth & 57th Place",
+        "stpid": "6459",
+        "vid": "1531",
+        "dstp": 22345,
+        "rt": "59",
+        "rtdd": "59",
+        "rtdir": "Eastbound",
+        "des": "Stony Island",
+        "prdtm": "20171104 15:47",
+        "tablockid": "59 -603",
+        "tatripid": "1006686",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Harrison & Morgan",
+        "stpid": "200",
+        "vid": "1572",
+        "dstp": 10788,
+        "rt": "60",
+        "rtdd": "60",
+        "rtdir": "Eastbound",
+        "des": "Randolph/Harbor Dr",
+        "prdtm": "20171104 15:41",
+        "tablockid": "60 -205",
+        "tatripid": "1032680",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Harrison & Halsted",
+        "stpid": "206",
+        "vid": "1732",
+        "dstp": 8828,
+        "rt": "60",
+        "rtdd": "60",
+        "rtdir": "Westbound",
+        "des": "Cicero/24th Pl",
+        "prdtm": "20171104 15:37",
+        "tablockid": "60 -203",
+        "tatripid": "1032688",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Harrison & Halsted",
+        "stpid": "206",
+        "vid": "1666",
+        "dstp": 13096,
+        "rt": "60",
+        "rtdd": "60",
+        "rtdir": "Westbound",
+        "des": "Cicero/24th Pl",
+        "prdtm": "20171104 15:49",
+        "tablockid": "60 -204",
+        "tatripid": "1032689",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "62",
+        "stpid": "310",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "62",
+        "stpid": "326",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Kedzie & 63rd Place Terminal",
+        "stpid": "3099",
+        "vid": "1456",
+        "dstp": 0,
+        "rt": "63",
+        "rtdd": "63",
+        "rtdir": "Eastbound",
+        "des": "Stony Island",
+        "prdtm": "20171104 15:33",
+        "tablockid": "63 -652",
+        "tatripid": "12",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Kedzie & 63rd Place Terminal",
+        "stpid": "3099",
+        "vid": "1456",
+        "dstp": 0,
+        "rt": "63",
+        "rtdd": "63",
+        "rtdir": "Eastbound",
+        "des": "Stony Island",
+        "prdtm": "20171104 15:33",
+        "tablockid": "63 -652",
+        "tatripid": "12",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "65",
+        "stpid": "540",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Grand & McClurg",
+        "stpid": "589",
+        "vid": "1807",
+        "dstp": 2318,
+        "rt": "65",
+        "rtdd": "65",
+        "rtdir": "Westbound",
+        "des": "Nordica",
+        "prdtm": "20171104 15:39",
+        "tablockid": "65 -802",
+        "tatripid": "1021953",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Grand & McClurg",
+        "stpid": "589",
+        "vid": "1808",
+        "dstp": 7756,
+        "rt": "65",
+        "rtdd": "65",
+        "rtdir": "Westbound",
+        "des": "Nordica",
+        "prdtm": "20171104 15:54",
+        "tablockid": "65 -803",
+        "tatripid": "1021964",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "66",
+        "stpid": "450",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Chicago & Austin Terminal",
+        "stpid": "510",
+        "vid": "1804",
+        "dstp": 260,
+        "rt": "66",
+        "rtdd": "66",
+        "rtdir": "Eastbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:31",
+        "tablockid": "66 -809",
+        "tatripid": "1078379",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Chicago & Austin Terminal",
+        "stpid": "510",
+        "vid": "1975",
+        "dstp": 9452,
+        "rt": "66",
+        "rtdd": "66",
+        "rtdir": "Eastbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:37",
+        "tablockid": "66 -857",
+        "tatripid": "1078380",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Chicago & Austin Terminal",
+        "stpid": "510",
+        "vid": "1943",
+        "dstp": 5467,
+        "rt": "66",
+        "rtdd": "66",
+        "rtdir": "Eastbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:42",
+        "tablockid": "66 -803",
+        "tatripid": "1078381",
+        "dly": false,
+        "prdctdn": "16",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Chicago & Austin Terminal",
+        "stpid": "510",
+        "vid": "8161",
+        "dstp": 17544,
+        "rt": "66",
+        "rtdd": "66",
+        "rtdir": "Eastbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:48",
+        "tablockid": "66 -812",
+        "tatripid": "1078620",
+        "dly": false,
+        "prdctdn": "22",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Chicago & Austin Terminal",
+        "stpid": "510",
+        "vid": "1378",
+        "dstp": 18018,
+        "rt": "66",
+        "rtdd": "66",
+        "rtdir": "Eastbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:54",
+        "tablockid": "66 -801",
+        "tatripid": "1078621",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "69th Red Line Station",
+        "stpid": "2435",
+        "vid": "1480",
+        "dstp": 3162,
+        "rt": "67",
+        "rtdd": "67",
+        "rtdir": "Westbound",
+        "des": "69th/Western",
+        "prdtm": "20171104 15:29",
+        "tablockid": "67 -601",
+        "tatripid": "354",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "69th Red Line Station",
+        "stpid": "2435",
+        "vid": "1426",
+        "dstp": 12262,
+        "rt": "67",
+        "rtdd": "67",
+        "rtdir": "Westbound",
+        "des": "Ford City",
+        "prdtm": "20171104 15:38",
+        "tablockid": "67 -602",
+        "tatripid": "355",
+        "dly": false,
+        "prdctdn": "12",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "69th Red Line Station",
+        "stpid": "2435",
+        "vid": "1480",
+        "dstp": 3162,
+        "rt": "67",
+        "rtdd": "67",
+        "rtdir": "Westbound",
+        "des": "69th/Western",
+        "prdtm": "20171104 15:29",
+        "tablockid": "67 -601",
+        "tatripid": "354",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "69th Red Line Station",
+        "stpid": "2435",
+        "vid": "1426",
+        "dstp": 12262,
+        "rt": "67",
+        "rtdd": "67",
+        "rtdir": "Westbound",
+        "des": "Ford City",
+        "prdtm": "20171104 15:38",
+        "tablockid": "67 -602",
+        "tatripid": "355",
+        "dly": false,
+        "prdctdn": "12",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Milwaukee & Carmen/NW Highway",
+        "stpid": "4843",
+        "vid": "8270",
+        "dstp": 18775,
+        "rt": "68",
+        "rtdd": "68",
+        "rtdir": "Eastbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:38",
+        "tablockid": "88 -402",
+        "tatripid": "31",
+        "dly": false,
+        "prdctdn": "12",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Jefferson Park Metra Station Walkway",
+        "stpid": "4746",
+        "vid": "6869",
+        "dstp": 929,
+        "rt": "68",
+        "rtdd": "68",
+        "rtdir": "Westbound",
+        "des": "Park Ridge Metra Station",
+        "prdtm": "20171104 15:30",
+        "tablockid": "88 -401",
+        "tatripid": "82",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Walton & Dearborn",
+        "stpid": "1896",
+        "vid": "8128",
+        "dstp": 6128,
+        "rt": "70",
+        "rtdd": "70",
+        "rtdir": "Westbound",
+        "des": "Austin",
+        "prdtm": "20171104 15:35",
+        "tablockid": "70 -805",
+        "tatripid": "384",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Walton & Dearborn",
+        "stpid": "1896",
+        "vid": "8160",
+        "dstp": 7936,
+        "rt": "70",
+        "rtdd": "70",
+        "rtdir": "Westbound",
+        "des": "Austin",
+        "prdtm": "20171104 15:42",
+        "tablockid": "70 -807",
+        "tatripid": "465",
+        "dly": false,
+        "prdctdn": "15",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:24",
+        "typ": "D",
+        "stpnm": "Walton & Dearborn",
+        "stpid": "1896",
+        "vid": "8195",
+        "dstp": 18251,
+        "rt": "70",
+        "rtdd": "70",
+        "rtdir": "Westbound",
+        "des": "Austin",
+        "prdtm": "20171104 15:54",
+        "tablockid": "70 -809",
+        "tatripid": "385",
+        "dly": false,
+        "prdctdn": "27",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Walton & Dearborn",
+        "stpid": "1896",
+        "vid": "8128",
+        "dstp": 6128,
+        "rt": "70",
+        "rtdd": "70",
+        "rtdir": "Westbound",
+        "des": "Austin",
+        "prdtm": "20171104 15:35",
+        "tablockid": "70 -805",
+        "tatripid": "384",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Walton & Dearborn",
+        "stpid": "1896",
+        "vid": "8160",
+        "dstp": 7936,
+        "rt": "70",
+        "rtdd": "70",
+        "rtdir": "Westbound",
+        "des": "Austin",
+        "prdtm": "20171104 15:42",
+        "tablockid": "70 -807",
+        "tatripid": "465",
+        "dly": false,
+        "prdctdn": "15",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:24",
+        "typ": "D",
+        "stpnm": "Walton & Dearborn",
+        "stpid": "1896",
+        "vid": "8195",
+        "dstp": 18251,
+        "rt": "70",
+        "rtdd": "70",
+        "rtdir": "Westbound",
+        "des": "Austin",
+        "prdtm": "20171104 15:54",
+        "tablockid": "70 -809",
+        "tatripid": "385",
+        "dly": false,
+        "prdctdn": "27",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Torrence & 112th Street Terminal",
+        "stpid": "6982",
+        "vid": "1058",
+        "dstp": 3803,
+        "rt": "71",
+        "rtdd": "71",
+        "rtdir": "Northbound",
+        "des": "69th Red Line",
+        "prdtm": "20171104 15:40",
+        "tablockid": "71 -105",
+        "tatripid": "1032921",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Torrence & 112th Street Terminal",
+        "stpid": "6982",
+        "vid": "1127",
+        "dstp": 17845,
+        "rt": "71",
+        "rtdd": "71",
+        "rtdir": "Northbound",
+        "des": "69th Red Line",
+        "prdtm": "20171104 15:53",
+        "tablockid": "71 -101",
+        "tatripid": "1032920",
+        "dly": false,
+        "prdctdn": "26",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Torrence & 112th Street Terminal",
+        "stpid": "6982",
+        "vid": "1058",
+        "dstp": 3803,
+        "rt": "71",
+        "rtdd": "71",
+        "rtdir": "Northbound",
+        "des": "69th Red Line",
+        "prdtm": "20171104 15:40",
+        "tablockid": "71 -105",
+        "tatripid": "1032921",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Torrence & 112th Street Terminal",
+        "stpid": "6982",
+        "vid": "1127",
+        "dstp": 17845,
+        "rt": "71",
+        "rtdd": "71",
+        "rtdir": "Northbound",
+        "des": "69th Red Line",
+        "prdtm": "20171104 15:53",
+        "tablockid": "71 -101",
+        "tatripid": "1032920",
+        "dly": false,
+        "prdctdn": "26",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Neva & North Ave",
+        "stpid": "845",
+        "vid": "1999",
+        "dstp": 4838,
+        "rt": "72",
+        "rtdd": "72",
+        "rtdir": "Eastbound",
+        "des": "Clark",
+        "prdtm": "20171104 15:45",
+        "tablockid": "72 -852",
+        "tatripid": "1017033",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Neva & North Ave",
+        "stpid": "845",
+        "vid": "1999",
+        "dstp": 4838,
+        "rt": "72",
+        "rtdd": "72",
+        "rtdir": "Eastbound",
+        "des": "Clark",
+        "prdtm": "20171104 15:45",
+        "tablockid": "72 -852",
+        "tatripid": "1017033",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "stpid": "689",
+        "msg": "No arrival times"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & LaSalle",
+        "stpid": "1451",
+        "vid": "1817",
+        "dstp": 1367,
+        "rt": "73",
+        "rtdd": "73",
+        "rtdir": "Westbound",
+        "des": "Laramie",
+        "prdtm": "20171104 15:36",
+        "tablockid": "73 -802",
+        "tatripid": "101616",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & LaSalle",
+        "stpid": "1451",
+        "vid": "8176",
+        "dstp": 19713,
+        "rt": "73",
+        "rtdd": "73",
+        "rtdir": "Westbound",
+        "des": "Laramie",
+        "prdtm": "20171104 15:54",
+        "tablockid": "73 -803",
+        "tatripid": "101617",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:22",
+        "typ": "D",
+        "stpnm": "Grand & Nordica Terminal",
+        "stpid": "668",
+        "vid": "2026",
+        "dstp": 3,
+        "rt": "74",
+        "rtdd": "74",
+        "rtdir": "Eastbound",
+        "des": "Halsted",
+        "prdtm": "20171104 15:28",
+        "tablockid": "74 -851",
+        "tatripid": "1078694",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Grand & Nordica Terminal",
+        "stpid": "668",
+        "vid": "1998",
+        "dstp": 12948,
+        "rt": "74",
+        "rtdd": "74",
+        "rtdir": "Eastbound",
+        "des": "Halsted",
+        "prdtm": "20171104 15:48",
+        "tablockid": "74 -801",
+        "tatripid": "1078696",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:22",
+        "typ": "D",
+        "stpnm": "Grand & Nordica Terminal",
+        "stpid": "668",
+        "vid": "2026",
+        "dstp": 3,
+        "rt": "74",
+        "rtdd": "74",
+        "rtdir": "Eastbound",
+        "des": "Halsted",
+        "prdtm": "20171104 15:28",
+        "tablockid": "74 -851",
+        "tatripid": "1078694",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Grand & Nordica Terminal",
+        "stpid": "668",
+        "vid": "1998",
+        "dstp": 12948,
+        "rt": "74",
+        "rtdd": "74",
+        "rtdir": "Eastbound",
+        "des": "Halsted",
+        "prdtm": "20171104 15:48",
+        "tablockid": "74 -801",
+        "tatripid": "1078696",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "State & 78th Street",
+        "stpid": "2285",
+        "vid": "1486",
+        "dstp": 14826,
+        "rt": "75",
+        "rtdd": "75",
+        "rtdir": "Westbound",
+        "des": "Damen",
+        "prdtm": "20171104 15:43",
+        "tablockid": "75 -603",
+        "tatripid": "10002308",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "State & 78th Street",
+        "stpid": "2285",
+        "vid": "1478",
+        "dstp": 18694,
+        "rt": "75",
+        "rtdd": "75",
+        "rtdir": "Westbound",
+        "des": "Damen",
+        "prdtm": "20171104 15:48",
+        "tablockid": "75 -604",
+        "tatripid": "10002309",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "State & 78th Street",
+        "stpid": "2285",
+        "vid": "1499",
+        "dstp": 19713,
+        "rt": "75",
+        "rtdd": "75",
+        "rtdir": "Eastbound",
+        "des": "Lakefront",
+        "prdtm": "20171104 15:53",
+        "tablockid": "75 -605",
+        "tatripid": "10002313",
+        "dly": false,
+        "prdctdn": "26",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "State & 78th Street",
+        "stpid": "2285",
+        "vid": "1486",
+        "dstp": 14826,
+        "rt": "75",
+        "rtdd": "75",
+        "rtdir": "Westbound",
+        "des": "Damen",
+        "prdtm": "20171104 15:43",
+        "tablockid": "75 -603",
+        "tatripid": "10002308",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "State & 78th Street",
+        "stpid": "2285",
+        "vid": "1478",
+        "dstp": 18694,
+        "rt": "75",
+        "rtdd": "75",
+        "rtdir": "Westbound",
+        "des": "Damen",
+        "prdtm": "20171104 15:48",
+        "tablockid": "75 -604",
+        "tatripid": "10002309",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "State & 78th Street",
+        "stpid": "2285",
+        "vid": "1499",
+        "dstp": 19713,
+        "rt": "75",
+        "rtdd": "75",
+        "rtdir": "Eastbound",
+        "des": "Lakefront",
+        "prdtm": "20171104 15:53",
+        "tablockid": "75 -605",
+        "tatripid": "10002313",
+        "dly": false,
+        "prdctdn": "26",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Milwaukee & Spaulding",
+        "stpid": "5465",
+        "vid": "8251",
+        "dstp": 9410,
+        "rt": "76",
+        "rtdd": "76",
+        "rtdir": "Eastbound",
+        "des": "Nature Museum",
+        "prdtm": "20171104 15:40",
+        "tablockid": "76 -404",
+        "tatripid": "101312",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Milwaukee & Spaulding",
+        "stpid": "5465",
+        "vid": "8274",
+        "dstp": 17203,
+        "rt": "76",
+        "rtdd": "76",
+        "rtdir": "Eastbound",
+        "des": "Nature Museum",
+        "prdtm": "20171104 15:49",
+        "tablockid": "76 -451",
+        "tatripid": "101313",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Diversey & Neva Terminal",
+        "stpid": "10964",
+        "vid": "8261",
+        "dstp": 120,
+        "rt": "76",
+        "rtdd": "76",
+        "rtdir": "Eastbound",
+        "des": "Nature Museum",
+        "prdtm": "20171104 15:30",
+        "tablockid": "76 -410",
+        "tatripid": "121192",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Diversey & Neva Terminal",
+        "stpid": "10964",
+        "vid": "8306",
+        "dstp": 11311,
+        "rt": "76",
+        "rtdd": "76",
+        "rtdir": "Eastbound",
+        "des": "Nature Museum",
+        "prdtm": "20171104 15:43",
+        "tablockid": "76 -406",
+        "tatripid": "101314",
+        "dly": false,
+        "prdctdn": "16",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:22",
+        "typ": "D",
+        "stpnm": "Diversey & Neva Terminal",
+        "stpid": "10964",
+        "vid": "1011",
+        "dstp": 21230,
+        "rt": "76",
+        "rtdd": "76",
+        "rtdir": "Eastbound",
+        "des": "Nature Museum",
+        "prdtm": "20171104 15:56",
+        "tablockid": "76 -408",
+        "tatripid": "101316",
+        "dly": false,
+        "prdctdn": "29",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Belmont & Orchard",
+        "stpid": "4987",
+        "vid": "8289",
+        "dstp": 5806,
+        "rt": "77",
+        "rtdd": "77",
+        "rtdir": "Eastbound",
+        "des": "Diversey/Lake Shore",
+        "prdtm": "20171104 15:35",
+        "tablockid": "77 -413",
+        "tatripid": "394",
+        "dly": false,
+        "prdctdn": "9",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Belmont & Orchard",
+        "stpid": "4987",
+        "vid": "8285",
+        "dstp": 15889,
+        "rt": "77",
+        "rtdd": "77",
+        "rtdir": "Eastbound",
+        "des": "Diversey/Lake Shore",
+        "prdtm": "20171104 15:51",
+        "tablockid": "77 -403",
+        "tatripid": "395",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Belmont & Orchard",
+        "stpid": "4987",
+        "vid": "8266",
+        "dstp": 18701,
+        "rt": "77",
+        "rtdd": "77",
+        "rtdir": "Eastbound",
+        "des": "Diversey/Lake Shore",
+        "prdtm": "20171104 15:52",
+        "tablockid": "77 -417",
+        "tatripid": "396",
+        "dly": false,
+        "prdctdn": "26",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Diversey",
+        "stpid": "1148",
+        "vid": "8264",
+        "dstp": 1301,
+        "rt": "77",
+        "rtdd": "77",
+        "rtdir": "Westbound",
+        "des": "Cumberland",
+        "prdtm": "20171104 15:28",
+        "tablockid": "77 -416",
+        "tatripid": "414",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Diversey",
+        "stpid": "1148",
+        "vid": "8271",
+        "dstp": 1368,
+        "rt": "77",
+        "rtdd": "77",
+        "rtdir": "Westbound",
+        "des": "Cumberland",
+        "prdtm": "20171104 15:37",
+        "tablockid": "77 -402",
+        "tatripid": "415",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Diversey",
+        "stpid": "1148",
+        "vid": "8272",
+        "dstp": 5430,
+        "rt": "77",
+        "rtdd": "77",
+        "rtdir": "Westbound",
+        "des": "Cumberland",
+        "prdtm": "20171104 15:46",
+        "tablockid": "77 -406",
+        "tatripid": "104735",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Sheridan & Diversey",
+        "stpid": "1148",
+        "vid": "8289",
+        "dstp": 11690,
+        "rt": "77",
+        "rtdd": "77",
+        "rtdir": "Westbound",
+        "des": "Cumberland",
+        "prdtm": "20171104 15:55",
+        "tablockid": "77 -413",
+        "tatripid": "416",
+        "dly": false,
+        "prdctdn": "29",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Clark & Sunnyside",
+        "stpid": "1935",
+        "vid": "8298",
+        "dstp": 6910,
+        "rt": "78",
+        "rtdd": "78",
+        "rtdir": "Eastbound",
+        "des": "Wilson/Marine",
+        "prdtm": "20171104 15:36",
+        "tablockid": "78 -403",
+        "tatripid": "10002047",
+        "dly": false,
+        "prdctdn": "9",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & Sunnyside",
+        "stpid": "1935",
+        "vid": "8295",
+        "dstp": 14845,
+        "rt": "78",
+        "rtdd": "78",
+        "rtdir": "Eastbound",
+        "des": "Wilson/Marine",
+        "prdtm": "20171104 15:45",
+        "tablockid": "78 -402",
+        "tatripid": "10002048",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & Sunnyside",
+        "stpid": "1813",
+        "vid": "6764",
+        "dstp": 1025,
+        "rt": "78",
+        "rtdd": "78",
+        "rtdir": "Westbound",
+        "des": "Harlem",
+        "prdtm": "20171104 15:28",
+        "tablockid": "78 -407",
+        "tatripid": "10002052",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Clark & Sunnyside",
+        "stpid": "1813",
+        "vid": "8268",
+        "dstp": 8974,
+        "rt": "78",
+        "rtdd": "78",
+        "rtdir": "Westbound",
+        "des": "Harlem",
+        "prdtm": "20171104 15:44",
+        "tablockid": "78 -406",
+        "tatripid": "10002053",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "79th Street & Cicero",
+        "stpid": "2716",
+        "vid": "1225",
+        "dstp": 5174,
+        "rt": "79",
+        "rtdd": "79",
+        "rtdir": "Eastbound",
+        "des": "Lakefront",
+        "prdtm": "20171104 15:34",
+        "tablockid": "79 -705",
+        "tatripid": "2271",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "79th Street & Cicero",
+        "stpid": "2716",
+        "vid": "1223",
+        "dstp": 16273,
+        "rt": "79",
+        "rtdd": "79",
+        "rtdir": "Eastbound",
+        "des": "Lakefront",
+        "prdtm": "20171104 15:46",
+        "tablockid": "79 -704",
+        "tatripid": "2273",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "79th Street & Coles ",
+        "stpid": "2603",
+        "vid": "1342",
+        "dstp": 1033,
+        "rt": "79",
+        "rtdd": "79",
+        "rtdir": "Westbound",
+        "des": "Ford City",
+        "prdtm": "20171104 15:27",
+        "tablockid": "79 -716",
+        "tatripid": "1538",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "79th Street & Coles ",
+        "stpid": "2603",
+        "vid": "1333",
+        "dstp": 2379,
+        "rt": "79",
+        "rtdd": "79",
+        "rtdir": "Westbound",
+        "des": "Western",
+        "prdtm": "20171104 15:34",
+        "tablockid": "79 -711",
+        "tatripid": "1539",
+        "dly": true,
+        "prdctdn": "DLY",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "79th Street & Coles ",
+        "stpid": "2603",
+        "vid": "1273",
+        "dstp": 6194,
+        "rt": "79",
+        "rtdd": "79",
+        "rtdir": "Westbound",
+        "des": "Western",
+        "prdtm": "20171104 15:47",
+        "tablockid": "79 -751",
+        "tatripid": "1541",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "79th Street & Coles ",
+        "stpid": "2603",
+        "vid": "1217",
+        "dstp": 16267,
+        "rt": "79",
+        "rtdd": "79",
+        "rtdir": "Westbound",
+        "des": "Ford City",
+        "prdtm": "20171104 15:53",
+        "tablockid": "79 -713",
+        "tatripid": "1542",
+        "dly": false,
+        "prdctdn": "27",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Sheridan & Pine Grove",
+        "stpid": "1165",
+        "vid": "8314",
+        "dstp": 2718,
+        "rt": "80",
+        "rtdd": "80",
+        "rtdir": "Eastbound",
+        "des": "Broadway",
+        "prdtm": "20171104 15:30",
+        "tablockid": "80 -411",
+        "tatripid": "22224341",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Irving Park & Cumberland Terminal",
+        "stpid": "5592",
+        "vid": "1004",
+        "dstp": 62,
+        "rt": "80",
+        "rtdd": "80",
+        "rtdir": "Eastbound",
+        "des": "Broadway",
+        "prdtm": "20171104 15:31",
+        "tablockid": "80 -409",
+        "tatripid": "22224358",
+        "dly": true,
+        "prdctdn": "DLY",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Irving Park & Cumberland Terminal",
+        "stpid": "5592",
+        "vid": "6792",
+        "dstp": 171,
+        "rt": "80",
+        "rtdd": "80",
+        "rtdir": "Eastbound",
+        "des": "Broadway",
+        "prdtm": "20171104 15:44",
+        "tablockid": "80 -412",
+        "tatripid": "22224359",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Lawrence & Marine Drive",
+        "stpid": "2363",
+        "vid": "8296",
+        "dstp": 2600,
+        "rt": "81",
+        "rtdd": "81",
+        "rtdir": "Eastbound",
+        "des": "Wilson/Marine",
+        "prdtm": "20171104 15:29",
+        "tablockid": "81 -410",
+        "tatripid": "121",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Lawrence & Marine Drive",
+        "stpid": "2363",
+        "vid": "1559",
+        "dstp": 10362,
+        "rt": "81",
+        "rtdd": "81",
+        "rtdir": "Eastbound",
+        "des": "Wilson/Marine",
+        "prdtm": "20171104 15:40",
+        "tablockid": "81 -403",
+        "tatripid": "123",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:24",
+        "typ": "A",
+        "stpnm": "Lawrence & Marine Drive",
+        "stpid": "2363",
+        "vid": "8301",
+        "dstp": 17537,
+        "rt": "81",
+        "rtdd": "81",
+        "rtdir": "Eastbound",
+        "des": "Wilson/Marine",
+        "prdtm": "20171104 15:51",
+        "tablockid": "81 -411",
+        "tatripid": "125",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Marine Drive & Wilson",
+        "stpid": "3773",
+        "vid": "8260",
+        "dstp": 54,
+        "rt": "81",
+        "rtdd": "81",
+        "rtdir": "Westbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:31",
+        "tablockid": "81 -408",
+        "tatripid": "122",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Marine Drive & Wilson",
+        "stpid": "3773",
+        "vid": "8296",
+        "dstp": 4705,
+        "rt": "81",
+        "rtdd": "81",
+        "rtdir": "Westbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:41",
+        "tablockid": "81 -410",
+        "tatripid": "124",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Marine Drive & Wilson",
+        "stpid": "3773",
+        "vid": "1559",
+        "dstp": 12467,
+        "rt": "81",
+        "rtdd": "81",
+        "rtdir": "Westbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:51",
+        "tablockid": "81 -403",
+        "tatripid": "126",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "82",
+        "stpid": "1354",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "82",
+        "stpid": "1354",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Caldwell & Central Terminal",
+        "stpid": "11427",
+        "vid": "8257",
+        "dstp": 5179,
+        "rt": "84",
+        "rtdd": "84",
+        "rtdir": "Eastbound",
+        "des": "Bryn Mawr Red Line",
+        "prdtm": "20171104 15:32",
+        "tablockid": "84 -408",
+        "tatripid": "1035029",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Caldwell & Central Terminal",
+        "stpid": "11427",
+        "vid": "8324",
+        "dstp": 29683,
+        "rt": "84",
+        "rtdd": "84",
+        "rtdir": "Eastbound",
+        "des": "Bryn Mawr Red Line",
+        "prdtm": "20171104 15:55",
+        "tablockid": "84 -451",
+        "tatripid": "1035036",
+        "dly": false,
+        "prdctdn": "29",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Caldwell & Central Terminal",
+        "stpid": "11427",
+        "vid": "8257",
+        "dstp": 5179,
+        "rt": "84",
+        "rtdd": "84",
+        "rtdir": "Eastbound",
+        "des": "Bryn Mawr Red Line",
+        "prdtm": "20171104 15:32",
+        "tablockid": "84 -408",
+        "tatripid": "1035029",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Caldwell & Central Terminal",
+        "stpid": "11427",
+        "vid": "8324",
+        "dstp": 29683,
+        "rt": "84",
+        "rtdd": "84",
+        "rtdir": "Eastbound",
+        "des": "Bryn Mawr Red Line",
+        "prdtm": "20171104 15:55",
+        "tablockid": "84 -451",
+        "tatripid": "1035036",
+        "dly": false,
+        "prdctdn": "29",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Jefferson Park Metra Station Walkway",
+        "stpid": "4746",
+        "vid": "8247",
+        "dstp": 6723,
+        "rt": "85",
+        "rtdd": "85",
+        "rtdir": "Northbound",
+        "des": "Bryn Mawr",
+        "prdtm": "20171104 15:34",
+        "tablockid": "85 -409",
+        "tatripid": "86",
+        "dly": false,
+        "prdctdn": "7",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Jefferson Park Metra Station Walkway",
+        "stpid": "4746",
+        "vid": "1554",
+        "dstp": 15423,
+        "rt": "85",
+        "rtdd": "85",
+        "rtdir": "Northbound",
+        "des": "Bryn Mawr",
+        "prdtm": "20171104 15:43",
+        "tablockid": "85 -401",
+        "tatripid": "90",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Milwaukee & Carmen/NW Highway",
+        "stpid": "4843",
+        "vid": "8322",
+        "dstp": 5867,
+        "rt": "85",
+        "rtdd": "85",
+        "rtdir": "Southbound",
+        "des": "Harrison",
+        "prdtm": "20171104 15:38",
+        "tablockid": "85 -404",
+        "tatripid": "103",
+        "dly": false,
+        "prdctdn": "12",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Milwaukee & Carmen/NW Highway",
+        "stpid": "4843",
+        "vid": "8247",
+        "dstp": 18771,
+        "rt": "85",
+        "rtdd": "85",
+        "rtdir": "Southbound",
+        "des": "Harrison",
+        "prdtm": "20171104 15:52",
+        "tablockid": "85 -409",
+        "tatripid": "105",
+        "dly": false,
+        "prdctdn": "26",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "86",
+        "stpid": "1287",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "86",
+        "stpid": "854",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "87",
+        "stpid": "7245",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Commercial & 90th Street",
+        "stpid": "7008",
+        "vid": "7999",
+        "dstp": 625,
+        "rt": "87",
+        "rtdd": "87",
+        "rtdir": "Westbound",
+        "des": "Western",
+        "prdtm": "20171104 15:26",
+        "tablockid": "87 -706",
+        "tatripid": "1084096",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Commercial & 90th Street",
+        "stpid": "7008",
+        "vid": "1338",
+        "dstp": 1037,
+        "rt": "87",
+        "rtdd": "87",
+        "rtdir": "Westbound",
+        "des": "Cicero",
+        "prdtm": "20171104 15:36",
+        "tablockid": "87 -701",
+        "tatripid": "1084097",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Commercial & 90th Street",
+        "stpid": "7008",
+        "vid": "1293",
+        "dstp": 13676,
+        "rt": "87",
+        "rtdd": "87",
+        "rtdir": "Westbound",
+        "des": "Western",
+        "prdtm": "20171104 15:47",
+        "tablockid": "87 -703",
+        "tatripid": "1084098",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "88",
+        "stpid": "9839",
+        "msg": "No arrival times"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Gale & Milwaukee",
+        "stpid": "9798",
+        "vid": "8270",
+        "dstp": 21756,
+        "rt": "88",
+        "rtdd": "88",
+        "rtdir": "Westbound",
+        "des": "Devon/Canfield",
+        "prdtm": "20171104 15:45",
+        "tablockid": "88 -402",
+        "tatripid": "60",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:23",
+        "typ": "A",
+        "stpnm": "Harlem & North Ave",
+        "stpid": "1002",
+        "vid": "1022",
+        "dstp": 10428,
+        "rt": "90",
+        "rtdd": "90",
+        "rtdir": "Northbound",
+        "des": "Harlem Blue Line",
+        "prdtm": "20171104 15:42",
+        "tablockid": "90 -403",
+        "tatripid": "447",
+        "dly": false,
+        "prdctdn": "16",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Harlem & Higgins",
+        "stpid": "8535",
+        "vid": "1746",
+        "dstp": 1300,
+        "rt": "90",
+        "rtdd": "90",
+        "rtdir": "Southbound",
+        "des": "Harlem Green Line",
+        "prdtm": "20171104 15:34",
+        "tablockid": "90 -404",
+        "tatripid": "450",
+        "dly": false,
+        "prdctdn": "7",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Harlem & Higgins",
+        "stpid": "8535",
+        "vid": "1556",
+        "dstp": 10364,
+        "rt": "90",
+        "rtdd": "90",
+        "rtdir": "Southbound",
+        "des": "Harlem Green Line",
+        "prdtm": "20171104 15:52",
+        "tablockid": "90 -401",
+        "tatripid": "451",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "91",
+        "stpid": "9337",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Milwaukee & Higgins",
+        "stpid": "3725",
+        "vid": "8248",
+        "dstp": 520,
+        "rt": "91",
+        "rtdd": "91",
+        "rtdir": "Southbound",
+        "des": "Roosevelt",
+        "prdtm": "20171104 15:28",
+        "tablockid": "91 -405",
+        "tatripid": "70",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Milwaukee & Higgins",
+        "stpid": "3725",
+        "vid": "8311",
+        "dstp": 14056,
+        "rt": "91",
+        "rtdd": "91",
+        "rtdir": "Southbound",
+        "des": "Roosevelt",
+        "prdtm": "20171104 15:45",
+        "tablockid": "91 -401",
+        "tatripid": "72",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "stpid": "4746",
+        "msg": "No arrival times"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Sheridan & Berwyn ",
+        "stpid": "1041",
+        "vid": "1009",
+        "dstp": 1132,
+        "rt": "92",
+        "rtdd": "92",
+        "rtdir": "Westbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:32",
+        "tablockid": "92 -404",
+        "tatripid": "1012113",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Berwyn ",
+        "stpid": "1041",
+        "vid": "1756",
+        "dstp": 11455,
+        "rt": "92",
+        "rtdd": "92",
+        "rtdir": "Westbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:48",
+        "tablockid": "92 -403",
+        "tatripid": "1012114",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Dodge & Brummel",
+        "stpid": "3524",
+        "vid": "1884",
+        "dstp": 11334,
+        "rt": "93",
+        "rtdd": "93",
+        "rtdir": "Northbound",
+        "des": "Davis Purple Line",
+        "prdtm": "20171104 15:37",
+        "tablockid": "93 -501",
+        "tatripid": "44",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Dodge & Kirk",
+        "stpid": "3619",
+        "vid": "1782",
+        "dstp": 5775,
+        "rt": "93",
+        "rtdd": "93",
+        "rtdir": "Southbound",
+        "des": "Kimball Brown Line",
+        "prdtm": "20171104 15:31",
+        "tablockid": "93 -502",
+        "tatripid": "64",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Dodge & Kirk",
+        "stpid": "3619",
+        "vid": "1847",
+        "dstp": 22322,
+        "rt": "93",
+        "rtdd": "93",
+        "rtdir": "Southbound",
+        "des": "Kimball Brown Line",
+        "prdtm": "20171104 15:55",
+        "tablockid": "93 -503",
+        "tatripid": "58",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Grand & Sacramento",
+        "stpid": "800",
+        "vid": "8005",
+        "dstp": 8859,
+        "rt": "94",
+        "rtdd": "94",
+        "rtdir": "Northbound",
+        "des": "Chicago/Kedzie",
+        "prdtm": "20171104 15:35",
+        "tablockid": "94 -606",
+        "tatripid": "29",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Chicago & Sacramento",
+        "stpid": "540",
+        "vid": "1454",
+        "dstp": 293,
+        "rt": "94",
+        "rtdd": "94",
+        "rtdir": "Southbound",
+        "des": "74th/Damen",
+        "prdtm": "20171104 15:26",
+        "tablockid": "94 -608",
+        "tatripid": "133",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Chicago & Sacramento",
+        "stpid": "540",
+        "vid": "8005",
+        "dstp": 12077,
+        "rt": "94",
+        "rtdd": "94",
+        "rtdir": "Southbound",
+        "des": "74th/Damen",
+        "prdtm": "20171104 15:45",
+        "tablockid": "94 -606",
+        "tatripid": "135",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "95th Street & Eberhart",
+        "stpid": "2265",
+        "vid": "1086",
+        "dstp": 12853,
+        "rt": "95",
+        "rtdd": "95",
+        "rtdir": "Eastbound",
+        "des": "92nd/Buffalo",
+        "prdtm": "20171104 15:40",
+        "tablockid": "95 -105",
+        "tatripid": "1022160",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "95th Street & Eberhart",
+        "stpid": "2265",
+        "vid": "1100",
+        "dstp": 20350,
+        "rt": "95",
+        "rtdd": "95",
+        "rtdir": "Eastbound",
+        "des": "92nd/Buffalo",
+        "prdtm": "20171104 15:49",
+        "tablockid": "95 -102",
+        "tatripid": "1022159",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Eberhart",
+        "stpid": "2104",
+        "vid": "1061",
+        "dstp": 11257,
+        "rt": "95",
+        "rtdd": "95",
+        "rtdir": "Westbound",
+        "des": "87th/Damen",
+        "prdtm": "20171104 15:36",
+        "tablockid": "95 -104",
+        "tatripid": "1022131",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Eberhart",
+        "stpid": "2104",
+        "vid": "1040",
+        "dstp": 25902,
+        "rt": "95",
+        "rtdd": "95",
+        "rtdir": "Westbound",
+        "des": "87th/Damen",
+        "prdtm": "20171104 15:54",
+        "tablockid": "95 -103",
+        "tatripid": "1022129",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "96",
+        "stpid": "1753",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "96",
+        "stpid": "1210",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Dempster & Niles Center",
+        "stpid": "3559",
+        "vid": "1897",
+        "dstp": 7221,
+        "rt": "97",
+        "rtdd": "97",
+        "rtdir": "Westbound",
+        "des": "Old Orchard",
+        "prdtm": "20171104 15:34",
+        "tablockid": "97 -504",
+        "tatripid": "51",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Dempster & Niles Center",
+        "stpid": "3559",
+        "vid": "1876",
+        "dstp": 12297,
+        "rt": "97",
+        "rtdd": "97",
+        "rtdir": "Eastbound",
+        "des": "Howard Station",
+        "prdtm": "20171104 15:37",
+        "tablockid": "97 -505",
+        "tatripid": "52",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Dempster & Niles Center",
+        "stpid": "3559",
+        "vid": "1391",
+        "dstp": 25818,
+        "rt": "97",
+        "rtdd": "97",
+        "rtdir": "Westbound",
+        "des": "Old Orchard",
+        "prdtm": "20171104 15:45",
+        "tablockid": "97 -508",
+        "tatripid": "53",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Dempster & Niles Center",
+        "stpid": "3559",
+        "vid": "1897",
+        "dstp": 27649,
+        "rt": "97",
+        "rtdd": "97",
+        "rtdir": "Eastbound",
+        "des": "Howard Station",
+        "prdtm": "20171104 15:55",
+        "tablockid": "97 -504",
+        "tatripid": "54",
+        "dly": false,
+        "prdctdn": "29",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Howard & Chicago Avenue",
+        "stpid": "3513",
+        "vid": "1925",
+        "dstp": 13201,
+        "rt": "97",
+        "rtdd": "97",
+        "rtdir": "Westbound",
+        "des": "Old Orchard",
+        "prdtm": "20171104 15:41",
+        "tablockid": "97 -506",
+        "tatripid": "55",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "100",
+        "stpid": "2266",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "100",
+        "stpid": "2105",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "103",
+        "stpid": "2982",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2816",
+        "vid": "1094",
+        "dstp": 16288,
+        "rt": "103",
+        "rtdd": "103",
+        "rtdir": "Westbound",
+        "des": "Pulaski",
+        "prdtm": "20171104 15:40",
+        "tablockid": "103 -101",
+        "tatripid": "71",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2816",
+        "vid": "1106",
+        "dstp": 7597,
+        "rt": "106",
+        "rtdd": "106",
+        "rtdir": "Eastbound",
+        "des": "Stony Island/103rd",
+        "prdtm": "20171104 15:40",
+        "tablockid": "106 -102",
+        "tatripid": "50",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "106",
+        "stpid": "2982",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "108",
+        "stpid": "3506",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "108",
+        "stpid": "3455",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Vincennes & Monterey",
+        "stpid": "2869",
+        "vid": "1151",
+        "dstp": 7934,
+        "rt": "111",
+        "rtdd": "111",
+        "rtdir": "Northbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:31",
+        "tablockid": "115 -104",
+        "tatripid": "1189",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Vincennes & Monterey",
+        "stpid": "2869",
+        "vid": "1143",
+        "dstp": 20085,
+        "rt": "111",
+        "rtdd": "111",
+        "rtdir": "Northbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:49",
+        "tablockid": "115 -106",
+        "tatripid": "1190",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2816",
+        "vid": "1137",
+        "dstp": 6950,
+        "rt": "111",
+        "rtdd": "111",
+        "rtdir": "Southbound",
+        "des": "117th/Marshfield",
+        "prdtm": "20171104 15:36",
+        "tablockid": "115 -109",
+        "tatripid": "1172",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2816",
+        "vid": "1101",
+        "dstp": 31387,
+        "rt": "111",
+        "rtdd": "111",
+        "rtdir": "Southbound",
+        "des": "117th/Marshfield",
+        "prdtm": "20171104 15:54",
+        "tablockid": "115 -108",
+        "tatripid": "1173",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Vincennes & Monterey",
+        "stpid": "2869",
+        "vid": "1073",
+        "dstp": 16028,
+        "rt": "112",
+        "rtdd": "112",
+        "rtdir": "Eastbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:45",
+        "tablockid": "112 -151",
+        "tatripid": "1024073",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Vincennes & 111th Street",
+        "stpid": "2928",
+        "vid": "1165",
+        "dstp": 941,
+        "rt": "112",
+        "rtdd": "112",
+        "rtdir": "Westbound",
+        "des": "111th/Pulaski",
+        "prdtm": "20171104 15:27",
+        "tablockid": "112 -102",
+        "tatripid": "1024027",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Vincennes & 111th Street",
+        "stpid": "2928",
+        "vid": "1045",
+        "dstp": 19555,
+        "rt": "112",
+        "rtdd": "112",
+        "rtdir": "Westbound",
+        "des": "111th/Pulaski",
+        "prdtm": "20171104 15:46",
+        "tablockid": "112 -101",
+        "tatripid": "1024028",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "95th Street & Eberhart",
+        "stpid": "2104",
+        "vid": "1101",
+        "dstp": 20636,
+        "rt": "115",
+        "rtdd": "115",
+        "rtdir": "Northbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:44",
+        "tablockid": "115 -108",
+        "tatripid": "1204",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Eberhart",
+        "stpid": "2265",
+        "vid": "1157",
+        "dstp": 6596,
+        "rt": "115",
+        "rtdd": "115",
+        "rtdir": "Southbound",
+        "des": "117th/Marshfield",
+        "prdtm": "20171104 15:29",
+        "tablockid": "115 -101",
+        "tatripid": "578",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Eberhart",
+        "stpid": "2265",
+        "vid": "1035",
+        "dstp": 26621,
+        "rt": "115",
+        "rtdd": "115",
+        "rtdir": "Southbound",
+        "des": "117th/Marshfield",
+        "prdtm": "20171104 15:48",
+        "tablockid": "115 -103",
+        "tatripid": "1156",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2982",
+        "vid": "1105",
+        "dstp": 2049,
+        "rt": "119",
+        "rtdd": "119",
+        "rtdir": "Northbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:28",
+        "tablockid": "119 -104",
+        "tatripid": "124666",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2982",
+        "vid": "1116",
+        "dstp": 21923,
+        "rt": "119",
+        "rtdd": "119",
+        "rtdir": "Northbound",
+        "des": "95th Red Line",
+        "prdtm": "20171104 15:49",
+        "tablockid": "119 -101",
+        "tatripid": "124667",
+        "dly": false,
+        "prdctdn": "22",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2816",
+        "vid": "1105",
+        "dstp": 10226,
+        "rt": "119",
+        "rtdd": "119",
+        "rtdir": "Southbound",
+        "des": "Western",
+        "prdtm": "20171104 15:40",
+        "tablockid": "119 -104",
+        "tatripid": "124604",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "95th Street & Michigan",
+        "stpid": "2816",
+        "vid": "1116",
+        "dstp": 30100,
+        "rt": "119",
+        "rtdd": "119",
+        "rtdir": "Southbound",
+        "des": "Western",
+        "prdtm": "20171104 15:55",
+        "tablockid": "119 -101",
+        "tatripid": "124605",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "120",
+        "stpid": "593",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "120",
+        "stpid": "584",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "121",
+        "stpid": "67",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "121",
+        "stpid": "67",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Washington & Franklin",
+        "stpid": "445",
+        "vid": "1704",
+        "dstp": 5448,
+        "rt": "124",
+        "rtdd": "124",
+        "rtdir": "Eastbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:33",
+        "tablockid": "124 -203",
+        "tatripid": "1000407",
+        "dly": false,
+        "prdctdn": "7",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Washington & Franklin",
+        "stpid": "445",
+        "vid": "1737",
+        "dstp": 16814,
+        "rt": "124",
+        "rtdd": "124",
+        "rtdir": "Eastbound",
+        "des": "Navy Pier",
+        "prdtm": "20171104 15:50",
+        "tablockid": "124 -202",
+        "tatripid": "1000405",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Madison & Wabash",
+        "stpid": "450",
+        "vid": "1737",
+        "dstp": 7784,
+        "rt": "124",
+        "rtdd": "124",
+        "rtdir": "Westbound",
+        "des": "Ogilvie & Union Stations",
+        "prdtm": "20171104 15:37",
+        "tablockid": "124 -202",
+        "tatripid": "1000350",
+        "dly": false,
+        "prdctdn": "11",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "125",
+        "stpid": "1124",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "125",
+        "stpid": "86",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Jackson & Austin Terminal",
+        "stpid": "1",
+        "vid": "1734",
+        "dstp": 0,
+        "rt": "126",
+        "rtdd": "126",
+        "rtdir": "Eastbound",
+        "des": "Congress Plaza",
+        "prdtm": "20171104 15:27",
+        "tablockid": "126 -207",
+        "tatripid": "93",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Jackson & Austin Terminal",
+        "stpid": "1",
+        "vid": "1854",
+        "dstp": 20431,
+        "rt": "126",
+        "rtdd": "126",
+        "rtdir": "Eastbound",
+        "des": "Congress Plaza",
+        "prdtm": "20171104 15:45",
+        "tablockid": "126 -202",
+        "tatripid": "97",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Jackson & Austin Terminal",
+        "stpid": "1",
+        "vid": "1734",
+        "dstp": 0,
+        "rt": "126",
+        "rtdd": "126",
+        "rtdir": "Eastbound",
+        "des": "Congress Plaza",
+        "prdtm": "20171104 15:27",
+        "tablockid": "126 -207",
+        "tatripid": "93",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Jackson & Austin Terminal",
+        "stpid": "1",
+        "vid": "1854",
+        "dstp": 20431,
+        "rt": "126",
+        "rtdd": "126",
+        "rtdir": "Eastbound",
+        "des": "Congress Plaza",
+        "prdtm": "20171104 15:45",
+        "tablockid": "126 -202",
+        "tatripid": "97",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "132",
+        "stpid": "74",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "132",
+        "stpid": "69",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "134",
+        "stpid": "1145",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "134",
+        "stpid": "80",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "135",
+        "stpid": "1155",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "135",
+        "stpid": "80",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "136",
+        "stpid": "1029",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "136",
+        "stpid": "80",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "143",
+        "stpid": "74",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "143",
+        "stpid": "73",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "State & Van Buren",
+        "stpid": "1113",
+        "vid": "4397",
+        "dstp": 1450,
+        "rt": "146",
+        "rtdd": "146",
+        "rtdir": "Northbound",
+        "des": "Berwyn Red Line",
+        "prdtm": "20171104 15:29",
+        "tablockid": "146 -508",
+        "tatripid": "2758",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "State & Van Buren",
+        "stpid": "1113",
+        "vid": "4134",
+        "dstp": 8359,
+        "rt": "146",
+        "rtdd": "146",
+        "rtdir": "Northbound",
+        "des": "Berwyn Red Line",
+        "prdtm": "20171104 15:41",
+        "tablockid": "146 -507",
+        "tatripid": "2759",
+        "dly": false,
+        "prdctdn": "15",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "State & Van Buren",
+        "stpid": "1113",
+        "vid": "4379",
+        "dstp": 9991,
+        "rt": "146",
+        "rtdd": "146",
+        "rtdir": "Northbound",
+        "des": "Berwyn Red Line",
+        "prdtm": "20171104 15:45",
+        "tablockid": "146 -513",
+        "tatripid": "2760",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Roosevelt & State",
+        "stpid": "316",
+        "vid": "4375",
+        "dstp": 12476,
+        "rt": "146",
+        "rtdd": "146",
+        "rtdir": "Southbound",
+        "des": "Museum Campus",
+        "prdtm": "20171104 15:53",
+        "tablockid": "146 -502",
+        "tatripid": "2666",
+        "dly": false,
+        "prdctdn": "27",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Roosevelt & State",
+        "stpid": "316",
+        "vid": "4122",
+        "dstp": 12826,
+        "rt": "146",
+        "rtdd": "146",
+        "rtdir": "Southbound",
+        "des": "Museum Campus",
+        "prdtm": "20171104 15:54",
+        "tablockid": "146 -516",
+        "tatripid": "2665",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Congress Plaza & Michigan",
+        "stpid": "74",
+        "vid": "4332",
+        "dstp": 0,
+        "rt": "147",
+        "rtdd": "147",
+        "rtdir": "Northbound",
+        "des": "Howard Station",
+        "prdtm": "20171104 15:30",
+        "tablockid": "147 -503",
+        "tatripid": "221",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Congress Plaza & Michigan",
+        "stpid": "74",
+        "vid": "4340",
+        "dstp": 6604,
+        "rt": "147",
+        "rtdd": "147",
+        "rtdir": "Northbound",
+        "des": "Howard Station",
+        "prdtm": "20171104 15:41",
+        "tablockid": "147 -509",
+        "tatripid": "222",
+        "dly": false,
+        "prdctdn": "15",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Congress Plaza & Michigan",
+        "stpid": "74",
+        "vid": "4132",
+        "dstp": 6656,
+        "rt": "147",
+        "rtdd": "147",
+        "rtdir": "Northbound",
+        "des": "Howard Station",
+        "prdtm": "20171104 15:47",
+        "tablockid": "147 -510",
+        "tatripid": "223",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Congress Plaza & Michigan",
+        "stpid": "74",
+        "vid": "4145",
+        "dstp": 8618,
+        "rt": "147",
+        "rtdd": "147",
+        "rtdir": "Northbound",
+        "des": "Howard Station",
+        "prdtm": "20171104 15:55",
+        "tablockid": "147 -512",
+        "tatripid": "224",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "4340",
+        "dstp": 5750,
+        "rt": "147",
+        "rtdd": "147",
+        "rtdir": "Southbound",
+        "des": "Congress Plaza",
+        "prdtm": "20171104 15:39",
+        "tablockid": "147 -509",
+        "tatripid": "68",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "4132",
+        "dstp": 5802,
+        "rt": "147",
+        "rtdd": "147",
+        "rtdir": "Southbound",
+        "des": "Congress Plaza",
+        "prdtm": "20171104 15:40",
+        "tablockid": "147 -510",
+        "tatripid": "69",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "4145",
+        "dstp": 7764,
+        "rt": "147",
+        "rtdd": "147",
+        "rtdir": "Southbound",
+        "des": "Congress Plaza",
+        "prdtm": "20171104 15:44",
+        "tablockid": "147 -512",
+        "tatripid": "70",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "4321",
+        "dstp": 20275,
+        "rt": "147",
+        "rtdd": "147",
+        "rtdir": "Southbound",
+        "des": "Congress Plaza",
+        "prdtm": "20171104 15:51",
+        "tablockid": "147 -508",
+        "tatripid": "71",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "148",
+        "stpid": "1113",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "148",
+        "stpid": "1097",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Jackson & Franklin",
+        "stpid": "68",
+        "vid": "4018",
+        "dstp": 2713,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Northbound",
+        "des": "Belmont/Halsted",
+        "prdtm": "20171104 15:33",
+        "tablockid": "151 -201",
+        "tatripid": "1008061",
+        "dly": false,
+        "prdctdn": "7",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Jackson & Franklin",
+        "stpid": "68",
+        "vid": "4331",
+        "dstp": 2567,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Northbound",
+        "des": "Devon/Clark",
+        "prdtm": "20171104 15:40",
+        "tablockid": "151 -511",
+        "tatripid": "1008062",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Jackson & Franklin",
+        "stpid": "68",
+        "vid": "4022",
+        "dstp": 7170,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Northbound",
+        "des": "Belmont/Halsted",
+        "prdtm": "20171104 15:47",
+        "tablockid": "151 -202",
+        "tatripid": "1008063",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Jackson & Franklin",
+        "stpid": "68",
+        "vid": "4348",
+        "dstp": 7953,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Northbound",
+        "des": "Devon/Clark",
+        "prdtm": "20171104 15:54",
+        "tablockid": "151 -503",
+        "tatripid": "1008064",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Adams & Wabash",
+        "stpid": "77",
+        "vid": "4022",
+        "dstp": 952,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Southbound",
+        "des": "Union Station",
+        "prdtm": "20171104 15:28",
+        "tablockid": "151 -202",
+        "tatripid": "1008042",
+        "dly": false,
+        "prdctdn": "2",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Adams & Wabash",
+        "stpid": "77",
+        "vid": "4348",
+        "dstp": 1735,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Southbound",
+        "des": "Union Station",
+        "prdtm": "20171104 15:30",
+        "tablockid": "151 -503",
+        "tatripid": "1008041",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Adams & Wabash",
+        "stpid": "77",
+        "vid": "4012",
+        "dstp": 4633,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Southbound",
+        "des": "Union Station",
+        "prdtm": "20171104 15:37",
+        "tablockid": "151 -252",
+        "tatripid": "1008040",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Adams & Wabash",
+        "stpid": "77",
+        "vid": "4383",
+        "dstp": 7135,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Southbound",
+        "des": "Union Station",
+        "prdtm": "20171104 15:44",
+        "tablockid": "151 -512",
+        "tatripid": "1008039",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Adams & Wabash",
+        "stpid": "77",
+        "vid": "4024",
+        "dstp": 11156,
+        "rt": "151",
+        "rtdd": "151",
+        "rtdir": "Southbound",
+        "des": "Union Station",
+        "prdtm": "20171104 15:49",
+        "tablockid": "151 -207",
+        "tatripid": "1008038",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Lake Shore & Waveland",
+        "stpid": "1163",
+        "vid": "8277",
+        "dstp": 9,
+        "rt": "152",
+        "rtdd": "152",
+        "rtdir": "Westbound",
+        "des": "Cumberland",
+        "prdtm": "20171104 15:30",
+        "tablockid": "152 -409",
+        "tatripid": "106",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Lake Shore & Waveland",
+        "stpid": "1163",
+        "vid": "8242",
+        "dstp": 10834,
+        "rt": "152",
+        "rtdd": "152",
+        "rtdir": "Westbound",
+        "des": "Cumberland",
+        "prdtm": "20171104 15:45",
+        "tablockid": "152 -402",
+        "tatripid": "107",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Lake Shore & Grace",
+        "stpid": "1061",
+        "vid": "8277",
+        "dstp": 1568,
+        "rt": "152",
+        "rtdd": "152",
+        "rtdir": "Westbound",
+        "des": "Cumberland",
+        "prdtm": "20171104 15:32",
+        "tablockid": "152 -409",
+        "tatripid": "106",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Lake Shore & Grace",
+        "stpid": "1061",
+        "vid": "8242",
+        "dstp": 12393,
+        "rt": "152",
+        "rtdd": "152",
+        "rtdir": "Westbound",
+        "des": "Cumberland",
+        "prdtm": "20171104 15:47",
+        "tablockid": "152 -402",
+        "tatripid": "107",
+        "dly": false,
+        "prdctdn": "20",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Arthur (Red Line)",
+        "stpid": "1203",
+        "vid": "1745",
+        "dstp": 1428,
+        "rt": "155",
+        "rtdd": "155",
+        "rtdir": "Eastbound",
+        "des": "Morse Red Line",
+        "prdtm": "20171104 15:27",
+        "tablockid": "155 -504",
+        "tatripid": "48",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Arthur (Red Line)",
+        "stpid": "1203",
+        "vid": "1795",
+        "dstp": 8655,
+        "rt": "155",
+        "rtdd": "155",
+        "rtdir": "Eastbound",
+        "des": "Morse Red Line",
+        "prdtm": "20171104 15:36",
+        "tablockid": "155 -503",
+        "tatripid": "49",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Sheridan & Arthur (Red Line)",
+        "stpid": "1203",
+        "vid": "1902",
+        "dstp": 14004,
+        "rt": "155",
+        "rtdd": "155",
+        "rtdir": "Eastbound",
+        "des": "Morse Red Line",
+        "prdtm": "20171104 15:46",
+        "tablockid": "155 -506",
+        "tatripid": "50",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Sheridan & Arthur (Red Line)",
+        "stpid": "1203",
+        "vid": "1775",
+        "dstp": 21760,
+        "rt": "155",
+        "rtdd": "155",
+        "rtdir": "Eastbound",
+        "des": "Morse Red Line",
+        "prdtm": "20171104 15:57",
+        "tablockid": "155 -505",
+        "tatripid": "51",
+        "dly": false,
+        "prdctdn": "30",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Farwell",
+        "stpid": "1022",
+        "vid": "1788",
+        "dstp": 1540,
+        "rt": "155",
+        "rtdd": "155",
+        "rtdir": "Westbound",
+        "des": "Kedzie",
+        "prdtm": "20171104 15:30",
+        "tablockid": "155 -501",
+        "tatripid": "136",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Farwell",
+        "stpid": "1022",
+        "vid": "1745",
+        "dstp": 9467,
+        "rt": "155",
+        "rtdd": "155",
+        "rtdir": "Westbound",
+        "des": "Kedzie",
+        "prdtm": "20171104 15:39",
+        "tablockid": "155 -504",
+        "tatripid": "137",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Sheridan & Farwell",
+        "stpid": "1022",
+        "vid": "1795",
+        "dstp": 16694,
+        "rt": "155",
+        "rtdd": "155",
+        "rtdir": "Westbound",
+        "des": "Kedzie",
+        "prdtm": "20171104 15:49",
+        "tablockid": "155 -503",
+        "tatripid": "138",
+        "dly": false,
+        "prdctdn": "22",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "156",
+        "stpid": "68",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "156",
+        "stpid": "80",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "157",
+        "stpid": "445",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "157",
+        "stpid": "450",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "165",
+        "stpid": "3350",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "165",
+        "stpid": "3320",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "169",
+        "stpid": "2716",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "169",
+        "stpid": "2661",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "S Hyde Park & 55th Street",
+        "stpid": "1518",
+        "vid": "1092",
+        "dstp": 9062,
+        "rt": "171",
+        "rtdd": "171",
+        "rtdir": "Northbound",
+        "des": "South Shore/54th",
+        "prdtm": "20171104 15:34",
+        "tablockid": "171 -101",
+        "tatripid": "106725",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "55th Street & Hyde Park Blvd",
+        "stpid": "10566",
+        "vid": "1092",
+        "dstp": 13593,
+        "rt": "171",
+        "rtdd": "171",
+        "rtdir": "Southbound",
+        "des": "60th/Ellis",
+        "prdtm": "20171104 15:38",
+        "tablockid": "171 -101",
+        "tatripid": "106746",
+        "dly": false,
+        "prdctdn": "12",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "E Hyde Park & Kenwood",
+        "stpid": "1644",
+        "vid": "1172",
+        "dstp": 5557,
+        "rt": "172",
+        "rtdd": "172",
+        "rtdir": "Northbound",
+        "des": "Hyde Park/East End",
+        "prdtm": "20171104 15:32",
+        "tablockid": "172 -103",
+        "tatripid": "106791",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "E Hyde Park & East End",
+        "stpid": "1523",
+        "vid": "1041",
+        "dstp": 514,
+        "rt": "172",
+        "rtdd": "172",
+        "rtdir": "Southbound",
+        "des": "60th/University",
+        "prdtm": "20171104 15:30",
+        "tablockid": "172 -102",
+        "tatripid": "106771",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "192",
+        "stpid": "455",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "192",
+        "stpid": "316",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Old Orchard Mall - Macys",
+        "stpid": "3574",
+        "vid": "1718",
+        "dstp": 29134,
+        "rt": "201",
+        "rtdd": "201",
+        "rtdir": "Eastbound",
+        "des": "Howard Station",
+        "prdtm": "20171104 15:55",
+        "tablockid": "97 -503",
+        "tatripid": "53",
+        "dly": false,
+        "prdctdn": "28",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Howard & Chicago Avenue",
+        "stpid": "3513",
+        "vid": "1872",
+        "dstp": 1249,
+        "rt": "201",
+        "rtdd": "201",
+        "rtdir": "Westbound",
+        "des": "Old Orchard",
+        "prdtm": "20171104 15:30",
+        "tablockid": "97 -501",
+        "tatripid": "52",
+        "dly": false,
+        "prdctdn": "4",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Howard & Chicago Avenue",
+        "stpid": "3513",
+        "vid": "1749",
+        "dstp": 25910,
+        "rt": "201",
+        "rtdd": "201",
+        "rtdir": "Westbound",
+        "des": "Old Orchard",
+        "prdtm": "20171104 15:50",
+        "tablockid": "97 -502",
+        "tatripid": "54",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "205",
+        "stpid": "3574",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "205",
+        "stpid": "3513",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "206",
+        "stpid": "3627",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "206",
+        "stpid": "3513",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "79th Street & Normal",
+        "stpid": "2767",
+        "vid": "1298",
+        "dstp": 18957,
+        "rt": "8A",
+        "rtdd": "8A",
+        "rtdir": "Northbound",
+        "des": "79th Red Line",
+        "prdtm": "20171104 15:44",
+        "tablockid": "8A-701",
+        "tatripid": "1043248",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "79th Street & Princeton",
+        "stpid": "2645",
+        "vid": "1243",
+        "dstp": 1231,
+        "rt": "8A",
+        "rtdd": "8A",
+        "rtdir": "Southbound",
+        "des": "127th",
+        "prdtm": "20171104 15:30",
+        "tablockid": "8A-703",
+        "tatripid": "89",
+        "dly": false,
+        "prdctdn": "3",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "79th Street & Princeton",
+        "stpid": "2645",
+        "vid": "1298",
+        "dstp": 23257,
+        "rt": "8A",
+        "rtdd": "8A",
+        "rtdir": "Southbound",
+        "des": "127th",
+        "prdtm": "20171104 15:47",
+        "tablockid": "8A-701",
+        "tatripid": "91",
+        "dly": false,
+        "prdctdn": "21",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "X9",
+        "stpid": "51",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "X9",
+        "stpid": "5676",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "4103",
+        "dstp": 25602,
+        "rt": "J14",
+        "rtdd": "J14",
+        "rtdir": "Northbound",
+        "des": "Washington/Jefferson",
+        "prdtm": "20171104 15:40",
+        "tablockid": "14 -101",
+        "tatripid": "443",
+        "dly": false,
+        "prdctdn": "14",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & Jackson",
+        "stpid": "76",
+        "vid": "4306",
+        "dstp": 46540,
+        "rt": "J14",
+        "rtdd": "J14",
+        "rtdir": "Northbound",
+        "des": "Washington/Jefferson",
+        "prdtm": "20171104 15:50",
+        "tablockid": "14 -107",
+        "tatripid": "444",
+        "dly": false,
+        "prdctdn": "23",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "4106",
+        "dstp": 1195,
+        "rt": "J14",
+        "rtdd": "J14",
+        "rtdir": "Southbound",
+        "des": "103rd/Stony Island",
+        "prdtm": "20171104 15:27",
+        "tablockid": "14 -109",
+        "tatripid": "445",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "4082",
+        "dstp": 3519,
+        "rt": "J14",
+        "rtdd": "J14",
+        "rtdir": "Southbound",
+        "des": "103rd/Stony Island",
+        "prdtm": "20171104 15:33",
+        "tablockid": "14 -104",
+        "tatripid": "446",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Michigan & Van Buren/Congress",
+        "stpid": "73",
+        "vid": "4102",
+        "dstp": 7717,
+        "rt": "J14",
+        "rtdd": "J14",
+        "rtdir": "Southbound",
+        "des": "103rd/Stony Island",
+        "prdtm": "20171104 15:46",
+        "tablockid": "14 -151",
+        "tatripid": "447",
+        "dly": true,
+        "prdctdn": "DLY",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Western Brown Line Station",
+        "stpid": "1662",
+        "vid": "1765",
+        "dstp": 9152,
+        "rt": "49B",
+        "rtdd": "49B",
+        "rtdir": "Northbound",
+        "des": "Howard",
+        "prdtm": "20171104 15:35",
+        "tablockid": "49B-504",
+        "tatripid": "10002226",
+        "dly": false,
+        "prdctdn": "9",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Western Brown Line Station",
+        "stpid": "1662",
+        "vid": "1793",
+        "dstp": 11898,
+        "rt": "49B",
+        "rtdd": "49B",
+        "rtdir": "Northbound",
+        "des": "Howard",
+        "prdtm": "20171104 15:45",
+        "tablockid": "49B-503",
+        "tatripid": "10002227",
+        "dly": false,
+        "prdctdn": "18",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Leland & Western (Brown Line)",
+        "stpid": "1375",
+        "vid": "1765",
+        "dstp": 8842,
+        "rt": "49B",
+        "rtdd": "49B",
+        "rtdir": "Southbound",
+        "des": "Western Brown Line",
+        "prdtm": "20171104 15:35",
+        "tablockid": "49B-504",
+        "tatripid": "10002250",
+        "dly": false,
+        "prdctdn": "9",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Leland & Western (Brown Line)",
+        "stpid": "1375",
+        "vid": "1793",
+        "dstp": 11588,
+        "rt": "49B",
+        "rtdd": "49B",
+        "rtdir": "Southbound",
+        "des": "Western Brown Line",
+        "prdtm": "20171104 15:39",
+        "tablockid": "49B-503",
+        "tatripid": "10002251",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Leland & Western (Brown Line)",
+        "stpid": "1375",
+        "vid": "1771",
+        "dstp": 18962,
+        "rt": "49B",
+        "rtdd": "49B",
+        "rtdir": "Southbound",
+        "des": "Western Brown Line",
+        "prdtm": "20171104 15:50",
+        "tablockid": "49B-502",
+        "tatripid": "10002252",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "X49",
+        "stpid": "4162",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "X49",
+        "stpid": "8184",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Kedzie & 62nd Street",
+        "stpid": "3101",
+        "vid": "7991",
+        "dstp": 6505,
+        "rt": "52A",
+        "rtdd": "52A",
+        "rtdir": "Northbound",
+        "des": "Kedzie Orange Line",
+        "prdtm": "20171104 15:32",
+        "tablockid": "52A-701",
+        "tatripid": "1087303",
+        "dly": false,
+        "prdctdn": "6",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "5000 S Kedzie",
+        "stpid": "3085",
+        "vid": "1263",
+        "dstp": 977,
+        "rt": "52A",
+        "rtdd": "52A",
+        "rtdir": "Southbound",
+        "des": "115th/Springfield",
+        "prdtm": "20171104 15:27",
+        "tablockid": "52A-703",
+        "tatripid": "1087458",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "5000 S Kedzie",
+        "stpid": "3085",
+        "vid": "7991",
+        "dstp": 17095,
+        "rt": "52A",
+        "rtdd": "52A",
+        "rtdir": "Southbound",
+        "des": "115th/Springfield",
+        "prdtm": "20171104 15:52",
+        "tablockid": "52A-701",
+        "tatripid": "1087459",
+        "dly": false,
+        "prdctdn": "26",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "53A",
+        "stpid": "4693",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Pulaski & 55th Street",
+        "stpid": "4722",
+        "vid": "7978",
+        "dstp": 4437,
+        "rt": "53A",
+        "rtdd": "53A",
+        "rtdir": "Southbound",
+        "des": "111th",
+        "prdtm": "20171104 15:31",
+        "tablockid": "53A-706",
+        "tatripid": "1087723",
+        "dly": false,
+        "prdctdn": "5",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Pulaski & 55th Street",
+        "stpid": "4722",
+        "vid": "1310",
+        "dstp": 17061,
+        "rt": "53A",
+        "rtdd": "53A",
+        "rtdir": "Southbound",
+        "des": "111th",
+        "prdtm": "20171104 15:48",
+        "tablockid": "53A-708",
+        "tatripid": "1087724",
+        "dly": false,
+        "prdctdn": "22",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "54A",
+        "stpid": "3559",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "54A",
+        "stpid": "3559",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "54B",
+        "stpid": "2707",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "54B",
+        "stpid": "2707",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "55A",
+        "stpid": "4568",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "55A",
+        "stpid": "4542",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "D",
+        "stpnm": "Narragansett & 63rd Place Terminal",
+        "stpid": "3300",
+        "vid": "1487",
+        "dstp": 21250,
+        "rt": "55N",
+        "rtdd": "55N",
+        "rtdir": "Eastbound",
+        "des": "Midway Orange Line",
+        "prdtm": "20171104 15:52",
+        "tablockid": "59 -606",
+        "tatripid": "1006507",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Narragansett & 63rd Street",
+        "stpid": "3299",
+        "vid": "1487",
+        "dstp": 20544,
+        "rt": "55N",
+        "rtdd": "55N",
+        "rtdir": "Westbound",
+        "des": "63rd/Narragansett",
+        "prdtm": "20171104 15:48",
+        "tablockid": "59 -606",
+        "tatripid": "1006493",
+        "dly": false,
+        "prdctdn": "22",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Archer & Nottingham",
+        "stpid": "4378",
+        "vid": "1493",
+        "dstp": 9776,
+        "rt": "62H",
+        "rtdd": "62H",
+        "rtdir": "Eastbound",
+        "des": "Midway Orange Line",
+        "prdtm": "20171104 15:40",
+        "tablockid": "59 -605",
+        "tatripid": "1006642",
+        "dly": false,
+        "prdctdn": "13",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Archer & Cicero",
+        "stpid": "4385",
+        "vid": "1496",
+        "dstp": 6813,
+        "rt": "62H",
+        "rtdd": "62H",
+        "rtdir": "Westbound",
+        "des": "63rd/Archer",
+        "prdtm": "20171104 15:34",
+        "tablockid": "59 -609",
+        "tatripid": "1006629",
+        "dly": false,
+        "prdctdn": "7",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "63rd Street & Narragansett",
+        "stpid": "3301",
+        "vid": "1459",
+        "dstp": 9805,
+        "rt": "63W",
+        "rtdd": "63W",
+        "rtdir": "Eastbound",
+        "des": "Midway Orange Line",
+        "prdtm": "20171104 15:41",
+        "tablockid": "59 -607",
+        "tatripid": "1006674",
+        "dly": false,
+        "prdctdn": "15",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "63rd Street & Lamon",
+        "stpid": "3282",
+        "vid": "1485",
+        "dstp": 8789,
+        "rt": "63W",
+        "rtdd": "63W",
+        "rtdir": "Westbound",
+        "des": "63rd/Archer",
+        "prdtm": "20171104 15:45",
+        "tablockid": "59 -601",
+        "tatripid": "1006573",
+        "dly": false,
+        "prdctdn": "19",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Cumberland & Catalpa",
+        "stpid": "8560",
+        "vid": "8249",
+        "dstp": 2077,
+        "rt": "81W",
+        "rtdd": "81W",
+        "rtdir": "Eastbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:27",
+        "tablockid": "81W-403",
+        "tatripid": "41",
+        "dly": false,
+        "prdctdn": "DUE",
+        "zone": ""
+      },
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Cumberland & Catalpa",
+        "stpid": "8560",
+        "vid": "1386",
+        "dstp": 25248,
+        "rt": "81W",
+        "rtdd": "81W",
+        "rtdir": "Eastbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:51",
+        "tablockid": "81W-402",
+        "tatripid": "43",
+        "dly": false,
+        "prdctdn": "25",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Milwaukee & Higgins",
+        "stpid": "3725",
+        "vid": "6847",
+        "dstp": 32331,
+        "rt": "81W",
+        "rtdd": "81W",
+        "rtdir": "Westbound",
+        "des": "Cumberland Blue Line",
+        "prdtm": "20171104 15:53",
+        "tablockid": "81W-401",
+        "tatripid": "46",
+        "dly": false,
+        "prdctdn": "27",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:25",
+        "typ": "A",
+        "stpnm": "Jefferson Park Metra Station Walkway",
+        "stpid": "4746",
+        "vid": "8249",
+        "dstp": 29343,
+        "rt": "85A",
+        "rtdd": "85A",
+        "rtdir": "Northbound",
+        "des": "Touhy/Lehigh",
+        "prdtm": "20171104 15:50",
+        "tablockid": "81W-403",
+        "tatripid": "41",
+        "dly": false,
+        "prdctdn": "24",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Milwaukee & Carmen/NW Highway",
+        "stpid": "4843",
+        "vid": "6847",
+        "dstp": 30087,
+        "rt": "85A",
+        "rtdd": "85A",
+        "rtdir": "Southbound",
+        "des": "Jefferson Park Blue Line",
+        "prdtm": "20171104 15:43",
+        "tablockid": "81W-401",
+        "tatripid": "1011399",
+        "dly": false,
+        "prdctdn": "17",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "error": [
+      {
+        "rt": "X98",
+        "stpid": "17677",
+        "msg": "No service scheduled"
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "D",
+        "stpnm": "Cottage Grove & 115th Street",
+        "stpid": "2841",
+        "vid": "1109",
+        "dstp": 8013,
+        "rt": "111A",
+        "rtdd": "111A",
+        "rtdir": "Northbound",
+        "des": "Pullman Park",
+        "prdtm": "20171104 15:37",
+        "tablockid": "111A-102",
+        "tatripid": "25",
+        "dly": false,
+        "prdctdn": "10",
+        "zone": ""
+      }
+    ]
+  },
+  {
+    "prd": [
+      {
+        "tmstmp": "20171104 15:26",
+        "typ": "A",
+        "stpnm": "Cottage Grove & 112th Street",
+        "stpid": "2838",
+        "vid": "1109",
+        "dstp": 6121,
+        "rt": "111A",
+        "rtdd": "111A",
+        "rtdir": "Southbound",
+        "des": "115th/Cottage Grove",
+        "prdtm": "20171104 15:34",
+        "tablockid": "111A-102",
+        "tatripid": "67",
+        "dly": false,
+        "prdctdn": "8",
+        "zone": ""
+      }
+    ]
+  }
+]
