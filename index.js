@@ -7,40 +7,66 @@ const moment = require('moment');
 // gcloud beta functions deploy dialogflowFirebaseFulfillment --stage-bucket chicagobustracker --trigger-http
 
 exports.dialogflowFirebaseFulfillment = (req, res) => {
-  let response = "This is a sample response from your webhook!"
-  const { route, stops, direction } = req.body.result.parameters;
-  const stopIds = getStopId(route, stops, direction);
-  switch (stopIds.length) {
-    case 0:
-      response = 'I couldn\'t find your stop';
-      res.setHeader('Content-Type', 'application/json');
-      res.send(JSON.stringify({
-        "speech": response, "displayText": response
-      }));
-      break;
-    case 1:
-      const stopId = stopIds[0];
-      helpers.getArrivals(stopId, route)
-        .then(arrivals => {
-          response = formatText(arrivals)
-          res.setHeader('Content-Type', 'application/json');
+  console.log('request', req.body)
+  res.setHeader('Content-Type', 'application/json');
+  let response;
+  const { action } = req.body.result;
+  if (action === 'track_bus') {
+    const { route, stops, direction } = req.body.result.parameters;
+    const confirmation = checkRoute(route, direction, stops);
+    if (confirmation.valid) {
+      const stopIds = getStopId(route, direction, stops);
+      switch (stopIds.length) {
+        case 0:
+          response = 'I couldn\'t find your stop. It\'s usually easiest to find it with the stop\'s cross street, but sometimes a landmark or street address will work for stops without an intersecting street, such as Orange line or 3800 South Wentworth';
           res.send(JSON.stringify({
             "speech": response, "displayText": response
           }));
-        })
-      break;
-    default:
-      response = 'Which stop? ' + stopIds.map(id => {
-        return allRoutesLowerCase[route][direction][id]
-      }).join(' or ') + '?';
-      res.setHeader('Content-Type', 'application/json');
+          break;
+        case 1:
+          const stopId = stopIds[0];
+          helpers.getArrivals(stopId, route)
+            .then(arrivals => {
+              response = formatText(arrivals)
+              res.send(JSON.stringify({
+                "speech": response, "displayText": response
+              }));
+            })
+          break;
+        default:
+          response = 'Which stop? ' + stopIds.map(id => {
+            return allRoutesLowerCase[route][direction][id]
+          }).join(' or ') + '?';
+          res.send(JSON.stringify({
+            "speech": response, "displayText": response
+          }));
+      }
+    } else {
       res.send(JSON.stringify({
-        "speech": response, "displayText": response
+        "speech": confirmation.response, "displayText": confirmation.response
       }));
+    }
   }
 };
 
-function getStopId(route, stopKeywords, direction) {
+function checkRoute(route, direction) {
+  let valid = false;
+  let response = '';
+  if (!routeMap[route]) {
+    response = `I couldn\'t find route ${route}. Try again with a different route.`;
+  } else if (!routeMap[route][direction]) {
+    const directions = Object.keys(routeMap[route]);
+    response = `Route ${route} doesn't go ${direction}. It goes ${directions.join(', and ')}. Try again with a different route or direction.`
+  } else {
+    valid = true;
+  }
+  return {
+    valid,
+    response
+  }
+}
+
+function getStopId(route, direction, stopKeywords) {
   const stopIds = stopKeywords.map(keyword => {
     const stopId = routeMap[route][direction][keyword];
     return stopId ? stopId : null;
@@ -88,15 +114,15 @@ function formatArrivals(arrivals) {
 
 function responseEnding() {
   const responses = [
-    ' You can ask for an update or track another bus.',
+    // ' You can ask for an update or track another bus.',
     ' Anything else?',
     ' Can I track another bus for you?',
-    ' I\'ll keep listening in case you need an update',
+    // ' I\'ll keep listening in case you need an update',
     ' What else can I do for you?',
     ' Let me know if you need more help.',
     ' Can I help with another bus?',
     ' Is there anything else I can help with?',
-    ' If you want an update on your bus, let me know.',
+    // ' If you want an update on your bus, let me know.',
     ' What else can I help you with?'
   ];
   const index = Math.floor(Math.random() * responses.length);
@@ -138,7 +164,7 @@ function handleError(arrivalsObj) {
   if (route) {
     response += ` for route ${route}`
   }
-  return response + '.';
+  return response + '. Can I help with another bus?';
 }
 
 function formatText(arrivals) {
