@@ -1,2 +1,5 @@
+/config
 secret.js
+fbKey.json
 /node_modules
+.DS_Store
