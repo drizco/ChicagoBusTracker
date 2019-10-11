@@ -32,7 +32,8 @@ function writeToFileCsv(data, file) {
 
 function getRoutes() {
   const routeObj = {};
-  return axios.get(`${ctaApiPrefix}getroutes?key=${ApiKey}${format}`)
+  return axios
+    .get(`${ctaApiPrefix}getroutes?key=${ApiKey}${format}`)
     .then(res => res.data['bustime-response'].routes)
     .then(routes => {
       routes.forEach(route => {
@@ -45,15 +46,19 @@ function getRoutes() {
 
 function getDirections(routes) {
   const routesWithDir = [];
-  return Promise.all(Object.keys(routes).map(route => axios.get(`${ctaApiPrefix}getdirections?key=${ApiKey}&rt=${route}${format}`)
-    .then(res => res.data['bustime-response'].directions)
-    .then(directions => {
-      directions.forEach(direction => {
-        routes[route][direction.dir] = {};
-      });
-    })
-    .catch(error => console.error(error))))
-    .then(() => routes);
+  return Promise.all(
+    Object.keys(routes).map(route =>
+      axios
+        .get(`${ctaApiPrefix}getdirections?key=${ApiKey}&rt=${route}${format}`)
+        .then(res => res.data['bustime-response'].directions)
+        .then(directions => {
+          directions.forEach(direction => {
+            routes[route][direction.dir] = {};
+          });
+        })
+        .catch(error => console.error(error))
+    )
+  ).then(() => routes);
 }
 
 function getStops(routes) {
@@ -64,15 +69,16 @@ function getStops(routes) {
     Object.keys(routes[route]).forEach(direction => {
       const path = `${ctaApiPrefix}getstops?key=${ApiKey}&rt=${route}&dir=${direction}${format}`;
       promiseArray.push(
-        axios.get(path)
+        axios
+          .get(path)
           .then(res => res.data['bustime-response'].stops)
           .then(stops => {
             routes[route][direction] = stops.map(stop => ({
-                name: stop.stpnm,
-                id: stop.stpid,
-                lat: stop.lat,
-                lon: stop.lon
-              }));
+              name: stop.stpnm,
+              id: stop.stpid,
+              lat: stop.lat,
+              lon: stop.lon,
+            }));
             // stops.forEach(stop => {
             //   stopsObj[stop.stpid] = stop.stpnm.replaceFunc();
             //   console.log(stop.stpnm.replaceFunc())
@@ -100,14 +106,17 @@ function getStops(routes) {
 
 // getRoutes().then(routes => getDirections(routes).then(routesWithDir => getStops(routesWithDir)))
 
-
 function getArrivals(stopId, route) {
-  return axios.get(`${ctaApiPrefix}getpredictions?key=${ApiKey}&rt=${route}&stpid=${stopId}${format}`)
+  return axios
+    .get(
+      `${ctaApiPrefix}getpredictions?key=${ApiKey}&rt=${route}&stpid=${stopId}${format}`
+    )
     .then(res => res.data['bustime-response'])
-    .then(predictions =>
-      // console.log('predictions', predictions)
-      // const arrivals = pred
-      predictions
+    .then(
+      predictions =>
+        // console.log('predictions', predictions)
+        // const arrivals = pred
+        predictions
     )
     .catch(err => console.error(err));
 }
@@ -118,21 +127,24 @@ function sendUpdate(response, sessionId) {
     followupEvent: {
       name: 'get_update',
       data: {
-        response
-      }
+        response,
+      },
     },
     timezone: 'America/Chicago',
     lang: 'en',
-    sessionId
+    sessionId,
   };
   const config = {
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${clientAccess}`
-    }
+      Authorization: `Bearer ${clientAccess}`,
+    },
   };
-  axios.post(url, data, config)
-    .then(response => console.log('response', response.data, response.data.result.contexts))
+  axios
+    .post(url, data, config)
+    .then(response =>
+      console.log('response', response.data, response.data.result.contexts)
+    )
     .catch(error => console.log(error));
 }
 
@@ -143,13 +155,14 @@ function logSampleResponses(allRoutes) {
       const stopId = Object.keys(allRoutes[route][direction])[0];
       const stopName = allRoutes[route][direction][stopId];
       promArr.push(
-        getArrivals(stopId, route)
-          .then(arrivals => {
-            response = main.formatText(arrivals, route, stopName);
-            console.log(`${response}\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^`);
-            // return response;
-            return arrivals;
-          })
+        getArrivals(stopId, route).then(arrivals => {
+          response = main.formatText(arrivals, route, stopName);
+          console.log(
+            `${response}\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^`
+          );
+          // return response;
+          return arrivals;
+        })
       );
     });
   });
@@ -167,48 +180,50 @@ function logSampleResponses(allRoutes) {
 
 // logSampleResponses(allRoutes);
 
-String.prototype.replaceFunc = function () {
+String.prototype.replaceFunc = function() {
   const target = this;
-  return target
-    .replaceAll('&', 'and')
-    // .replaceAll('& ', '')
-    .replaceAll('/', ' ')
-    .replaceAll('HS', 'Highschool')
-    .replaceAll('S ', 'South ')
-    .replaceAll('S. ', 'South ')
-    .replaceAll('S)', 'South ')
-    .replaceAll('N ', 'North ')
-    .replaceAll('N. ', 'North ')
-    .replaceAll('N)', 'North ')
-    .replaceAll('E ', 'East ')
-    .replaceAll('E. ', 'East ')
-    .replaceAll('E)', 'East ')
-    .replaceAll('W ', 'West ')
-    .replaceAll('w ', 'West ')
-    .replaceAll('W. ', 'West ')
-    .replaceAll('W)', 'West ')
-    .replaceAll('Bldg.', 'Building')
-    .replaceAll('Bldg', 'Building')
-    .replaceAll('Blvd', 'Boulevard')
-    .replaceAll('Dr ', 'Drive ')
-    .replaceAll('Ave', 'Avenue')
-    .replaceAll('Rd', 'Road')
-    .replaceAll('Hwy', 'Highway')
-    .replaceAll('Mt', 'Mount')
-    .replaceAll('SB', 'southbound')
-    .replaceAll('Pres ', 'Presbyterian ')
-    .replaceAll('mid', '')
-    .replaceAll('St.', 'Saint')
-    .replaceAll('Prking Ent', 'Parking Entrance')
-    .replaceAll('ST', '')
-    .replaceAll('II', '')
-    .replaceAll('(', '')
-    .replaceAll(')', '')
-    .replaceAll('-', ' ')
-    .replaceAll('.', '');
+  return (
+    target
+      .replaceAll('&', 'and')
+      // .replaceAll('& ', '')
+      .replaceAll('/', ' ')
+      .replaceAll('HS', 'Highschool')
+      .replaceAll('S ', 'South ')
+      .replaceAll('S. ', 'South ')
+      .replaceAll('S)', 'South ')
+      .replaceAll('N ', 'North ')
+      .replaceAll('N. ', 'North ')
+      .replaceAll('N)', 'North ')
+      .replaceAll('E ', 'East ')
+      .replaceAll('E. ', 'East ')
+      .replaceAll('E)', 'East ')
+      .replaceAll('W ', 'West ')
+      .replaceAll('w ', 'West ')
+      .replaceAll('W. ', 'West ')
+      .replaceAll('W)', 'West ')
+      .replaceAll('Bldg.', 'Building')
+      .replaceAll('Bldg', 'Building')
+      .replaceAll('Blvd', 'Boulevard')
+      .replaceAll('Dr ', 'Drive ')
+      .replaceAll('Ave', 'Avenue')
+      .replaceAll('Rd', 'Road')
+      .replaceAll('Hwy', 'Highway')
+      .replaceAll('Mt', 'Mount')
+      .replaceAll('SB', 'southbound')
+      .replaceAll('Pres ', 'Presbyterian ')
+      .replaceAll('mid', '')
+      .replaceAll('St.', 'Saint')
+      .replaceAll('Prking Ent', 'Parking Entrance')
+      .replaceAll('ST', '')
+      .replaceAll('II', '')
+      .replaceAll('(', '')
+      .replaceAll(')', '')
+      .replaceAll('-', ' ')
+      .replaceAll('.', '')
+  );
 };
 
-String.prototype.replaceAll = function (search, replacement) {
+String.prototype.replaceAll = function(search, replacement) {
   const target = this;
   return target.split(search).join(replacement);
 };
@@ -242,7 +257,8 @@ function mapKeywords(allRoutes) {
             if (allRoutes[route][direction].hasOwnProperty(stopId)) {
               console.log(allRoutes[route][direction][stopId.toLowerCase()]);
               stopIdMemo[stopId] = false;
-              const stopName = allRoutes[route][direction][stopId.toLowerCase()];
+              const stopName =
+                allRoutes[route][direction][stopId.toLowerCase()];
               const keywords = stopName
                 .replaceAll('&', '')
                 .replaceAll('& ', '')
@@ -283,26 +299,56 @@ function mapKeywords(allRoutes) {
                 .split(' ')
                 .filter(word => word !== '');
               keywords.forEach(word => {
-                if (routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][word.toLowerCase()]) {
-                  routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][word.toLowerCase()].push(stopId);
+                if (
+                  routesWithKeywords[route.toLowerCase()][
+                    direction.toLowerCase()
+                  ][word.toLowerCase()]
+                ) {
+                  routesWithKeywords[route.toLowerCase()][
+                    direction.toLowerCase()
+                  ][word.toLowerCase()].push(stopId);
                 } else {
-                  routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][word.toLowerCase()] = [stopId];
+                  routesWithKeywords[route.toLowerCase()][
+                    direction.toLowerCase()
+                  ][word.toLowerCase()] = [stopId];
                 }
               });
             }
           }
-          for (const keyword in routesWithKeywords[route.toLowerCase()][direction.toLowerCase()]) {
-            if (routesWithKeywords[route.toLowerCase()][direction.toLowerCase()].hasOwnProperty(keyword)) {
-              if (routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword].length > 1) {
-                delete routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword];
+          for (const keyword in routesWithKeywords[route.toLowerCase()][
+            direction.toLowerCase()
+          ]) {
+            if (
+              routesWithKeywords[route.toLowerCase()][
+                direction.toLowerCase()
+              ].hasOwnProperty(keyword)
+            ) {
+              if (
+                routesWithKeywords[route.toLowerCase()][
+                  direction.toLowerCase()
+                ][keyword].length > 1
+              ) {
+                delete routesWithKeywords[route.toLowerCase()][
+                  direction.toLowerCase()
+                ][keyword];
               } else {
-                routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword] = routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword][0];
+                routesWithKeywords[route.toLowerCase()][
+                  direction.toLowerCase()
+                ][keyword] =
+                  routesWithKeywords[route.toLowerCase()][
+                    direction.toLowerCase()
+                  ][keyword][0];
               }
-              if (routesWithKeywords[route.toLowerCase()][direction.toLowerCase()][keyword] && !memo[keyword]) {
+              if (
+                routesWithKeywords[route.toLowerCase()][
+                  direction.toLowerCase()
+                ][keyword] &&
+                !memo[keyword]
+              ) {
                 memo[keyword] = 1;
                 keywordValues.push({
                   value: keyword,
-                  synonyms: [keyword]
+                  synonyms: [keyword],
                 });
               }
             }
@@ -349,7 +395,9 @@ function lowerCaseAllRoutes(allRoutes) {
     Object.keys(allRoutes[route]).forEach(direction => {
       routes[route.toLowerCase()][direction.toLowerCase()] = {};
       Object.keys(allRoutes[route][direction]).forEach(stopId => {
-        routes[route.toLowerCase()][direction.toLowerCase()][stopId.toLowerCase()] = allRoutes[route][direction][stopId]
+        routes[route.toLowerCase()][direction.toLowerCase()][
+          stopId.toLowerCase()
+        ] = allRoutes[route][direction][stopId]
           .replaceAll('&', 'and')
           .replaceAll('/', ' ')
           .replaceAll('HS', 'Highschool')
@@ -437,8 +485,16 @@ function createCoordHash(stops) {
       lowestLon = stop.lon;
     }
   });
-  const latAvg = Object.keys(latHash).map(k => latHash[k]).reduce((acc, curr) => acc + curr.length, 0) / Object.keys(latHash).length;
-  const lonAvg = Object.keys(lonHash).map(k => lonHash[k]).reduce((acc, curr) => acc + curr.length, 0) / Object.keys(lonHash).length;
+  const latAvg =
+    Object.keys(latHash)
+      .map(k => latHash[k])
+      .reduce((acc, curr) => acc + curr.length, 0) /
+    Object.keys(latHash).length;
+  const lonAvg =
+    Object.keys(lonHash)
+      .map(k => lonHash[k])
+      .reduce((acc, curr) => acc + curr.length, 0) /
+    Object.keys(lonHash).length;
   console.log('latHash size', Object.keys(latHash).length);
   console.log('lonHash size', Object.keys(lonHash).length);
   console.log('latMax', latMax);
@@ -449,10 +505,13 @@ function createCoordHash(stops) {
   console.log('lowestLat', lowestLat);
   console.log('highestLon', highestLon);
   console.log('lowestLon', lowestLon);
-  writeToFile({
-    latHash,
-    lonHash
-  }, 'coordHash.json');
+  writeToFile(
+    {
+      latHash,
+      lonHash,
+    },
+    'coordHash.json'
+  );
 }
 
 // createCoordHash(stopsWithCoords);
@@ -464,7 +523,7 @@ function getClosestStop(location, route, direction) {
   for (let i = 0; i < stops.length; i++) {
     const dist = geolib.getDistance(location.coordinates, {
       latitude: stops[i].lat,
-      longitude: stops[i].lon
+      longitude: stops[i].lon,
     });
     if (dist < 250) {
       const stopWithDist = Object.assign({}, stops[i], { dist });
@@ -534,5 +593,5 @@ module.exports = {
   mapKeywords,
   getArrivals,
   sendUpdate,
-  getClosestStop
+  getClosestStop,
 };
