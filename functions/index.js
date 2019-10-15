@@ -35,7 +35,7 @@ const trackBus = conv => {
     );
     switch (stopIds.length) {
       case 0:
-        conv.setContext('request_location', 1);
+        conv.contexts.set('request_location', 1);
         conv.askForPermission(
           "I'm having trouble finding your stop",
           conv.SupportedPermissions.DEVICE_PRECISE_LOCATION
@@ -56,7 +56,7 @@ const trackBus = conv => {
           })
           .join(' or ')}?`;
         console.log('response: ', response);
-        conv.setContext('stop_clarification', 1);
+        conv.contexts.set('stop_clarification', 1);
         conv.ask(response);
     }
   } else {
